@@ -1,0 +1,8 @@
+{
+  "status": "complete",
+  "eligible_tracks": 125,
+  "embeddings_created_or_existing": 125,
+  "model": "laion/clap-htsat-unfused",
+  "revision": "8fa0f1c6d0433df6e97c127f64b2a1d6c0dcda8a",
+  "mood_label_status": "unvalidated_zero_shot_proxy"
+}

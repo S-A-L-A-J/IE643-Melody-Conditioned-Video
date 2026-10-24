@@ -1,0 +1,145 @@
+{
+  "review_v2/videos/comparison_16s_v2.mp4": {
+    "frames": 128,
+    "fps": "8/1",
+    "duration": "16.000000",
+    "size": [
+      512,
+      284
+    ],
+    "audio_decode_md5": "MD5=fc6e316c1444fe7b20d1ae5f0c143cc1",
+    "decode_ok": true
+  },
+  "review_v2/videos/comparison_08s_v2.mp4": {
+    "frames": 64,
+    "fps": "8/1",
+    "duration": "8.000000",
+    "size": [
+      1024,
+      284
+    ],
+    "audio_decode_md5": "MD5=8ec9dfa87d31caf05e8594307c9dc4d9",
+    "decode_ok": true
+  },
+  "review_v2/videos/comparison_validation_0.mp4": {
+    "frames": 32,
+    "fps": "8/1",
+    "duration": "4.000000",
+    "size": [
+      1024,
+      284
+    ],
+    "audio_decode_md5": "MD5=351b4a1fd290f99e4f897c83a2c47f04",
+    "decode_ok": true
+  },
+  "review_v2/videos/comparison_validation_3.mp4": {
+    "frames": 32,
+    "fps": "8/1",
+    "duration": "4.000000",
+    "size": [
+      1024,
+      284
+    ],
+    "audio_decode_md5": "MD5=625d958f9aa6a870ff08bd61a758429f",
+    "decode_ok": true
+  },
+  "review_v2/videos/comparison_validation_7.mp4": {
+    "frames": 32,
+    "fps": "8/1",
+    "duration": "4.000000",
+    "size": [
+      1024,
+      284
+    ],
+    "audio_decode_md5": "MD5=0d1197ee1b6c78d60d5803810c35224e",
+    "decode_ok": true
+  },
+  "long_validation/videos/d08_wrong_rolling_paired.mp4": {
+    "frames": 64,
+    "fps": "8/1",
+    "duration": "8.000000",
+    "size": [
+      128,
+      128
+    ],
+    "audio_decode_md5": "MD5=8ec9dfa87d31caf05e8594307c9dc4d9",
+    "decode_ok": true
+  },
+  "long_validation/videos/d08_correct_rolling_paired.mp4": {
+    "frames": 64,
+    "fps": "8/1",
+    "duration": "8.000000",
+    "size": [
+      128,
+      128
+    ],
+    "audio_decode_md5": "MD5=8ec9dfa87d31caf05e8594307c9dc4d9",
+    "decode_ok": true
+  },
+  "long_validation/videos/d08_shift_rolling_paired.mp4": {
+    "frames": 64,
+    "fps": "8/1",
+    "duration": "8.000000",
+    "size": [
+      128,
+      128
+    ],
+    "audio_decode_md5": "MD5=8ec9dfa87d31caf05e8594307c9dc4d9",
+    "decode_ok": true
+  },
+  "long_validation/videos/d08_correct_rolling_prior.mp4": {
+    "frames": 64,
+    "fps": "8/1",
+    "duration": "8.000000",
+    "size": [
+      128,
+      128
+    ],
+    "audio_decode_md5": "MD5=8ec9dfa87d31caf05e8594307c9dc4d9",
+    "decode_ok": true
+  },
+  "long_validation/videos/d16_correct_rolling_prior.mp4": {
+    "frames": 128,
+    "fps": "8/1",
+    "duration": "16.000000",
+    "size": [
+      128,
+      128
+    ],
+    "audio_decode_md5": "MD5=fc6e316c1444fe7b20d1ae5f0c143cc1",
+    "decode_ok": true
+  },
+  "long_validation/videos/d08_shift_rolling_prior.mp4": {
+    "frames": 64,
+    "fps": "8/1",
+    "duration": "8.000000",
+    "size": [
+      128,
+      128
+    ],
+    "audio_decode_md5": "MD5=8ec9dfa87d31caf05e8594307c9dc4d9",
+    "decode_ok": true
+  },
+  "long_validation/videos/d08_wrong_rolling_prior.mp4": {
+    "frames": 64,
+    "fps": "8/1",
+    "duration": "8.000000",
+    "size": [
+      128,
+      128
+    ],
+    "audio_decode_md5": "MD5=8ec9dfa87d31caf05e8594307c9dc4d9",
+    "decode_ok": true
+  },
+  "long_validation/videos/d16_correct_rolling_paired.mp4": {
+    "frames": 128,
+    "fps": "8/1",
+    "duration": "16.000000",
+    "size": [
+      128,
+      128
+    ],
+    "audio_decode_md5": "MD5=fc6e316c1444fe7b20d1ae5f0c143cc1",
+    "decode_ok": true
+  }
+}

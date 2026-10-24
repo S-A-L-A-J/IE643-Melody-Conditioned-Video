@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "training_step": 32,
+  "target_pair": "00315a02dbd521bc_0.000__rings",
+  "other_pair": "0051f2cf3b8b9c88_0.000__rings",
+  "denoising_steps": 12,
+  "frames": 16,
+  "fps": 4,
+  "resolution": [
+    256,
+    256
+  ],
+  "seed": 643,
+  "peak_vram_reserved_mb": 2944.0,
+  "seconds": 288.5,
+  "results": [
+    {
+      "condition": "correct",
+      "video": "outputs/contrastive_rings_correct.mp4",
+      "latent_mean": -0.06250649690628052,
+      "latent_std": 0.45868247747421265,
+      "frames": 16
+    },
+    {
+      "condition": "other_song",
+      "video": "outputs/contrastive_rings_other_song.mp4",
+      "latent_mean": -0.05750027298927307,
+      "latent_std": 0.45682817697525024,
+      "frames": 16
+    },
+    {
+      "condition": "shifted_one_second",
+      "video": "outputs/contrastive_rings_shifted_one_second.mp4",
+      "latent_mean": -0.06278468668460846,
+      "latent_std": 0.46414437890052795,
+      "frames": 16
+    }
+  ],
+  "note": "Tiny synthetic-data experiment; compare videos under identical seed to inspect audio control."
+}

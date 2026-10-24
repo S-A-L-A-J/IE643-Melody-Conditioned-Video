@@ -1,0 +1,16 @@
+{
+  "shape_input": [
+    128,
+    1280
+  ],
+  "shape_weight": [
+    5120,
+    1280
+  ],
+  "threads": 4,
+  "single_cold_call_seconds": {
+    "torch.float32": 0.019550278999304282,
+    "torch.bfloat16": 0.6835460490001424
+  },
+  "caution": "Microbenchmark only; not a full model runtime."
+}

@@ -1,0 +1,1064 @@
+{
+  "status": "completed",
+  "configuration": {
+    "steps": 128,
+    "checkpoint_every": 32,
+    "resume": true,
+    "lr": 0.0002
+  },
+  "train_pairs": 700,
+  "validation_pairs": 77,
+  "trainable_parameters": 1606144,
+  "adapter_targets": 232,
+  "guidance_scale": 0.3,
+  "frames": 8,
+  "size": 128,
+  "training_timestep_range": [
+    250,
+    750
+  ],
+  "prior": "frozen_audio_latent_prior_model.safetensors",
+  "note": "Provisional recording-grouped split; test data excluded from training and scale selection.",
+  "before": {
+    "pairs": 8,
+    "correct_better_count": 1,
+    "mean_advantage": -0.0030771102756261826,
+    "mean_correct_loss": 0.1491482760757208
+  },
+  "step": 128,
+  "history": [
+    {
+      "step": 1,
+      "pair": "b73dadfc300db61a_16.000__rings",
+      "correct_loss": 0.2806861400604248,
+      "other_song_loss": 0.28041279315948486,
+      "objective": 0.3199903964996338,
+      "timestep": 290
+    },
+    {
+      "step": 2,
+      "pair": "565bfd97c1138b41_24.000__rings",
+      "correct_loss": 0.28912049531936646,
+      "other_song_loss": 0.28718671202659607,
+      "objective": 0.33053454756736755,
+      "timestep": 279
+    },
+    {
+      "step": 3,
+      "pair": "3a1e94c14c472214_12.000__rings",
+      "correct_loss": 0.18029189109802246,
+      "other_song_loss": 0.17706897854804993,
+      "objective": 0.22338756918907166,
+      "timestep": 457
+    },
+    {
+      "step": 4,
+      "pair": "1882fda314c37da1_16.000__rings",
+      "correct_loss": 0.15266300737857819,
+      "other_song_loss": 0.14822164177894592,
+      "objective": 0.19738243520259857,
+      "timestep": 501
+    },
+    {
+      "step": 5,
+      "pair": "bd34315014bdd7a3_4.000__rings",
+      "correct_loss": 0.11844131350517273,
+      "other_song_loss": 0.11468416452407837,
+      "objective": 0.16224487125873566,
+      "timestep": 538
+    },
+    {
+      "step": 6,
+      "pair": "00315a02dbd521bc_24.000__rings",
+      "correct_loss": 0.08551499247550964,
+      "other_song_loss": 0.0835847407579422,
+      "objective": 0.12692449986934662,
+      "timestep": 594
+    },
+    {
+      "step": 7,
+      "pair": "6ae0bda66eb000b0_0.000__rings",
+      "correct_loss": 0.21154364943504333,
+      "other_song_loss": 0.21343350410461426,
+      "objective": 0.2481962889432907,
+      "timestep": 331
+    },
+    {
+      "step": 8,
+      "pair": "142cb2fd2d344708_4.000__rings",
+      "correct_loss": 0.06980441510677338,
+      "other_song_loss": 0.06916040182113647,
+      "objective": 0.109574094414711,
+      "timestep": 627
+    },
+    {
+      "step": 9,
+      "pair": "b73dadfc300db61a_8.000__rings",
+      "correct_loss": 0.09983114898204803,
+      "other_song_loss": 0.09722314029932022,
+      "objective": 0.14212001860141754,
+      "timestep": 565
+    },
+    {
+      "step": 10,
+      "pair": "1188abfa5eff6145_24.000__rings",
+      "correct_loss": 0.13674670457839966,
+      "other_song_loss": 0.13457399606704712,
+      "objective": 0.17846958339214325,
+      "timestep": 491
+    },
+    {
+      "step": 11,
+      "pair": "c45f1818c104fe4b_20.000__rings",
+      "correct_loss": 0.09404000639915466,
+      "other_song_loss": 0.09205359220504761,
+      "objective": 0.13552197813987732,
+      "timestep": 569
+    },
+    {
+      "step": 12,
+      "pair": "1188abfa5eff6145_0.000__rings",
+      "correct_loss": 0.10446514934301376,
+      "other_song_loss": 0.09997498244047165,
+      "objective": 0.14925029873847961,
+      "timestep": 553
+    },
+    {
+      "step": 13,
+      "pair": "2af4f8448d0fde83_8.000__rings",
+      "correct_loss": 0.032075658440589905,
+      "other_song_loss": 0.03101194277405739,
+      "objective": 0.07237621396780014,
+      "timestep": 735
+    },
+    {
+      "step": 14,
+      "pair": "9caf45d667658a8f_12.000__rings",
+      "correct_loss": 0.04695883393287659,
+      "other_song_loss": 0.04564044624567032,
+      "objective": 0.0875835120677948,
+      "timestep": 677
+    },
+    {
+      "step": 15,
+      "pair": "6ae0bda66eb000b0_4.000__rings",
+      "correct_loss": 0.18669620156288147,
+      "other_song_loss": 0.1869727224111557,
+      "objective": 0.22531592845916748,
+      "timestep": 279
+    },
+    {
+      "step": 16,
+      "pair": "0a5491cc4bbc996d_8.000__rings",
+      "correct_loss": 0.08737993985414505,
+      "other_song_loss": 0.08559724688529968,
+      "objective": 0.1285993903875351,
+      "timestep": 532
+    },
+    {
+      "step": 17,
+      "pair": "dcc35d3158678d50_0.000__rings",
+      "correct_loss": 0.04959065467119217,
+      "other_song_loss": 0.048322610557079315,
+      "objective": 0.09015113860368729,
+      "timestep": 666
+    },
+    {
+      "step": 18,
+      "pair": "af3adc7c323783cf_12.000__rings",
+      "correct_loss": 0.11356545984745026,
+      "other_song_loss": 0.11257599294185638,
+      "objective": 0.1537718027830124,
+      "timestep": 475
+    },
+    {
+      "step": 19,
+      "pair": "4d1b69c4f97852d7_20.000__rings",
+      "correct_loss": 0.10072088241577148,
+      "other_song_loss": 0.10042211413383484,
+      "objective": 0.14005695283412933,
+      "timestep": 513
+    },
+    {
+      "step": 20,
+      "pair": "76b6d8d514fea16b_24.000__rings",
+      "correct_loss": 0.10618939250707626,
+      "other_song_loss": 0.10419905930757523,
+      "objective": 0.14767642319202423,
+      "timestep": 458
+    },
+    {
+      "step": 21,
+      "pair": "4ca833cf6eac0576_20.000__rings",
+      "correct_loss": 0.12841591238975525,
+      "other_song_loss": 0.12738841772079468,
+      "objective": 0.16867049038410187,
+      "timestep": 406
+    },
+    {
+      "step": 22,
+      "pair": "549f5230b164c03e_16.000__rings",
+      "correct_loss": 0.06848135590553284,
+      "other_song_loss": 0.06868262588977814,
+      "objective": 0.10719434916973114,
+      "timestep": 585
+    },
+    {
+      "step": 23,
+      "pair": "a0f5054afa9f032f_8.000__rings",
+      "correct_loss": 0.06856498122215271,
+      "other_song_loss": 0.06799793243408203,
+      "objective": 0.10823775827884674,
+      "timestep": 594
+    },
+    {
+      "step": 24,
+      "pair": "dcc35d3158678d50_24.000__rings",
+      "correct_loss": 0.07500116527080536,
+      "other_song_loss": 0.07326400279998779,
+      "objective": 0.11616206914186478,
+      "timestep": 551
+    },
+    {
+      "step": 25,
+      "pair": "f33bc00a1560079c_0.000__rings",
+      "correct_loss": 0.13118715584278107,
+      "other_song_loss": 0.12953904271125793,
+      "objective": 0.1722337007522583,
+      "timestep": 302
+    },
+    {
+      "step": 26,
+      "pair": "490b0f9667b6fb65_20.000__rings",
+      "correct_loss": 0.0604085735976696,
+      "other_song_loss": 0.060348764061927795,
+      "objective": 0.09944614768028259,
+      "timestep": 566
+    },
+    {
+      "step": 27,
+      "pair": "980fb03dcba925dc_20.000__rings",
+      "correct_loss": 0.029354821890592575,
+      "other_song_loss": 0.029161103069782257,
+      "objective": 0.06855950504541397,
+      "timestep": 722
+    },
+    {
+      "step": 28,
+      "pair": "8ed0518ae598d626_24.000__rings",
+      "correct_loss": 0.16908706724643707,
+      "other_song_loss": 0.16691672801971436,
+      "objective": 0.21080687642097473,
+      "timestep": 252
+    },
+    {
+      "step": 29,
+      "pair": "04facb3a03e8354c_0.000__rings",
+      "correct_loss": 0.057567745447158813,
+      "other_song_loss": 0.05703858286142349,
+      "objective": 0.09719286859035492,
+      "timestep": 574
+    },
+    {
+      "step": 30,
+      "pair": "8bba45aac87a4dfb_4.000__rings",
+      "correct_loss": 0.037163060158491135,
+      "other_song_loss": 0.03688929229974747,
+      "objective": 0.0764678344130516,
+      "timestep": 660
+    },
+    {
+      "step": 31,
+      "pair": "bdef0eefdd8e5d25_0.000__rings",
+      "correct_loss": 0.049841444939374924,
+      "other_song_loss": 0.048835888504981995,
+      "objective": 0.09006819128990173,
+      "timestep": 620
+    },
+    {
+      "step": 32,
+      "pair": "ac756e48b53a5d5d_16.000__rings",
+      "correct_loss": 0.03498043864965439,
+      "other_song_loss": 0.034786537289619446,
+      "objective": 0.07418534904718399,
+      "timestep": 666
+    },
+    {
+      "step": 33,
+      "pair": "97370b3b49aa6229_8.000__rings",
+      "correct_loss": 0.09613010287284851,
+      "other_song_loss": 0.09345154464244843,
+      "objective": 0.13851110637187958,
+      "timestep": 411
+    },
+    {
+      "step": 34,
+      "pair": "a012290e84f63be4_4.000__rings",
+      "correct_loss": 0.09558102488517761,
+      "other_song_loss": 0.09553799033164978,
+      "objective": 0.13459770381450653,
+      "timestep": 377
+    },
+    {
+      "step": 35,
+      "pair": "981bb783a475cdbf_12.000__rings",
+      "correct_loss": 0.026514185592532158,
+      "other_song_loss": 0.025996552780270576,
+      "objective": 0.0661248192191124,
+      "timestep": 738
+    },
+    {
+      "step": 36,
+      "pair": "ae94db8ab7a92b85_0.000__rings",
+      "correct_loss": 0.0769360214471817,
+      "other_song_loss": 0.07628528773784637,
+      "objective": 0.11671417206525803,
+      "timestep": 432
+    },
+    {
+      "step": 37,
+      "pair": "2af4f8448d0fde83_12.000__rings",
+      "correct_loss": 0.03377069532871246,
+      "other_song_loss": 0.03269606828689575,
+      "objective": 0.07408510148525238,
+      "timestep": 696
+    },
+    {
+      "step": 38,
+      "pair": "29bad01f7e947b8d_16.000__rings",
+      "correct_loss": 0.03686647117137909,
+      "other_song_loss": 0.036262378096580505,
+      "objective": 0.07658587396144867,
+      "timestep": 641
+    },
+    {
+      "step": 39,
+      "pair": "669eedb337919574_12.000__rings",
+      "correct_loss": 0.06081689894199371,
+      "other_song_loss": 0.060671232640743256,
+      "objective": 0.09996157139539719,
+      "timestep": 467
+    },
+    {
+      "step": 40,
+      "pair": "3a1e94c14c472214_16.000__rings",
+      "correct_loss": 0.09910662472248077,
+      "other_song_loss": 0.09888213872909546,
+      "objective": 0.1383497565984726,
+      "timestep": 346
+    },
+    {
+      "step": 41,
+      "pair": "bf2b0fa0cae49a2b_4.000__rings",
+      "correct_loss": 0.10629938542842865,
+      "other_song_loss": 0.1065639853477478,
+      "objective": 0.14493387937545776,
+      "timestep": 295
+    },
+    {
+      "step": 42,
+      "pair": "dda367c4149c6511_4.000__rings",
+      "correct_loss": 0.04824115335941315,
+      "other_song_loss": 0.04808349534869194,
+      "objective": 0.08740079402923584,
+      "timestep": 591
+    },
+    {
+      "step": 43,
+      "pair": "76b6d8d514fea16b_4.000__rings",
+      "correct_loss": 0.0937362015247345,
+      "other_song_loss": 0.09431774169206619,
+      "objective": 0.13197928667068481,
+      "timestep": 350
+    },
+    {
+      "step": 44,
+      "pair": "bd34315014bdd7a3_16.000__rings",
+      "correct_loss": 0.07291123270988464,
+      "other_song_loss": 0.0724799633026123,
+      "objective": 0.11241339147090912,
+      "timestep": 418
+    },
+    {
+      "step": 45,
+      "pair": "8b640e03f83850a6_4.000__rings",
+      "correct_loss": 0.05404352396726608,
+      "other_song_loss": 0.05418988689780235,
+      "objective": 0.09282464534044266,
+      "timestep": 570
+    },
+    {
+      "step": 46,
+      "pair": "0051f2cf3b8b9c88_16.000__rings",
+      "correct_loss": 0.04711173474788666,
+      "other_song_loss": 0.047097839415073395,
+      "objective": 0.08609211444854736,
+      "timestep": 525
+    },
+    {
+      "step": 47,
+      "pair": "2722c88f382a299c_16.000__rings",
+      "correct_loss": 0.10744788497686386,
+      "other_song_loss": 0.10684098303318024,
+      "objective": 0.14717082679271698,
+      "timestep": 308
+    },
+    {
+      "step": 48,
+      "pair": "0e74fa1e28a25048_0.000__rings",
+      "correct_loss": 0.10222683846950531,
+      "other_song_loss": 0.10199791193008423,
+      "objective": 0.14147552847862244,
+      "timestep": 340
+    },
+    {
+      "step": 49,
+      "pair": "4f80a6a6990b27b2_16.000__rings",
+      "correct_loss": 0.10213573276996613,
+      "other_song_loss": 0.10166241228580475,
+      "objective": 0.1416906863451004,
+      "timestep": 324
+    },
+    {
+      "step": 50,
+      "pair": "980fb03dcba925dc_8.000__rings",
+      "correct_loss": 0.060072194784879684,
+      "other_song_loss": 0.06041576713323593,
+      "objective": 0.09860894083976746,
+      "timestep": 440
+    },
+    {
+      "step": 51,
+      "pair": "9e81abb2f2e60bcc_24.000__rings",
+      "correct_loss": 0.09994404017925262,
+      "other_song_loss": 0.10013289004564285,
+      "objective": 0.13867244124412537,
+      "timestep": 316
+    },
+    {
+      "step": 52,
+      "pair": "c33736e623365573_0.000__rings",
+      "correct_loss": 0.037707969546318054,
+      "other_song_loss": 0.037187617272138596,
+      "objective": 0.07732202112674713,
+      "timestep": 695
+    },
+    {
+      "step": 53,
+      "pair": "ae7776d73750aa8c_0.000__rings",
+      "correct_loss": 0.09370504319667816,
+      "other_song_loss": 0.0938689112663269,
+      "objective": 0.1324644386768341,
+      "timestep": 352
+    },
+    {
+      "step": 54,
+      "pair": "c0e2ee4bd71e37c2_20.000__rings",
+      "correct_loss": 0.05735446512699127,
+      "other_song_loss": 0.05729370191693306,
+      "objective": 0.09639322757720947,
+      "timestep": 440
+    },
+    {
+      "step": 55,
+      "pair": "d0d0632c72687216_12.000__rings",
+      "correct_loss": 0.07106152176856995,
+      "other_song_loss": 0.07134723663330078,
+      "objective": 0.10966986417770386,
+      "timestep": 392
+    },
+    {
+      "step": 56,
+      "pair": "bf2b0fa0cae49a2b_20.000__rings",
+      "correct_loss": 0.0343279093503952,
+      "other_song_loss": 0.03355133533477783,
+      "objective": 0.07426482439041138,
+      "timestep": 653
+    },
+    {
+      "step": 57,
+      "pair": "4ca833cf6eac0576_16.000__rings",
+      "correct_loss": 0.10380808264017105,
+      "other_song_loss": 0.10354603826999664,
+      "objective": 0.14309819042682648,
+      "timestep": 308
+    },
+    {
+      "step": 58,
+      "pair": "8ed0518ae598d626_12.000__rings",
+      "correct_loss": 0.0365305095911026,
+      "other_song_loss": 0.036237649619579315,
+      "objective": 0.0758591815829277,
+      "timestep": 645
+    },
+    {
+      "step": 59,
+      "pair": "be808b913b6bf90f_4.000__rings",
+      "correct_loss": 0.08027932792901993,
+      "other_song_loss": 0.08092322200536728,
+      "objective": 0.11844569444656372,
+      "timestep": 340
+    },
+    {
+      "step": 60,
+      "pair": "555b623b5ae642e0_0.000__rings",
+      "correct_loss": 0.04109686613082886,
+      "other_song_loss": 0.04095887392759323,
+      "objective": 0.08023195713758469,
+      "timestep": 614
+    },
+    {
+      "step": 61,
+      "pair": "07a450f4730f2f7c_0.000__rings",
+      "correct_loss": 0.06340062618255615,
+      "other_song_loss": 0.06340264528989792,
+      "objective": 0.10236118733882904,
+      "timestep": 401
+    },
+    {
+      "step": 62,
+      "pair": "490b0f9667b6fb65_0.000__rings",
+      "correct_loss": 0.026182670146226883,
+      "other_song_loss": 0.026138465851545334,
+      "objective": 0.0652008056640625,
+      "timestep": 694
+    },
+    {
+      "step": 63,
+      "pair": "1188abfa5eff6145_20.000__rings",
+      "correct_loss": 0.0858491063117981,
+      "other_song_loss": 0.08579275757074356,
+      "objective": 0.12488237023353577,
+      "timestep": 347
+    },
+    {
+      "step": 64,
+      "pair": "29bad01f7e947b8d_8.000__rings",
+      "correct_loss": 0.11027083545923233,
+      "other_song_loss": 0.1095932126045227,
+      "objective": 0.15008288621902466,
+      "timestep": 263
+    },
+    {
+      "step": 65,
+      "pair": "e8e874202ede5a02_12.000__rings",
+      "correct_loss": 0.04635224491357803,
+      "other_song_loss": 0.046298325061798096,
+      "objective": 0.08538249135017395,
+      "timestep": 479
+    },
+    {
+      "step": 66,
+      "pair": "d568b4accdc027f2_8.000__rings",
+      "correct_loss": 0.12149399518966675,
+      "other_song_loss": 0.12076905369758606,
+      "objective": 0.16136571764945984,
+      "timestep": 262
+    },
+    {
+      "step": 67,
+      "pair": "1882fda314c37da1_20.000__rings",
+      "correct_loss": 0.030018631368875504,
+      "other_song_loss": 0.030335042625665665,
+      "objective": 0.068588986992836,
+      "timestep": 604
+    },
+    {
+      "step": 68,
+      "pair": "e557a814090487dc_20.000__rings",
+      "correct_loss": 0.10273992270231247,
+      "other_song_loss": 0.10118302702903748,
+      "objective": 0.1436695009469986,
+      "timestep": 271
+    },
+    {
+      "step": 69,
+      "pair": "85673e673ed70f12_4.000__rings",
+      "correct_loss": 0.041484564542770386,
+      "other_song_loss": 0.04062081128358841,
+      "objective": 0.08153168112039566,
+      "timestep": 524
+    },
+    {
+      "step": 70,
+      "pair": "bd34315014bdd7a3_0.000__rings",
+      "correct_loss": 0.026354823261499405,
+      "other_song_loss": 0.02603727951645851,
+      "objective": 0.06571440398693085,
+      "timestep": 679
+    },
+    {
+      "step": 71,
+      "pair": "246e5c1ea0da95f4_0.000__rings",
+      "correct_loss": 0.04528720676898956,
+      "other_song_loss": 0.04422178119421005,
+      "objective": 0.0855899304151535,
+      "timestep": 493
+    },
+    {
+      "step": 72,
+      "pair": "dcc35d3158678d50_12.000__rings",
+      "correct_loss": 0.032066863030195236,
+      "other_song_loss": 0.031062843278050423,
+      "objective": 0.07229165732860565,
+      "timestep": 616
+    },
+    {
+      "step": 73,
+      "pair": "d72091a0682e8a23_12.000__rings",
+      "correct_loss": 0.025748303160071373,
+      "other_song_loss": 0.024912841618061066,
+      "objective": 0.06575963646173477,
+      "timestep": 643
+    },
+    {
+      "step": 74,
+      "pair": "d568b4accdc027f2_0.000__rings",
+      "correct_loss": 0.11437761038541794,
+      "other_song_loss": 0.11350513994693756,
+      "objective": 0.15443575382232666,
+      "timestep": 252
+    },
+    {
+      "step": 75,
+      "pair": "c25608d2b8c860d6_20.000__rings",
+      "correct_loss": 0.067619189620018,
+      "other_song_loss": 0.06815023720264435,
+      "objective": 0.10592447966337204,
+      "timestep": 383
+    },
+    {
+      "step": 76,
+      "pair": "142cb2fd2d344708_8.000__rings",
+      "correct_loss": 0.02665676362812519,
+      "other_song_loss": 0.02612488344311714,
+      "objective": 0.06628530472517014,
+      "timestep": 665
+    },
+    {
+      "step": 77,
+      "pair": "565bfd97c1138b41_12.000__rings",
+      "correct_loss": 0.045103415846824646,
+      "other_song_loss": 0.045535944402217865,
+      "objective": 0.0835302323102951,
+      "timestep": 449
+    },
+    {
+      "step": 78,
+      "pair": "a7e0ca2084e79ead_4.000__rings",
+      "correct_loss": 0.0848054364323616,
+      "other_song_loss": 0.08463949710130692,
+      "objective": 0.12397541850805283,
+      "timestep": 326
+    },
+    {
+      "step": 79,
+      "pair": "c3b88c17b0bc994e_16.000__rings",
+      "correct_loss": 0.1055266261100769,
+      "other_song_loss": 0.10452033579349518,
+      "objective": 0.14575430750846863,
+      "timestep": 283
+    },
+    {
+      "step": 80,
+      "pair": "0621640299273b77_24.000__rings",
+      "correct_loss": 0.06564603000879288,
+      "other_song_loss": 0.06569284200668335,
+      "objective": 0.10455085337162018,
+      "timestep": 375
+    },
+    {
+      "step": 81,
+      "pair": "dda367c4149c6511_0.000__rings",
+      "correct_loss": 0.08975692093372345,
+      "other_song_loss": 0.0883583277463913,
+      "objective": 0.1304839849472046,
+      "timestep": 326
+    },
+    {
+      "step": 82,
+      "pair": "29bad01f7e947b8d_24.000__rings",
+      "correct_loss": 0.04351302981376648,
+      "other_song_loss": 0.04290951043367386,
+      "objective": 0.08323170989751816,
+      "timestep": 492
+    },
+    {
+      "step": 83,
+      "pair": "b73dadfc300db61a_12.000__rings",
+      "correct_loss": 0.023513514548540115,
+      "other_song_loss": 0.023242998868227005,
+      "objective": 0.06281422078609467,
+      "timestep": 741
+    },
+    {
+      "step": 84,
+      "pair": "980fb03dcba925dc_12.000__rings",
+      "correct_loss": 0.06138823181390762,
+      "other_song_loss": 0.06198413670063019,
+      "objective": 0.09961363673210144,
+      "timestep": 385
+    },
+    {
+      "step": 85,
+      "pair": "07a450f4730f2f7c_16.000__rings",
+      "correct_loss": 0.04206959158182144,
+      "other_song_loss": 0.04177939146757126,
+      "objective": 0.08139493316411972,
+      "timestep": 484
+    },
+    {
+      "step": 86,
+      "pair": "9e81abb2f2e60bcc_20.000__rings",
+      "correct_loss": 0.054311662912368774,
+      "other_song_loss": 0.054660990834236145,
+      "objective": 0.09284128993749619,
+      "timestep": 418
+    },
+    {
+      "step": 87,
+      "pair": "555b623b5ae642e0_8.000__rings",
+      "correct_loss": 0.020706314593553543,
+      "other_song_loss": 0.020055588334798813,
+      "objective": 0.06048445403575897,
+      "timestep": 744
+    },
+    {
+      "step": 88,
+      "pair": "af7fbe8ee633ea72_12.000__rings",
+      "correct_loss": 0.03616918623447418,
+      "other_song_loss": 0.035502053797245026,
+      "objective": 0.07596800476312637,
+      "timestep": 609
+    },
+    {
+      "step": 89,
+      "pair": "8ecf46efe457bb35_8.000__rings",
+      "correct_loss": 0.07856041193008423,
+      "other_song_loss": 0.07806366682052612,
+      "objective": 0.11814479529857635,
+      "timestep": 307
+    },
+    {
+      "step": 90,
+      "pair": "e557a814090487dc_0.000__rings",
+      "correct_loss": 0.04533432796597481,
+      "other_song_loss": 0.04498457908630371,
+      "objective": 0.084734246134758,
+      "timestep": 509
+    },
+    {
+      "step": 91,
+      "pair": "b3a2f56793900ae6_0.000__rings",
+      "correct_loss": 0.027698207646608353,
+      "other_song_loss": 0.02772103250026703,
+      "objective": 0.06663288176059723,
+      "timestep": 653
+    },
+    {
+      "step": 92,
+      "pair": "e8e874202ede5a02_8.000__rings",
+      "correct_loss": 0.06942304968833923,
+      "other_song_loss": 0.06947007775306702,
+      "objective": 0.10832761228084564,
+      "timestep": 350
+    },
+    {
+      "step": 93,
+      "pair": "d72091a0682e8a23_8.000__rings",
+      "correct_loss": 0.10250391811132431,
+      "other_song_loss": 0.10320548713207245,
+      "objective": 0.14059939980506897,
+      "timestep": 253
+    },
+    {
+      "step": 94,
+      "pair": "8ed0518ae598d626_4.000__rings",
+      "correct_loss": 0.04650005325675011,
+      "other_song_loss": 0.04635574668645859,
+      "objective": 0.08564302325248718,
+      "timestep": 469
+    },
+    {
+      "step": 95,
+      "pair": "669eedb337919574_24.000__rings",
+      "correct_loss": 0.019386157393455505,
+      "other_song_loss": 0.018692495301365852,
+      "objective": 0.059218425303697586,
+      "timestep": 747
+    },
+    {
+      "step": 96,
+      "pair": "c3b88c17b0bc994e_20.000__rings",
+      "correct_loss": 0.10968465358018875,
+      "other_song_loss": 0.10903620719909668,
+      "objective": 0.14945992827415466,
+      "timestep": 264
+    },
+    {
+      "step": 97,
+      "pair": "c33736e623365573_20.000__rings",
+      "correct_loss": 0.047421157360076904,
+      "other_song_loss": 0.04745805636048317,
+      "objective": 0.08633831143379211,
+      "timestep": 480
+    },
+    {
+      "step": 98,
+      "pair": "0ac55ff9319a73ad_8.000__rings",
+      "correct_loss": 0.05109866335988045,
+      "other_song_loss": 0.05212115868926048,
+      "objective": 0.08880115300416946,
+      "timestep": 425
+    },
+    {
+      "step": 99,
+      "pair": "17a67e9079ed84d3_20.000__rings",
+      "correct_loss": 0.05143360048532486,
+      "other_song_loss": 0.05107329785823822,
+      "objective": 0.09084674715995789,
+      "timestep": 460
+    },
+    {
+      "step": 100,
+      "pair": "a012290e84f63be4_0.000__rings",
+      "correct_loss": 0.04291604459285736,
+      "other_song_loss": 0.04284575209021568,
+      "objective": 0.08196669071912766,
+      "timestep": 505
+    },
+    {
+      "step": 101,
+      "pair": "e557a814090487dc_24.000__rings",
+      "correct_loss": 0.03609975799918175,
+      "other_song_loss": 0.035407450050115585,
+      "objective": 0.07593031227588654,
+      "timestep": 551
+    },
+    {
+      "step": 102,
+      "pair": "04facb3a03e8354c_24.000__rings",
+      "correct_loss": 0.06213821470737457,
+      "other_song_loss": 0.062336936593055725,
+      "objective": 0.10085436701774597,
+      "timestep": 416
+    },
+    {
+      "step": 103,
+      "pair": "22cb9d37a6297230_0.000__rings",
+      "correct_loss": 0.03849007934331894,
+      "other_song_loss": 0.03821777552366257,
+      "objective": 0.07779302448034286,
+      "timestep": 495
+    },
+    {
+      "step": 104,
+      "pair": "2af4f8448d0fde83_0.000__rings",
+      "correct_loss": 0.025018520653247833,
+      "other_song_loss": 0.025047387927770615,
+      "objective": 0.06394566595554352,
+      "timestep": 672
+    },
+    {
+      "step": 105,
+      "pair": "bd34315014bdd7a3_20.000__rings",
+      "correct_loss": 0.031396739184856415,
+      "other_song_loss": 0.03173619881272316,
+      "objective": 0.06993857026100159,
+      "timestep": 598
+    },
+    {
+      "step": 106,
+      "pair": "ac756e48b53a5d5d_12.000__rings",
+      "correct_loss": 0.04942649230360985,
+      "other_song_loss": 0.04883638024330139,
+      "objective": 0.0891282930970192,
+      "timestep": 456
+    },
+    {
+      "step": 107,
+      "pair": "be808b913b6bf90f_8.000__rings",
+      "correct_loss": 0.03454484045505524,
+      "other_song_loss": 0.034126169979572296,
+      "objective": 0.07403118908405304,
+      "timestep": 553
+    },
+    {
+      "step": 108,
+      "pair": "ed0366f6de3f7ad4_0.000__rings",
+      "correct_loss": 0.03835376352071762,
+      "other_song_loss": 0.03682652488350868,
+      "objective": 0.07924535870552063,
+      "timestep": 597
+    },
+    {
+      "step": 109,
+      "pair": "f56126f1d79ff86d_24.000__rings",
+      "correct_loss": 0.02166731283068657,
+      "other_song_loss": 0.02118225209414959,
+      "objective": 0.06123701110482216,
+      "timestep": 723
+    },
+    {
+      "step": 110,
+      "pair": "c45f1818c104fe4b_24.000__rings",
+      "correct_loss": 0.01974581927061081,
+      "other_song_loss": 0.018987681716680527,
+      "objective": 0.0596594475209713,
+      "timestep": 741
+    },
+    {
+      "step": 111,
+      "pair": "ae94db8ab7a92b85_8.000__rings",
+      "correct_loss": 0.031743425875902176,
+      "other_song_loss": 0.03153194114565849,
+      "objective": 0.0709703117609024,
+      "timestep": 607
+    },
+    {
+      "step": 112,
+      "pair": "bf2b0fa0cae49a2b_12.000__rings",
+      "correct_loss": 0.07974252849817276,
+      "other_song_loss": 0.07855651527643204,
+      "objective": 0.12019854784011841,
+      "timestep": 304
+    },
+    {
+      "step": 113,
+      "pair": "ac5e0ce9ffa800d8_24.000__rings",
+      "correct_loss": 0.01981818489730358,
+      "other_song_loss": 0.019452696666121483,
+      "objective": 0.05923783779144287,
+      "timestep": 736
+    },
+    {
+      "step": 114,
+      "pair": "5640465a85a94b4b_8.000__rings",
+      "correct_loss": 0.03439910709857941,
+      "other_song_loss": 0.03458656370639801,
+      "objective": 0.07312923669815063,
+      "timestep": 531
+    },
+    {
+      "step": 115,
+      "pair": "a012290e84f63be4_16.000__rings",
+      "correct_loss": 0.042433928698301315,
+      "other_song_loss": 0.042195145040750504,
+      "objective": 0.08169493824243546,
+      "timestep": 468
+    },
+    {
+      "step": 116,
+      "pair": "17a67e9079ed84d3_12.000__rings",
+      "correct_loss": 0.042375676333904266,
+      "other_song_loss": 0.04267536848783493,
+      "objective": 0.08096671849489212,
+      "timestep": 467
+    },
+    {
+      "step": 117,
+      "pair": "0ac55ff9319a73ad_0.000__rings",
+      "correct_loss": 0.08946527540683746,
+      "other_song_loss": 0.08965858072042465,
+      "objective": 0.1281881332397461,
+      "timestep": 269
+    },
+    {
+      "step": 118,
+      "pair": "9caf45d667658a8f_20.000__rings",
+      "correct_loss": 0.03287351503968239,
+      "other_song_loss": 0.03267436474561691,
+      "objective": 0.07208497822284698,
+      "timestep": 549
+    },
+    {
+      "step": 119,
+      "pair": "246e5c1ea0da95f4_4.000__rings",
+      "correct_loss": 0.06813356280326843,
+      "other_song_loss": 0.06704095005989075,
+      "objective": 0.10847081989049911,
+      "timestep": 335
+    },
+    {
+      "step": 120,
+      "pair": "afa9ee9b77d19f4a_0.000__rings",
+      "correct_loss": 0.026501379907131195,
+      "other_song_loss": 0.026562318205833435,
+      "objective": 0.06538864225149155,
+      "timestep": 640
+    },
+    {
+      "step": 121,
+      "pair": "e8e874202ede5a02_16.000__rings",
+      "correct_loss": 0.0519750639796257,
+      "other_song_loss": 0.0519174188375473,
+      "objective": 0.0910099446773529,
+      "timestep": 378
+    },
+    {
+      "step": 122,
+      "pair": "ac756e48b53a5d5d_24.000__rings",
+      "correct_loss": 0.025589458644390106,
+      "other_song_loss": 0.0251262616366148,
+      "objective": 0.06513169407844543,
+      "timestep": 743
+    },
+    {
+      "step": 123,
+      "pair": "d568b4accdc027f2_4.000__rings",
+      "correct_loss": 0.027006778866052628,
+      "other_song_loss": 0.02726527489721775,
+      "objective": 0.06564883887767792,
+      "timestep": 619
+    },
+    {
+      "step": 124,
+      "pair": "8b640e03f83850a6_20.000__rings",
+      "correct_loss": 0.032398201525211334,
+      "other_song_loss": 0.0322595089673996,
+      "objective": 0.0715341717004776,
+      "timestep": 500
+    },
+    {
+      "step": 125,
+      "pair": "8ed0518ae598d626_20.000__rings",
+      "correct_loss": 0.08015087991952896,
+      "other_song_loss": 0.0787426307797432,
+      "objective": 0.12089027464389801,
+      "timestep": 302
+    },
+    {
+      "step": 126,
+      "pair": "8ed0518ae598d626_0.000__rings",
+      "correct_loss": 0.045009300112724304,
+      "other_song_loss": 0.04518634080886841,
+      "objective": 0.0837523490190506,
+      "timestep": 464
+    },
+    {
+      "step": 127,
+      "pair": "a02a4a05c0ef51ae_12.000__rings",
+      "correct_loss": 0.03572545200586319,
+      "other_song_loss": 0.0356215164065361,
+      "objective": 0.07481804490089417,
+      "timestep": 525
+    },
+    {
+      "step": 128,
+      "pair": "fc674826aa893d9f_12.000__rings",
+      "correct_loss": 0.09077379107475281,
+      "other_song_loss": 0.09069738537073135,
+      "objective": 0.12983205914497375,
+      "timestep": 267
+    }
+  ],
+  "validation": {
+    "pairs": 8,
+    "correct_better_count": 2,
+    "mean_advantage": -0.0002575940452516079,
+    "mean_correct_loss": 0.03581410553306341
+  },
+  "peak_vram_reserved_mb": 2842.0,
+  "elapsed_seconds": 562.4,
+  "total_seconds": 562.5
+}

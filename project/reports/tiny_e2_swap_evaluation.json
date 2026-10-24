@@ -1,0 +1,75 @@
+{
+  "training_step": 128,
+  "training_pairs": 8,
+  "timestep": 500,
+  "same_noise_per_pair": true,
+  "mean_advantage": -5.689961835741997e-05,
+  "correct_better_count": 3,
+  "interpretation": "Positive advantage means the correct music predicted noise better. This is training-set only.",
+  "pairs": [
+    {
+      "pair": "00315a02dbd521bc_0.000",
+      "other_pair": "0051f2cf3b8b9c88_0.000",
+      "correct_loss": 0.07142198085784912,
+      "mismatched_loss": 0.07137343287467957,
+      "advantage": -4.8547983169555664e-05,
+      "prediction_difference": 0.002060243161395192
+    },
+    {
+      "pair": "0051f2cf3b8b9c88_0.000",
+      "other_pair": "04facb3a03e8354c_0.000",
+      "correct_loss": 0.0787869319319725,
+      "mismatched_loss": 0.07868148386478424,
+      "advantage": -0.00010544806718826294,
+      "prediction_difference": 0.004331809934228659
+    },
+    {
+      "pair": "04facb3a03e8354c_0.000",
+      "other_pair": "0621640299273b77_0.000",
+      "correct_loss": 0.06928953528404236,
+      "mismatched_loss": 0.07047619670629501,
+      "advantage": 0.001186661422252655,
+      "prediction_difference": 0.010698825120925903
+    },
+    {
+      "pair": "0621640299273b77_0.000",
+      "other_pair": "062a9b44a084c493_0.000",
+      "correct_loss": 0.07309100031852722,
+      "mismatched_loss": 0.07176144421100616,
+      "advantage": -0.0013295561075210571,
+      "prediction_difference": 0.012061563320457935
+    },
+    {
+      "pair": "062a9b44a084c493_0.000",
+      "other_pair": "07a450f4730f2f7c_0.000",
+      "correct_loss": 0.06601956486701965,
+      "mismatched_loss": 0.06705088168382645,
+      "advantage": 0.0010313168168067932,
+      "prediction_difference": 0.016577500849962234
+    },
+    {
+      "pair": "07a450f4730f2f7c_0.000",
+      "other_pair": "0a5491cc4bbc996d_0.000",
+      "correct_loss": 0.05556575953960419,
+      "mismatched_loss": 0.05514947324991226,
+      "advantage": -0.00041628628969192505,
+      "prediction_difference": 0.014823421835899353
+    },
+    {
+      "pair": "0a5491cc4bbc996d_0.000",
+      "other_pair": "0ac55ff9319a73ad_0.000",
+      "correct_loss": 0.06221972033381462,
+      "mismatched_loss": 0.06244322657585144,
+      "advantage": 0.00022350624203681946,
+      "prediction_difference": 0.009252818301320076
+    },
+    {
+      "pair": "0ac55ff9319a73ad_0.000",
+      "other_pair": "00315a02dbd521bc_0.000",
+      "correct_loss": 0.07226775586605072,
+      "mismatched_loss": 0.0712709128856659,
+      "advantage": -0.0009968429803848267,
+      "prediction_difference": 0.009377041831612587
+    }
+  ]
+}

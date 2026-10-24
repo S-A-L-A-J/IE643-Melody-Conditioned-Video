@@ -1,0 +1,7 @@
+{
+  "frames": 16,
+  "other_song_mean_absolute_pixel_difference": 5.189350605010986,
+  "one_second_shift_mean_absolute_pixel_difference": 4.957871913909912,
+  "full_scale": 255,
+  "note": "Same initial noise; differences alone do not establish music alignment."
+}

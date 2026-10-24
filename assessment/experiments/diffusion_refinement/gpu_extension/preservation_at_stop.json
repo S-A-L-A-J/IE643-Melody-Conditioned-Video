@@ -1,0 +1,25 @@
+{
+  "requested_inputs_unchanged": {
+    "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/planning/RESUME.md": true,
+    "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/delegated_audit/EXPERIMENT_LEDGER.md": true,
+    "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/train_temporal_prior.py": true,
+    "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/demo/inference.py": true,
+    "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_phase/training.json": true,
+    "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_phase/model.safetensors": true,
+    "/home/salaj/IE643_project/scripts/train_prior_guided_diffusion.py": true,
+    "/home/salaj/IE643_project/scripts/infer_prior_guided_diffusion.py": true,
+    "/home/salaj/IE643_project/models/diffusion/sd15/model_index.json": true,
+    "/home/salaj/IE643_project/models/diffusion/sd15/tokenizer/tokenizer_config.json": true,
+    "/home/salaj/IE643_project/models/diffusion/sd15/tokenizer/special_tokens_map.json": true,
+    "/home/salaj/IE643_project/models/diffusion/sd15/tokenizer/vocab.json": true,
+    "/home/salaj/IE643_project/models/diffusion/sd15/scheduler/scheduler_config.json": true,
+    "/home/salaj/IE643_project/models/diffusion/sd15/feature_extractor/preprocessor_config.json": true,
+    "/home/salaj/IE643_project/models/diffusion/sd15/unet/config.json": true,
+    "/home/salaj/IE643_project/models/diffusion/sd15/text_encoder/config.json": true,
+    "/home/salaj/IE643_project/models/diffusion/sd15/safety_checker/config.json": true,
+    "/home/salaj/IE643_project/models/diffusion/sd15/vae/config.json": true,
+    "/home/salaj/IE643_project/models/diffusion/animatediff/config.json": true
+  },
+  "all_76_original_experiment_files_unchanged": true,
+  "checkpoints_and_results_preserved": true
+}

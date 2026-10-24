@@ -1,0 +1,41 @@
+{
+  "models": [
+    {
+      "repo": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+      "folder": "sd15",
+      "files": [
+        "feature_extractor/preprocessor_config.json",
+        "model_index.json",
+        "safety_checker/config.json",
+        "safety_checker/model.fp16.safetensors",
+        "scheduler/scheduler_config.json",
+        "text_encoder/config.json",
+        "text_encoder/model.fp16.safetensors",
+        "tokenizer/merges.txt",
+        "tokenizer/special_tokens_map.json",
+        "tokenizer/tokenizer_config.json",
+        "tokenizer/vocab.json",
+        "unet/config.json",
+        "unet/diffusion_pytorch_model.fp16.safetensors",
+        "vae/config.json",
+        "vae/diffusion_pytorch_model.fp16.safetensors"
+      ],
+      "download_bytes": 2742217630
+    },
+    {
+      "repo": "guoyww/animatediff-motion-adapter-v1-5-2",
+      "revision": "6167b88ffe39b4441fdf2113e77b99a6f56b7906",
+      "folder": "animatediff",
+      "files": [
+        "config.json",
+        "diffusion_pytorch_model.fp16.safetensors"
+      ],
+      "download_bytes": 1815330271
+    }
+  ],
+  "free_bytes": 26463866880,
+  "download_bytes": 4557547901,
+  "reserve_bytes": 3221225472,
+  "fits": true
+}

@@ -1,0 +1,8 @@
+{
+  "maximum_additional_attempts": 64,
+  "maximum_total_attempts": 128,
+  "wall_ceiling_seconds": 1200,
+  "reason": "Validation epsilon MSE decreases monotonically through step64; first-clip target latent MSE improves from frozen .11318 to adapted .10676, but remains worse than predictor .10160. Authorize only one continuation; do not claim quality success from noise loss.",
+  "unchanged_population": "32 train recordings, same fixed eight validation recordings, no fresh or provisional test data",
+  "earlier_checkpoints_preserved": true
+}

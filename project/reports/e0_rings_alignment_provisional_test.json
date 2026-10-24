@@ -1,0 +1,296 @@
+{
+  "tracks": 14,
+  "split": "test",
+  "style": "rings",
+  "manifest": "data/manifests/synthetic_pairs_v2.jsonl",
+  "tolerance_seconds": 0.125,
+  "event_method": "peaks of consecutive-frame grayscale difference",
+  "aggregate_f1": {
+    "aligned": 0.8664,
+    "shifted_audio_200ms": 0.1506,
+    "static_video": 0.0
+  },
+  "results": [
+    {
+      "id": "37822a137333ecef_0.000__rings",
+      "beats": 7,
+      "visual_events": 14,
+      "aligned": {
+        "precision": 0.7142857142857143,
+        "coverage": 1.0,
+        "f1": 0.8333333333328471
+      },
+      "shifted_audio_200ms": {
+        "precision": 0.14285714285714285,
+        "coverage": 0.2857142857142857,
+        "f1": 0.19047619047574604
+      },
+      "static_video": {
+        "precision": 0.0,
+        "coverage": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "id": "3c39504c76364c37_0.000__rings",
+      "beats": 7,
+      "visual_events": 12,
+      "aligned": {
+        "precision": 0.5,
+        "coverage": 0.8571428571428571,
+        "f1": 0.6315789473679556
+      },
+      "shifted_audio_200ms": {
+        "precision": 0.25,
+        "coverage": 0.42857142857142855,
+        "f1": 0.3157894736837451
+      },
+      "static_video": {
+        "precision": 0.0,
+        "coverage": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "id": "3cf4b62cef5f4841_0.000__rings",
+      "beats": 9,
+      "visual_events": 10,
+      "aligned": {
+        "precision": 0.9,
+        "coverage": 1.0,
+        "f1": 0.947368421052133
+      },
+      "shifted_audio_200ms": {
+        "precision": 0.1,
+        "coverage": 0.1111111111111111,
+        "f1": 0.10526315789423824
+      },
+      "static_video": {
+        "precision": 0.0,
+        "coverage": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "id": "46319c3a949c0b23_0.000__rings",
+      "beats": 11,
+      "visual_events": 10,
+      "aligned": {
+        "precision": 1.0,
+        "coverage": 0.9090909090909091,
+        "f1": 0.9523809523804534
+      },
+      "shifted_audio_200ms": {
+        "precision": 0.0,
+        "coverage": 0.0,
+        "f1": 0.0
+      },
+      "static_video": {
+        "precision": 0.0,
+        "coverage": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "id": "4b6c42f5dc2b5059_0.000__rings",
+      "beats": 9,
+      "visual_events": 12,
+      "aligned": {
+        "precision": 0.75,
+        "coverage": 1.0,
+        "f1": 0.8571428571423673
+      },
+      "shifted_audio_200ms": {
+        "precision": 0.25,
+        "coverage": 0.2222222222222222,
+        "f1": 0.23529411764656055
+      },
+      "static_video": {
+        "precision": 0.0,
+        "coverage": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "id": "5fb4aeab1dd3f19e_0.000__rings",
+      "beats": 6,
+      "visual_events": 12,
+      "aligned": {
+        "precision": 0.75,
+        "coverage": 1.0,
+        "f1": 0.8571428571423673
+      },
+      "shifted_audio_200ms": {
+        "precision": 0.0,
+        "coverage": 0.0,
+        "f1": 0.0
+      },
+      "static_video": {
+        "precision": 0.0,
+        "coverage": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "id": "62449208ca20fded_0.000__rings",
+      "beats": 8,
+      "visual_events": 9,
+      "aligned": {
+        "precision": 0.8888888888888888,
+        "coverage": 1.0,
+        "f1": 0.9411764705877369
+      },
+      "shifted_audio_200ms": {
+        "precision": 0.1111111111111111,
+        "coverage": 0.125,
+        "f1": 0.11764705882303114
+      },
+      "static_video": {
+        "precision": 0.0,
+        "coverage": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "id": "76349f13b68ad9d1_0.000__rings",
+      "beats": 8,
+      "visual_events": 10,
+      "aligned": {
+        "precision": 1.0,
+        "coverage": 1.0,
+        "f1": 0.9999999999995
+      },
+      "shifted_audio_200ms": {
+        "precision": 0.1,
+        "coverage": 0.125,
+        "f1": 0.11111111111061728
+      },
+      "static_video": {
+        "precision": 0.0,
+        "coverage": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "id": "7637ab3eb8248572_0.000__rings",
+      "beats": 11,
+      "visual_events": 11,
+      "aligned": {
+        "precision": 0.9090909090909091,
+        "coverage": 0.9090909090909091,
+        "f1": 0.909090909090409
+      },
+      "shifted_audio_200ms": {
+        "precision": 0.09090909090909091,
+        "coverage": 0.09090909090909091,
+        "f1": 0.09090909090859091
+      },
+      "static_video": {
+        "precision": 0.0,
+        "coverage": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "id": "8c6ce8c489bd4779_0.000__rings",
+      "beats": 7,
+      "visual_events": 10,
+      "aligned": {
+        "precision": 0.7,
+        "coverage": 0.8571428571428571,
+        "f1": 0.7706422018343675
+      },
+      "shifted_audio_200ms": {
+        "precision": 0.0,
+        "coverage": 0.0,
+        "f1": 0.0
+      },
+      "static_video": {
+        "precision": 0.0,
+        "coverage": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "id": "eb695bb6a6f788d7_0.000__rings",
+      "beats": 8,
+      "visual_events": 8,
+      "aligned": {
+        "precision": 0.875,
+        "coverage": 0.875,
+        "f1": 0.8749999999995
+      },
+      "shifted_audio_200ms": {
+        "precision": 0.125,
+        "coverage": 0.125,
+        "f1": 0.12499999999950001
+      },
+      "static_video": {
+        "precision": 0.0,
+        "coverage": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "id": "ed0d74bc15c52a55_0.000__rings",
+      "beats": 9,
+      "visual_events": 12,
+      "aligned": {
+        "precision": 0.8333333333333334,
+        "coverage": 1.0,
+        "f1": 0.9090909090904131
+      },
+      "shifted_audio_200ms": {
+        "precision": 0.25,
+        "coverage": 0.3333333333333333,
+        "f1": 0.2857142857137959
+      },
+      "static_video": {
+        "precision": 0.0,
+        "coverage": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "id": "efc6ca1bc7959815_0.000__rings",
+      "beats": 12,
+      "visual_events": 14,
+      "aligned": {
+        "precision": 0.7857142857142857,
+        "coverage": 0.9166666666666666,
+        "f1": 0.8461538461533491
+      },
+      "shifted_audio_200ms": {
+        "precision": 0.21428571428571427,
+        "coverage": 0.25,
+        "f1": 0.2307692307687337
+      },
+      "static_video": {
+        "precision": 0.0,
+        "coverage": 0.0,
+        "f1": 0.0
+      }
+    },
+    {
+      "id": "f8107f6ffd549f22_0.000__rings",
+      "beats": 8,
+      "visual_events": 12,
+      "aligned": {
+        "precision": 0.6666666666666666,
+        "coverage": 1.0,
+        "f1": 0.79999999999952
+      },
+      "shifted_audio_200ms": {
+        "precision": 0.25,
+        "coverage": 0.375,
+        "f1": 0.29999999999952
+      },
+      "static_video": {
+        "precision": 0.0,
+        "coverage": 0.0,
+        "f1": 0.0
+      }
+    }
+  ],
+  "note": "E0 is programmed from music features. This checks timing/metric plumbing, not learned musical control."
+}

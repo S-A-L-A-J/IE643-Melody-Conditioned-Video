@@ -1,0 +1,6 @@
+{
+  "old_train_infer_alpha_max_abs_difference": 0.0,
+  "old_scaled_alpha_at_500": 0.27633246779441833,
+  "pilot_linear_alpha_at_500": 0.16077162325382233,
+  "caution": "Old scripts share the same beta family/epsilon target. Linear recommendation alone does not establish old failure cause."
+}

@@ -1,0 +1,17 @@
+{
+  "counts": {
+    "train": {
+      "source_impulses": 5632,
+      "retained_impulses": 2826
+    },
+    "validation": {
+      "source_impulses": 595,
+      "retained_impulses": 284
+    },
+    "test": {
+      "source_impulses": 815,
+      "retained_impulses": 384
+    }
+  },
+  "note": "Exact-frame sampling preserves target alignment but can omit beat impulses between output frames. Future variants should aggregate events while preserving their times; this audit does not change the current experiment."
+}

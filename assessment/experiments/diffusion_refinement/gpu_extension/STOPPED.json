@@ -1,0 +1,20 @@
+{
+  "status": "stopped_at_user_request",
+  "time_utc": "2026-10-23T19:07:59.123705+00:00",
+  "reason": "User asked whether useful results exist and to stop if not. Useful long-context predictor improvement exists, but diffusion has not demonstrated a visual gain over predictor-only.",
+  "completed": [
+    "native GPU confirmation",
+    "frozen render/re-encode and fine-step pilots",
+    "8/16-second predictor variants including rolling context",
+    "64+64 spatial geometry LoRA updates with fixed noise-loss validation",
+    "64-update adapter short-output checks",
+    "8/16-second frozen diffusion sampling with 8-second controls"
+  ],
+  "not_executed": [
+    "128-update adapter output-quality generation",
+    "eight-recording generated-output comparison",
+    "adapted long-video sampling",
+    "generic long_inference.py audio-file smoke test"
+  ],
+  "allowed_finalization": "Only decode already-generated latents, verify preserved evidence, and write handoff; no further optimizer or diffusion calls."
+}

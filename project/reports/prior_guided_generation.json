@@ -1,0 +1,16 @@
+{
+  "checkpoint_file": "lora.safetensors",
+  "test_pair": "46319c3a949c0b23_0.000__rings",
+  "other_pair": "4b6c42f5dc2b5059_0.000__rings",
+  "seed": 643,
+  "steps": 12,
+  "frames": 8,
+  "fps": 2,
+  "size": 128,
+  "videos": {
+    "correct": "outputs/prior_guided_correct.mp4",
+    "other_song": "outputs/prior_guided_other_song.mp4",
+    "shifted_one_second": "outputs/prior_guided_shifted_one_second.mp4"
+  },
+  "note": "Adapted diffusion outputs on one provisional held-out track; visual quality and audio alignment require direct inspection."
+}

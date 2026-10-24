@@ -1,0 +1,3 @@
+The explicit user resumption on 24 October 2026 IST is documented in [the current handoff](gpu_extension/resumed_20261024/HANDOFF.md). It supersedes the earlier stopping recommendation for this completed bounded follow-up only. Historical files remain preserved.
+
+The selected paired-noise spatial-adapter refinement shows modest synthetic-domain validation improvement; direct learned audio conditioning remains unestablished. See [results](gpu_extension/resumed_20261024/RESULTS.md), [reproduction](gpu_extension/resumed_20261024/REPRODUCE.md) and [report paragraph](gpu_extension/resumed_20261024/REPORT_PARAGRAPH.md). Author playback review remains valuable; no human ratings are claimed.

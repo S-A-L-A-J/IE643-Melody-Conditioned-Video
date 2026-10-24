@@ -1,0 +1,22 @@
+{
+  "linear": {
+    "finite": true,
+    "shape": [
+      16,
+      256
+    ],
+    "dtype": "torch.bfloat16",
+    "max_abs_difference_native_bf16": 0.0
+  },
+  "conv2d": {
+    "finite": true,
+    "shape": [
+      2,
+      32,
+      16,
+      16
+    ],
+    "dtype": "torch.bfloat16",
+    "max_abs_difference_native_bf16": 0.0
+  }
+}

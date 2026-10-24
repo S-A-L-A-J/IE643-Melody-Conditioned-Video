@@ -1,0 +1,30 @@
+{
+  "temporal_phase": {
+    "best_epoch": 80,
+    "validation_mse": 0.1033923402428627,
+    "seconds": 98.06017477499972,
+    "checkpoint_sha256": "5a06d7c1906e09ab32ac645b08ea51b35a410108724272901176b9dfd26ad264"
+  },
+  "temporal_no_phase": {
+    "best_epoch": 37,
+    "validation_mse": 0.3311745822429657,
+    "seconds": 54.33386227799929,
+    "checkpoint_sha256": "aeef626fc97e0bcac57c01943115f62affa981289dd4a221575cd4d9d1cf35cd"
+  },
+  "protocol": {
+    "seed": 643,
+    "train_clips": 700,
+    "validation_clips": 77,
+    "max_epochs": 80,
+    "early_stop_patience": 15,
+    "batch_size": 16,
+    "optimizer": "AdamW",
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "gradient_clip": 1,
+    "loss": "latent MSE + 0.5 temporal-difference MSE + 0.5 softplus wrong-track ranking",
+    "test_loaded": false,
+    "comparison": "Same architecture and budget; no-phase zeros the two phase channels. Selection by validation MSE. Single seed."
+  },
+  "interpretation": "Explicit visual phase greatly reduces target ambiguity in this synthetic rings dataset. Neither human quality nor independent test performance is established. Temporal architecture alone gives only a modest latent-MSE improvement over the old baseline."
+}

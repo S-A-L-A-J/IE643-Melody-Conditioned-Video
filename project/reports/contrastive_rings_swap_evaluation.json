@@ -1,0 +1,214 @@
+{
+  "checkpoint_step": 32,
+  "timestep": 500,
+  "frames": 16,
+  "test_status": "provisional_recording_grouped_song_identity_unverified",
+  "clear_title_note": "Four files have clear single-song source titles, but acoustic identity is not independently verified.",
+  "advantage_definition": "wrong minus correct loss; positive favors correct music",
+  "results": {
+    "train": {
+      "pairs": [
+        {
+          "pair": "00315a02dbd521bc_0.000__rings",
+          "other_pair": "0051f2cf3b8b9c88_0.000__rings",
+          "correct_loss": 0.11525674164295197,
+          "other_song_loss": 0.1154564768075943,
+          "shifted_one_second_loss": 0.11525866389274597,
+          "other_song_advantage": 0.00019973516464233398,
+          "time_shift_advantage": 1.9222497940063477e-06
+        },
+        {
+          "pair": "0051f2cf3b8b9c88_0.000__rings",
+          "other_pair": "04facb3a03e8354c_0.000__rings",
+          "correct_loss": 0.12128210812807083,
+          "other_song_loss": 0.1216544657945633,
+          "shifted_one_second_loss": 0.12113473564386368,
+          "other_song_advantage": 0.00037235766649246216,
+          "time_shift_advantage": -0.00014737248420715332
+        },
+        {
+          "pair": "04facb3a03e8354c_0.000__rings",
+          "other_pair": "0621640299273b77_0.000__rings",
+          "correct_loss": 0.12207861244678497,
+          "other_song_loss": 0.12308144569396973,
+          "shifted_one_second_loss": 0.1220875233411789,
+          "other_song_advantage": 0.0010028332471847534,
+          "time_shift_advantage": 8.910894393920898e-06
+        },
+        {
+          "pair": "0621640299273b77_0.000__rings",
+          "other_pair": "062a9b44a084c493_0.000__rings",
+          "correct_loss": 0.1220187097787857,
+          "other_song_loss": 0.1214844211935997,
+          "shifted_one_second_loss": 0.12188203632831573,
+          "other_song_advantage": -0.0005342885851860046,
+          "time_shift_advantage": -0.0001366734504699707
+        },
+        {
+          "pair": "062a9b44a084c493_0.000__rings",
+          "other_pair": "07a450f4730f2f7c_0.000__rings",
+          "correct_loss": 0.12053786963224411,
+          "other_song_loss": 0.12012233585119247,
+          "shifted_one_second_loss": 0.1202923059463501,
+          "other_song_advantage": -0.00041553378105163574,
+          "time_shift_advantage": -0.00024556368589401245
+        },
+        {
+          "pair": "07a450f4730f2f7c_0.000__rings",
+          "other_pair": "0a5491cc4bbc996d_0.000__rings",
+          "correct_loss": 0.11907236278057098,
+          "other_song_loss": 0.11960296332836151,
+          "shifted_one_second_loss": 0.11926291882991791,
+          "other_song_advantage": 0.0005306005477905273,
+          "time_shift_advantage": 0.00019055604934692383
+        },
+        {
+          "pair": "0a5491cc4bbc996d_0.000__rings",
+          "other_pair": "0ac55ff9319a73ad_0.000__rings",
+          "correct_loss": 0.11499844491481781,
+          "other_song_loss": 0.11498844623565674,
+          "shifted_one_second_loss": 0.11466600000858307,
+          "other_song_advantage": -9.998679161071777e-06,
+          "time_shift_advantage": -0.0003324449062347412
+        },
+        {
+          "pair": "0ac55ff9319a73ad_0.000__rings",
+          "other_pair": "00315a02dbd521bc_0.000__rings",
+          "correct_loss": 0.11782853305339813,
+          "other_song_loss": 0.11679568886756897,
+          "shifted_one_second_loss": 0.1174968034029007,
+          "other_song_advantage": -0.0010328441858291626,
+          "time_shift_advantage": -0.0003317296504974365
+        }
+      ],
+      "correct_better_than_other_song": 4,
+      "correct_better_than_time_shift": 3,
+      "mean_other_song_advantage": 1.4107674360275269e-05,
+      "mean_time_shift_advantage": -0.0001240493729710579
+    },
+    "provisional_test": {
+      "pairs": [
+        {
+          "pair": "37822a137333ecef_0.000__rings",
+          "other_pair": "3c39504c76364c37_0.000__rings",
+          "correct_loss": 0.11807730048894882,
+          "other_song_loss": 0.11790920794010162,
+          "shifted_one_second_loss": 0.11809691786766052,
+          "other_song_advantage": -0.00016809254884719849,
+          "time_shift_advantage": 1.961737871170044e-05
+        },
+        {
+          "pair": "3c39504c76364c37_0.000__rings",
+          "other_pair": "3cf4b62cef5f4841_0.000__rings",
+          "correct_loss": 0.12036498636007309,
+          "other_song_loss": 0.1205865740776062,
+          "shifted_one_second_loss": 0.12013864517211914,
+          "other_song_advantage": 0.00022158771753311157,
+          "time_shift_advantage": -0.00022634118795394897
+        },
+        {
+          "pair": "3cf4b62cef5f4841_0.000__rings",
+          "other_pair": "46319c3a949c0b23_0.000__rings",
+          "correct_loss": 0.12275558710098267,
+          "other_song_loss": 0.12332026660442352,
+          "shifted_one_second_loss": 0.12284862995147705,
+          "other_song_advantage": 0.0005646795034408569,
+          "time_shift_advantage": 9.304285049438477e-05
+        },
+        {
+          "pair": "46319c3a949c0b23_0.000__rings",
+          "other_pair": "4b6c42f5dc2b5059_0.000__rings",
+          "correct_loss": 0.11730173230171204,
+          "other_song_loss": 0.11635181307792664,
+          "shifted_one_second_loss": 0.11729724705219269,
+          "other_song_advantage": -0.0009499192237854004,
+          "time_shift_advantage": -4.4852495193481445e-06
+        },
+        {
+          "pair": "4b6c42f5dc2b5059_0.000__rings",
+          "other_pair": "5fb4aeab1dd3f19e_0.000__rings",
+          "correct_loss": 0.12014535069465637,
+          "other_song_loss": 0.11967342346906662,
+          "shifted_one_second_loss": 0.11999516189098358,
+          "other_song_advantage": -0.0004719272255897522,
+          "time_shift_advantage": -0.00015018880367279053
+        },
+        {
+          "pair": "5fb4aeab1dd3f19e_0.000__rings",
+          "other_pair": "62449208ca20fded_0.000__rings",
+          "correct_loss": 0.12166527658700943,
+          "other_song_loss": 0.12292363494634628,
+          "shifted_one_second_loss": 0.12191903591156006,
+          "other_song_advantage": 0.001258358359336853,
+          "time_shift_advantage": 0.00025375932455062866
+        },
+        {
+          "pair": "62449208ca20fded_0.000__rings",
+          "other_pair": "76349f13b68ad9d1_0.000__rings",
+          "correct_loss": 0.11076304316520691,
+          "other_song_loss": 0.11103230714797974,
+          "shifted_one_second_loss": 0.11075248569250107,
+          "other_song_advantage": 0.00026926398277282715,
+          "time_shift_advantage": -1.0557472705841064e-05
+        },
+        {
+          "pair": "76349f13b68ad9d1_0.000__rings",
+          "other_pair": "37822a137333ecef_0.000__rings",
+          "correct_loss": 0.12328874319791794,
+          "other_song_loss": 0.12280268222093582,
+          "shifted_one_second_loss": 0.12326526641845703,
+          "other_song_advantage": -0.0004860609769821167,
+          "time_shift_advantage": -2.3476779460906982e-05
+        }
+      ],
+      "correct_better_than_other_song": 4,
+      "correct_better_than_time_shift": 3,
+      "mean_other_song_advantage": 2.9736198484897614e-05,
+      "mean_time_shift_advantage": -6.078742444515228e-06
+    },
+    "clear_single_title_test": {
+      "pairs": [
+        {
+          "pair": "46319c3a949c0b23_0.000__rings",
+          "other_pair": "4b6c42f5dc2b5059_0.000__rings",
+          "correct_loss": 0.11667770147323608,
+          "other_song_loss": 0.11569415032863617,
+          "shifted_one_second_loss": 0.11665976047515869,
+          "other_song_advantage": -0.0009835511445999146,
+          "time_shift_advantage": -1.7940998077392578e-05
+        },
+        {
+          "pair": "4b6c42f5dc2b5059_0.000__rings",
+          "other_pair": "62449208ca20fded_0.000__rings",
+          "correct_loss": 0.12009492516517639,
+          "other_song_loss": 0.12087057530879974,
+          "shifted_one_second_loss": 0.11987347900867462,
+          "other_song_advantage": 0.000775650143623352,
+          "time_shift_advantage": -0.00022144615650177002
+        },
+        {
+          "pair": "62449208ca20fded_0.000__rings",
+          "other_pair": "7637ab3eb8248572_0.000__rings",
+          "correct_loss": 0.1114283874630928,
+          "other_song_loss": 0.11121002584695816,
+          "shifted_one_second_loss": 0.1114305704832077,
+          "other_song_advantage": -0.00021836161613464355,
+          "time_shift_advantage": 2.1830201148986816e-06
+        },
+        {
+          "pair": "7637ab3eb8248572_0.000__rings",
+          "other_pair": "46319c3a949c0b23_0.000__rings",
+          "correct_loss": 0.12399110198020935,
+          "other_song_loss": 0.12435358762741089,
+          "shifted_one_second_loss": 0.12343645095825195,
+          "other_song_advantage": 0.0003624856472015381,
+          "time_shift_advantage": -0.0005546510219573975
+        }
+      ],
+      "correct_better_than_other_song": 2,
+      "correct_better_than_time_shift": 1,
+      "mean_other_song_advantage": -1.5944242477416992e-05,
+      "mean_time_shift_advantage": -0.00019796378910541534
+    }
+  }
+}

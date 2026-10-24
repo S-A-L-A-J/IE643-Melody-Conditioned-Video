@@ -1,0 +1,28 @@
+{
+  "split": "provisional_validation",
+  "pair_id": "2c8e26308b2879a4_0.000__rings",
+  "other_pair_id": "399a3d13a9b756d9_0.000__rings",
+  "prior_mse": 0.31289684772491455,
+  "conditions": {
+    "prior_refine_0.35_correct": {
+      "mse_to_target": 0.3834332823753357,
+      "video": "outputs/prior_refine_0.35_correct.mp4",
+      "denoising_steps": 7
+    },
+    "prior_refine_0.35_other_song": {
+      "mse_to_target": 0.4478403925895691,
+      "video": "outputs/prior_refine_0.35_other_song.mp4",
+      "denoising_steps": 7
+    },
+    "prior_refine_0.65_correct": {
+      "mse_to_target": 0.4552340507507324,
+      "video": "outputs/prior_refine_0.65_correct.mp4",
+      "denoising_steps": 13
+    },
+    "prior_refine_0.65_other_song": {
+      "mse_to_target": 0.5002489686012268,
+      "video": "outputs/prior_refine_0.65_other_song.mp4",
+      "denoising_steps": 13
+    }
+  }
+}

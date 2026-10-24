@@ -1,0 +1,22 @@
+{
+  "/home/salaj/IE643_project/models/diffusion/sd15/unet/diffusion_pytorch_model.fp16.safetensors": {
+    "bytes": 1719125304,
+    "sha256": "c83908253f9a64d08c25fc90874c9c8aef9a329ce1ca5fb909d73b0c83d1ea21"
+  },
+  "/home/salaj/IE643_project/models/diffusion/sd15/text_encoder/model.fp16.safetensors": {
+    "bytes": 246144864,
+    "sha256": "77795e2023adcf39bc29a884661950380bd093cf0750a966d473d1718dc9ef4e"
+  },
+  "/home/salaj/IE643_project/models/diffusion/sd15/safety_checker/model.fp16.safetensors": {
+    "bytes": 608018440,
+    "sha256": "08902f19b1cfebd7c989f152fc0507bef6898c706a91d666509383122324b511"
+  },
+  "/home/salaj/IE643_project/models/diffusion/sd15/vae/diffusion_pytorch_model.fp16.safetensors": {
+    "bytes": 167335342,
+    "sha256": "4fbcf0ebe55a0984f5a5e00d8c4521d52359af7229bb4d81890039d2aa16dd7c"
+  },
+  "/home/salaj/IE643_project/models/diffusion/animatediff/diffusion_pytorch_model.fp16.safetensors": {
+    "bytes": 1815329816,
+    "sha256": "5fd196988206cfac90bab1dc56cc59fdd12035492f74ff0662eb6eed5113c547"
+  }
+}

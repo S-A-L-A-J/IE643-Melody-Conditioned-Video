@@ -1,0 +1,38 @@
+{
+  "frozen": {
+    "latent_gain": -0.10172683423337325,
+    "rgb_gain": -0.09234216581182375,
+    "latent_wins": 0,
+    "rgb_wins": 0,
+    "f1_drop": 0.009615384615384581,
+    "sharpness_ratio": 0.9504717898151945,
+    "passes_quantitative_gates": false
+  },
+  "adapted": {
+    "latent_gain": -0.011800652146230162,
+    "rgb_gain": -0.013233339846893344,
+    "latent_wins": 1,
+    "rgb_wins": 3,
+    "f1_drop": 0.0,
+    "sharpness_ratio": 1.236297924262019,
+    "passes_quantitative_gates": false
+  },
+  "anchor025": {
+    "latent_gain": 0.019990407265276344,
+    "rgb_gain": 0.01259997807349933,
+    "latent_wins": 8,
+    "rgb_wins": 8,
+    "f1_drop": 0.0,
+    "sharpness_ratio": 1.0592864434466842,
+    "passes_quantitative_gates": false
+  },
+  "anchor050": {
+    "latent_gain": 0.024687084727097353,
+    "rgb_gain": 0.014471364937330145,
+    "latent_wins": 8,
+    "rgb_wins": 7,
+    "f1_drop": 0.0,
+    "sharpness_ratio": 1.1231368015748113,
+    "passes_quantitative_gates": false
+  }
+}

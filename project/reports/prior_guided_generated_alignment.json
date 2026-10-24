@@ -1,0 +1,24 @@
+{
+  "video": "outputs/prior_guided_correct.mp4",
+  "pair_id": "46319c3a949c0b23_0.000__rings",
+  "source_split": "test",
+  "frames": 8,
+  "fps": 2.0,
+  "duration_seconds": 4.0,
+  "beat_events": 11,
+  "visual_events": 0,
+  "tolerance_seconds": 0.25,
+  "aligned": {
+    "precision": 0.0,
+    "coverage": 0.0,
+    "f1": 0.0
+  },
+  "audio_shifted_200ms": {
+    "precision": 0.0,
+    "coverage": 0.0,
+    "f1": 0.0
+  },
+  "mean_frame_change": 64.2030029296875,
+  "p95_frame_change": 70.37514038085938,
+  "note": "Exploratory single-clip metric. Visual event extraction is sensitive to frame rate and texture; human ratings remain pending."
+}

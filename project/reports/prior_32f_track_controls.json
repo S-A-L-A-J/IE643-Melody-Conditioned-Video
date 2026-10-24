@@ -1,0 +1,33 @@
+{
+  "comparison_metric": "correct F1 minus control F1; equal weight per source track",
+  "comparisons": {
+    "other_track": {
+      "mean_track_f1_difference": 0.17986691977735042,
+      "tracks_correct_higher": 14,
+      "tracks": 14,
+      "bootstrap_95_percent_interval": [
+        0.12165664595797286,
+        0.24325749730679563
+      ]
+    },
+    "shifted_1s": {
+      "mean_track_f1_difference": 0.1582561374270017,
+      "tracks_correct_higher": 13,
+      "tracks": 14,
+      "bootstrap_95_percent_interval": [
+        0.0914183490776218,
+        0.23092709669172834
+      ]
+    },
+    "target": {
+      "mean_track_f1_difference": -0.21291021031172658,
+      "tracks_correct_higher": 0,
+      "tracks": 14,
+      "bootstrap_95_percent_interval": [
+        -0.24542826439906093,
+        -0.1765041866655627
+      ]
+    }
+  },
+  "limits": "Exploratory metric with provisional recording groups. Bootstrap intervals do not resolve shared-song leakage or human perceptual validity."
+}

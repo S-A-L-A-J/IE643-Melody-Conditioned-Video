@@ -1,0 +1,63 @@
+{
+  "strength": 0.06,
+  "base_steps": 100,
+  "steps": 6,
+  "timesteps": [
+    50,
+    40,
+    30,
+    20,
+    10,
+    0
+  ],
+  "guidance": 1.0,
+  "seed": 653,
+  "noise_sign": 1,
+  "unsigned_seed_noise_sha256": "cfa493ac27ecae53f8afb83c657bafa296cac7a5c2421b362273a56322382624",
+  "frames": 32,
+  "windows": [
+    [
+      0,
+      32
+    ]
+  ],
+  "seconds": 7.081989664999128,
+  "gpu": "NVIDIA GeForce RTX 3050 4GB Laptop GPU",
+  "native_dtype": "float16",
+  "peak_vram_allocated_mb": 166.04150390625,
+  "peak_vram_reserved_mb": 196.0,
+  "base_float32_noise_sha256": "cfa493ac27ecae53f8afb83c657bafa296cac7a5c2421b362273a56322382624",
+  "scheduler": {
+    "num_train_timesteps": 1000,
+    "beta_start": 0.00085,
+    "beta_end": 0.012,
+    "beta_schedule": "linear",
+    "trained_betas": null,
+    "clip_sample": false,
+    "set_alpha_to_one": false,
+    "steps_offset": 1,
+    "prediction_type": "epsilon",
+    "thresholding": false,
+    "dynamic_thresholding_ratio": 0.995,
+    "clip_sample_range": 1.0,
+    "sample_max_value": 1.0,
+    "timestep_spacing": "linspace",
+    "rescale_betas_zero_snr": false,
+    "_use_default_values": [
+      "thresholding",
+      "sample_max_value",
+      "prediction_type",
+      "rescale_betas_zero_snr",
+      "dynamic_thresholding_ratio",
+      "clip_sample_range"
+    ],
+    "_class_name": "DDIMScheduler",
+    "_diffusers_version": "0.6.0",
+    "skip_prk_steps": true
+  },
+  "audio_enters_diffusion_directly": false,
+  "trained_parameters_in_this_refinement_call": 0,
+  "geometry_lora": null,
+  "adapter_parameters_trained_before_inference": 0,
+  "long_method": "overlap-add denoiser estimates per global scheduler step"
+}

@@ -1,0 +1,6107 @@
+{
+  "pairs": 98,
+  "tracks": 14,
+  "fps": 8,
+  "split": "provisional_recording_grouped",
+  "aggregate": {
+    "correct": {
+      "mean_f1": 0.6878058944799155,
+      "mean_shifted_audio_f1": 0.28309652926796347,
+      "mean_coverage": 0.6925619165415084
+    },
+    "other_track": {
+      "mean_f1": 0.507938974702565,
+      "mean_shifted_audio_f1": 0.4557355745455097,
+      "mean_coverage": 0.5215817062755838
+    },
+    "shifted_1s": {
+      "mean_f1": 0.5295497570529138,
+      "mean_shifted_audio_f1": 0.4366214521277047,
+      "mean_coverage": 0.5315016049709926
+    },
+    "target": {
+      "mean_f1": 0.900716104791642,
+      "mean_shifted_audio_f1": 0.18443092565137048,
+      "mean_coverage": 0.8928435226904615
+    }
+  },
+  "results": [
+    {
+      "id": "37822a137333ecef_0.000__rings",
+      "track": "37822a137333ecef",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.7777777777777778,
+            "coverage": 1.0,
+            "f1": 0.8749999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.2857142857142857,
+            "f1": 0.2499999999995078
+          },
+          "events": 9,
+          "mean_frame_change": 2.387049436569214
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.7142857142857143,
+            "f1": 0.6249999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.42857142857142855,
+            "f1": 0.37499999999950784
+          },
+          "events": 9,
+          "mean_frame_change": 1.745384931564331
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.75,
+            "coverage": 0.8571428571428571,
+            "f1": 0.7999999999995021
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.2857142857142857,
+            "f1": 0.2666666666661689
+          },
+          "events": 8,
+          "mean_frame_change": 2.3381741046905518
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 0.8571428571428571,
+            "f1": 0.857142857142357
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.14285714285714285,
+            "coverage": 0.14285714285714285,
+            "f1": 0.14285714285664286
+          },
+          "events": 7,
+          "mean_frame_change": 17.85378646850586
+        }
+      }
+    },
+    {
+      "id": "37822a137333ecef_4.000__rings",
+      "track": "37822a137333ecef",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.8333333333333334,
+            "coverage": 0.7142857142857143,
+            "f1": 0.7692307692302721
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 6,
+          "mean_frame_change": 2.111143112182617
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.7142857142857143,
+            "f1": 0.6249999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4999999999995078
+          },
+          "events": 9,
+          "mean_frame_change": 1.745384931564331
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 0.8571428571428571,
+            "f1": 0.857142857142357
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.14285714285714285,
+            "coverage": 0.14285714285714285,
+            "f1": 0.14285714285664286
+          },
+          "events": 7,
+          "mean_frame_change": 2.320215940475464
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.14285714285714285,
+            "coverage": 0.14285714285714285,
+            "f1": 0.14285714285664286
+          },
+          "events": 7,
+          "mean_frame_change": 18.741641998291016
+        }
+      }
+    },
+    {
+      "id": "37822a137333ecef_8.000__rings",
+      "track": "37822a137333ecef",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.8333333333333334,
+            "coverage": 0.625,
+            "f1": 0.7142857142852245
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.16666666666666666,
+            "coverage": 0.125,
+            "f1": 0.14285714285665307
+          },
+          "events": 6,
+          "mean_frame_change": 2.2652411460876465
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5,
+            "f1": 0.4705882352936194
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.625,
+            "f1": 0.5882352941171487
+          },
+          "events": 9,
+          "mean_frame_change": 1.745384931564331
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.7142857142857143,
+            "coverage": 0.625,
+            "f1": 0.6666666666661688
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.14285714285714285,
+            "coverage": 0.125,
+            "f1": 0.13333333333283556
+          },
+          "events": 7,
+          "mean_frame_change": 2.3812057971954346
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 0.75,
+            "f1": 0.7999999999995021
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2857142857142857,
+            "coverage": 0.25,
+            "f1": 0.2666666666661689
+          },
+          "events": 7,
+          "mean_frame_change": 18.509855270385742
+        }
+      }
+    },
+    {
+      "id": "37822a137333ecef_12.000__rings",
+      "track": "37822a137333ecef",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.625,
+            "coverage": 0.7142857142857143,
+            "f1": 0.6666666666661688
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.2857142857142857,
+            "f1": 0.2666666666661689
+          },
+          "events": 8,
+          "mean_frame_change": 1.8647342920303345
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4999999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.1111111111111111,
+            "coverage": 0.14285714285714285,
+            "f1": 0.12499999999950782
+          },
+          "events": 9,
+          "mean_frame_change": 1.745384931564331
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.7142857142857143,
+            "coverage": 0.7142857142857143,
+            "f1": 0.7142857142852143
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2857142857142857,
+            "coverage": 0.2857142857142857,
+            "f1": 0.2857142857137857
+          },
+          "events": 7,
+          "mean_frame_change": 1.9212626218795776
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.875,
+            "coverage": 1.0,
+            "f1": 0.9333333333328355
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.14285714285714285,
+            "f1": 0.13333333333283556
+          },
+          "events": 8,
+          "mean_frame_change": 21.119565963745117
+        }
+      }
+    },
+    {
+      "id": "37822a137333ecef_16.000__rings",
+      "track": "37822a137333ecef",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.8571428571428571,
+            "f1": 0.7499999999995077
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.42857142857142855,
+            "f1": 0.37499999999950784
+          },
+          "events": 9,
+          "mean_frame_change": 2.151231288909912
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.7142857142857143,
+            "f1": 0.6249999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4999999999995078
+          },
+          "events": 9,
+          "mean_frame_change": 1.745384931564331
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.625,
+            "coverage": 0.7142857142857143,
+            "f1": 0.6666666666661688
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.2857142857142857,
+            "f1": 0.2666666666661689
+          },
+          "events": 8,
+          "mean_frame_change": 2.317286252975464
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 0.8571428571428571,
+            "f1": 0.857142857142357
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.14285714285714285,
+            "coverage": 0.14285714285714285,
+            "f1": 0.14285714285664286
+          },
+          "events": 7,
+          "mean_frame_change": 19.93657112121582
+        }
+      }
+    },
+    {
+      "id": "37822a137333ecef_20.000__rings",
+      "track": "37822a137333ecef",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.75,
+            "coverage": 0.75,
+            "f1": 0.7499999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.125,
+            "f1": 0.12499999999950001
+          },
+          "events": 8,
+          "mean_frame_change": 1.670091152191162
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5,
+            "f1": 0.4705882352936194
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.625,
+            "f1": 0.5882352941171487
+          },
+          "events": 9,
+          "mean_frame_change": 1.745384931564331
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.6,
+            "coverage": 0.75,
+            "f1": 0.6666666666661727
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4,
+            "coverage": 0.5,
+            "f1": 0.44444444444395065
+          },
+          "events": 10,
+          "mean_frame_change": 2.1414597034454346
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.875,
+            "f1": 0.9333333333328355
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.42857142857142855,
+            "coverage": 0.375,
+            "f1": 0.3999999999995022
+          },
+          "events": 7,
+          "mean_frame_change": 19.319393157958984
+        }
+      }
+    },
+    {
+      "id": "37822a137333ecef_24.000__rings",
+      "track": "37822a137333ecef",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.5714285714285714,
+            "coverage": 0.5714285714285714,
+            "f1": 0.5714285714280714
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2857142857142857,
+            "coverage": 0.2857142857142857,
+            "f1": 0.2857142857137857
+          },
+          "events": 7,
+          "mean_frame_change": 2.364990234375
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4999999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.42857142857142855,
+            "f1": 0.37499999999950784
+          },
+          "events": 9,
+          "mean_frame_change": 1.745384931564331
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.6,
+            "coverage": 0.42857142857142855,
+            "f1": 0.49999999999951383
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 5,
+          "mean_frame_change": 2.601722002029419
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 0.8571428571428571,
+            "f1": 0.857142857142357
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 7,
+          "mean_frame_change": 20.18083381652832
+        }
+      }
+    },
+    {
+      "id": "3c39504c76364c37_0.000__rings",
+      "track": "3c39504c76364c37",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4999999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.2857142857142857,
+            "f1": 0.2499999999995078
+          },
+          "events": 9,
+          "mean_frame_change": 1.745384931564331
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4999999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.2857142857142857,
+            "f1": 0.2499999999995078
+          },
+          "events": 9,
+          "mean_frame_change": 3.413881301879883
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.5714285714285714,
+            "f1": 0.5333333333328355
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.42857142857142855,
+            "f1": 0.3999999999995022
+          },
+          "events": 8,
+          "mean_frame_change": 1.782911777496338
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.75,
+            "coverage": 0.8571428571428571,
+            "f1": 0.7999999999995021
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.42857142857142855,
+            "f1": 0.3999999999995022
+          },
+          "events": 8,
+          "mean_frame_change": 17.419431686401367
+        }
+      }
+    },
+    {
+      "id": "3c39504c76364c37_4.000__rings",
+      "track": "3c39504c76364c37",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.8333333333333334,
+            "f1": 0.6666666666661867
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.3333333333333333,
+            "f1": 0.26666666666618666
+          },
+          "events": 9,
+          "mean_frame_change": 2.543799638748169
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.5,
+            "f1": 0.39999999999952
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.5,
+            "f1": 0.39999999999952
+          },
+          "events": 9,
+          "mean_frame_change": 3.413881301879883
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.3333333333333333,
+            "f1": 0.26666666666618666
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.5,
+            "f1": 0.39999999999952
+          },
+          "events": 9,
+          "mean_frame_change": 2.7175371646881104
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6666666666661666
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.3333333333333333,
+            "f1": 0.3333333333328333
+          },
+          "events": 6,
+          "mean_frame_change": 17.8458309173584
+        }
+      }
+    },
+    {
+      "id": "3c39504c76364c37_8.000__rings",
+      "track": "3c39504c76364c37",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 1.0,
+            "f1": 0.6666666666662222
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4166666666666667,
+            "coverage": 0.8333333333333334,
+            "f1": 0.5555555555551112
+          },
+          "events": 12,
+          "mean_frame_change": 3.290625810623169
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.5,
+            "f1": 0.39999999999952
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.5,
+            "f1": 0.39999999999952
+          },
+          "events": 9,
+          "mean_frame_change": 3.413881301879883
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.45454545454545453,
+            "coverage": 0.8333333333333334,
+            "f1": 0.5882352941171903
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.09090909090909091,
+            "coverage": 0.16666666666666666,
+            "f1": 0.11764705882307268
+          },
+          "events": 11,
+          "mean_frame_change": 3.1753697395324707
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 1.0,
+            "f1": 0.9230769230764259
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 7,
+          "mean_frame_change": 19.701841354370117
+        }
+      }
+    },
+    {
+      "id": "3c39504c76364c37_12.000__rings",
+      "track": "3c39504c76364c37",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4999999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.2857142857142857,
+            "f1": 0.2499999999995078
+          },
+          "events": 9,
+          "mean_frame_change": 2.174489736557007
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4999999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.2857142857142857,
+            "f1": 0.2499999999995078
+          },
+          "events": 9,
+          "mean_frame_change": 3.413881301879883
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.5714285714285714,
+            "f1": 0.5333333333328355
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.42857142857142855,
+            "f1": 0.3999999999995022
+          },
+          "events": 8,
+          "mean_frame_change": 2.195091962814331
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 0.8571428571428571,
+            "f1": 0.857142857142357
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.42857142857142855,
+            "coverage": 0.42857142857142855,
+            "f1": 0.42857142857092856
+          },
+          "events": 7,
+          "mean_frame_change": 18.095102310180664
+        }
+      }
+    },
+    {
+      "id": "3c39504c76364c37_16.000__rings",
+      "track": "3c39504c76364c37",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.3,
+            "coverage": 0.5,
+            "f1": 0.3749999999995312
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3,
+            "coverage": 0.5,
+            "f1": 0.3749999999995312
+          },
+          "events": 10,
+          "mean_frame_change": 2.135878086090088
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.5,
+            "f1": 0.39999999999952
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.5,
+            "f1": 0.39999999999952
+          },
+          "events": 9,
+          "mean_frame_change": 3.413881301879883
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.3333333333333333,
+            "f1": 0.26666666666618666
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.6666666666666666,
+            "f1": 0.5333333333328533
+          },
+          "events": 9,
+          "mean_frame_change": 1.9891278743743896
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 1.0,
+            "f1": 0.9230769230764259
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 7,
+          "mean_frame_change": 18.88504409790039
+        }
+      }
+    },
+    {
+      "id": "3c39504c76364c37_20.000__rings",
+      "track": "3c39504c76364c37",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 1.0,
+            "f1": 0.79999999999952
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.3333333333333333,
+            "f1": 0.26666666666618666
+          },
+          "events": 9,
+          "mean_frame_change": 3.3943679332733154
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.5,
+            "f1": 0.39999999999952
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.5,
+            "f1": 0.39999999999952
+          },
+          "events": 9,
+          "mean_frame_change": 3.413881301879883
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.5,
+            "f1": 0.39999999999952
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.1111111111111111,
+            "coverage": 0.16666666666666666,
+            "f1": 0.13333333333285333
+          },
+          "events": 9,
+          "mean_frame_change": 3.3183159828186035
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 1.0,
+            "f1": 0.9230769230764259
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 7,
+          "mean_frame_change": 23.857912063598633
+        }
+      }
+    },
+    {
+      "id": "3c39504c76364c37_24.000__rings",
+      "track": "3c39504c76364c37",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.7142857142857143,
+            "f1": 0.6249999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4999999999995078
+          },
+          "events": 9,
+          "mean_frame_change": 2.2896077632904053
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4999999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.42857142857142855,
+            "f1": 0.37499999999950784
+          },
+          "events": 9,
+          "mean_frame_change": 3.413881301879883
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.375,
+            "coverage": 0.42857142857142855,
+            "f1": 0.3999999999995022
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.5714285714285714,
+            "f1": 0.5333333333328355
+          },
+          "events": 8,
+          "mean_frame_change": 2.202953815460205
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.8571428571428571,
+            "f1": 0.9230769230764259
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 6,
+          "mean_frame_change": 16.615461349487305
+        }
+      }
+    },
+    {
+      "id": "3cf4b62cef5f4841_0.000__rings",
+      "track": "3cf4b62cef5f4841",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.7777777777777778,
+            "coverage": 0.7777777777777778,
+            "f1": 0.7777777777772777
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.2222222222222222,
+            "f1": 0.22222222222172222
+          },
+          "events": 9,
+          "mean_frame_change": 3.413881301879883
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.6,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6315789473679224
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4,
+            "coverage": 0.4444444444444444,
+            "f1": 0.4210526315784488
+          },
+          "events": 10,
+          "mean_frame_change": 1.8186862468719482
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.6,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6315789473679224
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5263157894731856
+          },
+          "events": 10,
+          "mean_frame_change": 3.575974941253662
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 9,
+          "mean_frame_change": 20.25785255432129
+        }
+      }
+    },
+    {
+      "id": "3cf4b62cef5f4841_4.000__rings",
+      "track": "3cf4b62cef5f4841",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.7777777777777778,
+            "f1": 0.8749999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 7,
+          "mean_frame_change": 3.198330879211426
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5263157894731856
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5263157894731856
+          },
+          "events": 10,
+          "mean_frame_change": 1.8186862468719482
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 0.6666666666666666,
+            "f1": 0.7499999999995077
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.42857142857142855,
+            "coverage": 0.3333333333333333,
+            "f1": 0.37499999999950784
+          },
+          "events": 7,
+          "mean_frame_change": 2.869788408279419
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 9,
+          "mean_frame_change": 21.3563175201416
+        }
+      }
+    },
+    {
+      "id": "3cf4b62cef5f4841_8.000__rings",
+      "track": "3cf4b62cef5f4841",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6666666666661666
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.3333333333333333,
+            "f1": 0.3333333333328333
+          },
+          "events": 9,
+          "mean_frame_change": 3.1190874576568604
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.6,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6315789473679224
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6315789473679224
+          },
+          "events": 10,
+          "mean_frame_change": 1.8186862468719482
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.6,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6315789473679224
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6315789473679224
+          },
+          "events": 10,
+          "mean_frame_change": 3.0820155143737793
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 9,
+          "mean_frame_change": 20.698993682861328
+        }
+      }
+    },
+    {
+      "id": "3cf4b62cef5f4841_12.000__rings",
+      "track": "3cf4b62cef5f4841",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5555555555550555
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.4444444444444444,
+            "f1": 0.44444444444394443
+          },
+          "events": 9,
+          "mean_frame_change": 2.5919406414031982
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5263157894731856
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5263157894731856
+          },
+          "events": 10,
+          "mean_frame_change": 1.8186862468719482
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.42857142857142855,
+            "coverage": 0.3333333333333333,
+            "f1": 0.37499999999950784
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.7142857142857143,
+            "coverage": 0.5555555555555556,
+            "f1": 0.6249999999995078
+          },
+          "events": 7,
+          "mean_frame_change": 2.734375
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.7777777777777778,
+            "coverage": 0.7777777777777778,
+            "f1": 0.7777777777772777
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.3333333333333333,
+            "f1": 0.3333333333328333
+          },
+          "events": 9,
+          "mean_frame_change": 18.56001091003418
+        }
+      }
+    },
+    {
+      "id": "3cf4b62cef5f4841_16.000__rings",
+      "track": "3cf4b62cef5f4841",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6666666666661666
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.3333333333333333,
+            "f1": 0.3333333333328333
+          },
+          "events": 9,
+          "mean_frame_change": 3.0195372104644775
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.6,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6315789473679224
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4,
+            "coverage": 0.4444444444444444,
+            "f1": 0.4210526315784488
+          },
+          "events": 10,
+          "mean_frame_change": 1.8186862468719482
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.7777777777777778,
+            "coverage": 0.7777777777777778,
+            "f1": 0.7777777777772777
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6666666666661666
+          },
+          "events": 9,
+          "mean_frame_change": 3.220177412033081
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8888888888888888,
+            "coverage": 0.8888888888888888,
+            "f1": 0.8888888888883888
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.3333333333333333,
+            "f1": 0.3333333333328333
+          },
+          "events": 9,
+          "mean_frame_change": 18.916362762451172
+        }
+      }
+    },
+    {
+      "id": "3cf4b62cef5f4841_20.000__rings",
+      "track": "3cf4b62cef5f4841",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.8333333333333334,
+            "coverage": 0.5555555555555556,
+            "f1": 0.6666666666661867
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.16666666666666666,
+            "coverage": 0.1111111111111111,
+            "f1": 0.13333333333285333
+          },
+          "events": 6,
+          "mean_frame_change": 2.824191093444824
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5263157894731856
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5263157894731856
+          },
+          "events": 10,
+          "mean_frame_change": 1.8186862468719482
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5714285714285714,
+            "coverage": 0.4444444444444444,
+            "f1": 0.4999999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5714285714285714,
+            "coverage": 0.4444444444444444,
+            "f1": 0.4999999999995078
+          },
+          "events": 7,
+          "mean_frame_change": 2.587965488433838
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.8888888888888888,
+            "f1": 0.9411764705877369
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.3333333333333333,
+            "f1": 0.35294117647009
+          },
+          "events": 8,
+          "mean_frame_change": 19.471891403198242
+        }
+      }
+    },
+    {
+      "id": "3cf4b62cef5f4841_24.000__rings",
+      "track": "3cf4b62cef5f4841",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6666666666661666
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.3333333333333333,
+            "f1": 0.3333333333328333
+          },
+          "events": 9,
+          "mean_frame_change": 2.7051589488983154
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5263157894731856
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5263157894731856
+          },
+          "events": 10,
+          "mean_frame_change": 1.8186862468719482
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5263157894731856
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6315789473679224
+          },
+          "events": 10,
+          "mean_frame_change": 2.8356382846832275
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.7,
+            "coverage": 0.7777777777777778,
+            "f1": 0.7368421052626591
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4,
+            "coverage": 0.4444444444444444,
+            "f1": 0.4210526315784488
+          },
+          "events": 10,
+          "mean_frame_change": 19.080568313598633
+        }
+      }
+    },
+    {
+      "id": "46319c3a949c0b23_0.000__rings",
+      "track": "46319c3a949c0b23",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.8,
+            "coverage": 0.7272727272727273,
+            "f1": 0.761904761904263
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.45454545454545453,
+            "f1": 0.4761904761899773
+          },
+          "events": 10,
+          "mean_frame_change": 1.8186862468719482
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.8,
+            "coverage": 0.36363636363636365,
+            "f1": 0.49999999999957034
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4,
+            "coverage": 0.18181818181818182,
+            "f1": 0.24999999999957037
+          },
+          "events": 5,
+          "mean_frame_change": 3.444395065307617
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.7,
+            "coverage": 0.6363636363636364,
+            "f1": 0.6666666666661677
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.7,
+            "coverage": 0.6363636363636364,
+            "f1": 0.6666666666661677
+          },
+          "events": 10,
+          "mean_frame_change": 1.8975476026535034
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.9090909090909091,
+            "f1": 0.9523809523804534
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.1,
+            "coverage": 0.09090909090909091,
+            "f1": 0.09523809523759638
+          },
+          "events": 10,
+          "mean_frame_change": 21.66423225402832
+        }
+      }
+    },
+    {
+      "id": "46319c3a949c0b23_4.000__rings",
+      "track": "46319c3a949c0b23",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.9090909090909091,
+            "coverage": 1.0,
+            "f1": 0.9523809523804534
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.09090909090909091,
+            "coverage": 0.1,
+            "f1": 0.09523809523759638
+          },
+          "events": 11,
+          "mean_frame_change": 5.516800403594971
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.6,
+            "coverage": 0.3,
+            "f1": 0.3999999999995556
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.8,
+            "coverage": 0.4,
+            "f1": 0.5333333333328889
+          },
+          "events": 5,
+          "mean_frame_change": 3.444395065307617
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.4,
+            "coverage": 0.4,
+            "f1": 0.3999999999995001
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.7,
+            "coverage": 0.7,
+            "f1": 0.6999999999994999
+          },
+          "events": 10,
+          "mean_frame_change": 5.04746150970459
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.9,
+            "f1": 0.947368421052133
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.1111111111111111,
+            "coverage": 0.1,
+            "f1": 0.10526315789423824
+          },
+          "events": 9,
+          "mean_frame_change": 27.34440040588379
+        }
+      }
+    },
+    {
+      "id": "46319c3a949c0b23_8.000__rings",
+      "track": "46319c3a949c0b23",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.375,
+            "coverage": 0.2727272727272727,
+            "f1": 0.315789473683723
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.625,
+            "coverage": 0.45454545454545453,
+            "f1": 0.5263157894731966
+          },
+          "events": 8,
+          "mean_frame_change": 2.7025344371795654
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.8,
+            "coverage": 0.36363636363636365,
+            "f1": 0.49999999999957034
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.8,
+            "coverage": 0.36363636363636365,
+            "f1": 0.49999999999957034
+          },
+          "events": 5,
+          "mean_frame_change": 3.444395065307617
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.42857142857142855,
+            "coverage": 0.2727272727272727,
+            "f1": 0.333333333332858
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.8571428571428571,
+            "coverage": 0.5454545454545454,
+            "f1": 0.6666666666661912
+          },
+          "events": 7,
+          "mean_frame_change": 2.8696072101593018
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8,
+            "coverage": 0.7272727272727273,
+            "f1": 0.761904761904263
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4,
+            "coverage": 0.36363636363636365,
+            "f1": 0.3809523809518821
+          },
+          "events": 10,
+          "mean_frame_change": 22.009815216064453
+        }
+      }
+    },
+    {
+      "id": "46319c3a949c0b23_12.000__rings",
+      "track": "46319c3a949c0b23",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.5,
+            "f1": 0.49999999999949996
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6,
+            "coverage": 0.6,
+            "f1": 0.5999999999994999
+          },
+          "events": 10,
+          "mean_frame_change": 4.320698261260986
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.8,
+            "coverage": 0.4,
+            "f1": 0.5333333333328889
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.8,
+            "coverage": 0.4,
+            "f1": 0.5333333333328889
+          },
+          "events": 5,
+          "mean_frame_change": 3.444395065307617
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.7,
+            "coverage": 0.7,
+            "f1": 0.6999999999994999
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.5,
+            "f1": 0.49999999999949996
+          },
+          "events": 10,
+          "mean_frame_change": 4.0871663093566895
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.7,
+            "coverage": 0.7,
+            "f1": 0.6999999999994999
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2,
+            "coverage": 0.2,
+            "f1": 0.19999999999950005
+          },
+          "events": 10,
+          "mean_frame_change": 24.211589813232422
+        }
+      }
+    },
+    {
+      "id": "46319c3a949c0b23_16.000__rings",
+      "track": "46319c3a949c0b23",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.6363636363636364,
+            "f1": 0.7777777777773025
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.14285714285714285,
+            "coverage": 0.09090909090909091,
+            "f1": 0.11111111111063579
+          },
+          "events": 7,
+          "mean_frame_change": 2.057654619216919
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.8,
+            "coverage": 0.36363636363636365,
+            "f1": 0.49999999999957034
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6,
+            "coverage": 0.2727272727272727,
+            "f1": 0.3749999999995703
+          },
+          "events": 5,
+          "mean_frame_change": 3.444395065307617
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.16666666666666666,
+            "coverage": 0.09090909090909091,
+            "f1": 0.11764705882307268
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.8333333333333334,
+            "coverage": 0.45454545454545453,
+            "f1": 0.5882352941171903
+          },
+          "events": 6,
+          "mean_frame_change": 2.1354329586029053
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.9,
+            "coverage": 0.8181818181818182,
+            "f1": 0.8571428571423583
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2,
+            "coverage": 0.18181818181818182,
+            "f1": 0.19047619047569164
+          },
+          "events": 10,
+          "mean_frame_change": 21.6091251373291
+        }
+      }
+    },
+    {
+      "id": "46319c3a949c0b23_20.000__rings",
+      "track": "46319c3a949c0b23",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 0.6,
+            "f1": 0.705882352940692
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5714285714285714,
+            "coverage": 0.4,
+            "f1": 0.4705882352936332
+          },
+          "events": 7,
+          "mean_frame_change": 0.8051127791404724
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.8,
+            "coverage": 0.4,
+            "f1": 0.5333333333328889
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6,
+            "coverage": 0.3,
+            "f1": 0.3999999999995556
+          },
+          "events": 5,
+          "mean_frame_change": 3.444395065307617
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.3,
+            "f1": 0.3157894736837119
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.7777777777777778,
+            "coverage": 0.7,
+            "f1": 0.7368421052626591
+          },
+          "events": 9,
+          "mean_frame_change": 1.0014904737472534
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8181818181818182,
+            "coverage": 0.9,
+            "f1": 0.8571428571423583
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.45454545454545453,
+            "coverage": 0.5,
+            "f1": 0.4761904761899773
+          },
+          "events": 11,
+          "mean_frame_change": 20.93985366821289
+        }
+      }
+    },
+    {
+      "id": "46319c3a949c0b23_24.000__rings",
+      "track": "46319c3a949c0b23",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.09090909090909091,
+            "coverage": 0.09090909090909091,
+            "f1": 0.09090909090859091
+          },
+          "events": 11,
+          "mean_frame_change": 6.44357967376709
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.4,
+            "coverage": 0.18181818181818182,
+            "f1": 0.24999999999957037
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.8,
+            "coverage": 0.36363636363636365,
+            "f1": 0.49999999999957034
+          },
+          "events": 5,
+          "mean_frame_change": 3.444395065307617
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.2727272727272727,
+            "f1": 0.299999999999505
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.7777777777777778,
+            "coverage": 0.6363636363636364,
+            "f1": 0.699999999999505
+          },
+          "events": 9,
+          "mean_frame_change": 5.874635696411133
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.09090909090909091,
+            "coverage": 0.09090909090909091,
+            "f1": 0.09090909090859091
+          },
+          "events": 11,
+          "mean_frame_change": 32.25956726074219
+        }
+      }
+    },
+    {
+      "id": "4b6c42f5dc2b5059_0.000__rings",
+      "track": "4b6c42f5dc2b5059",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.8,
+            "coverage": 0.4444444444444444,
+            "f1": 0.5714285714281122
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2,
+            "coverage": 0.1111111111111111,
+            "f1": 0.1428571428566837
+          },
+          "events": 5,
+          "mean_frame_change": 3.444395065307617
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.25,
+            "coverage": 0.2222222222222222,
+            "f1": 0.23529411764656055
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.75,
+            "coverage": 0.6666666666666666,
+            "f1": 0.7058823529406782
+          },
+          "events": 8,
+          "mean_frame_change": 3.752588987350464
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.4444444444444444,
+            "f1": 0.5333333333328533
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.3333333333333333,
+            "f1": 0.39999999999952
+          },
+          "events": 6,
+          "mean_frame_change": 3.4262537956237793
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8888888888888888,
+            "coverage": 0.8888888888888888,
+            "f1": 0.8888888888883888
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.2222222222222222,
+            "f1": 0.22222222222172222
+          },
+          "events": 9,
+          "mean_frame_change": 20.290372848510742
+        }
+      }
+    },
+    {
+      "id": "4b6c42f5dc2b5059_4.000__rings",
+      "track": "4b6c42f5dc2b5059",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.6666666666666666,
+            "f1": 0.79999999999952
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.16666666666666666,
+            "coverage": 0.1111111111111111,
+            "f1": 0.13333333333285333
+          },
+          "events": 6,
+          "mean_frame_change": 3.791834592819214
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.625,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5882352941171487
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.625,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5882352941171487
+          },
+          "events": 8,
+          "mean_frame_change": 3.752588987350464
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.8333333333333334,
+            "coverage": 0.5555555555555556,
+            "f1": 0.6666666666661867
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.4444444444444444,
+            "f1": 0.5333333333328533
+          },
+          "events": 6,
+          "mean_frame_change": 3.826817750930786
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8888888888888888,
+            "coverage": 0.8888888888888888,
+            "f1": 0.8888888888883888
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.3333333333333333,
+            "f1": 0.3333333333328333
+          },
+          "events": 9,
+          "mean_frame_change": 21.397687911987305
+        }
+      }
+    },
+    {
+      "id": "4b6c42f5dc2b5059_8.000__rings",
+      "track": "4b6c42f5dc2b5059",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.875,
+            "f1": 0.9333333333328355
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.14285714285714285,
+            "coverage": 0.125,
+            "f1": 0.13333333333283556
+          },
+          "events": 7,
+          "mean_frame_change": 3.4650800228118896
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.5,
+            "f1": 0.49999999999949996
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.375,
+            "f1": 0.3749999999995
+          },
+          "events": 8,
+          "mean_frame_change": 3.752588987350464
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.42857142857142855,
+            "coverage": 0.375,
+            "f1": 0.3999999999995022
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.7142857142857143,
+            "coverage": 0.625,
+            "f1": 0.6666666666661688
+          },
+          "events": 7,
+          "mean_frame_change": 3.6188788414001465
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.875,
+            "coverage": 0.875,
+            "f1": 0.8749999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.125,
+            "f1": 0.12499999999950001
+          },
+          "events": 8,
+          "mean_frame_change": 18.432296752929688
+        }
+      }
+    },
+    {
+      "id": "4b6c42f5dc2b5059_12.000__rings",
+      "track": "4b6c42f5dc2b5059",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.875,
+            "coverage": 0.7777777777777778,
+            "f1": 0.8235294117642077
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.1111111111111111,
+            "f1": 0.11764705882303114
+          },
+          "events": 8,
+          "mean_frame_change": 1.9761037826538086
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.375,
+            "coverage": 0.3333333333333333,
+            "f1": 0.35294117647009
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.625,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5882352941171487
+          },
+          "events": 8,
+          "mean_frame_change": 3.752588987350464
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.3333333333333333,
+            "f1": 0.39999999999952
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.3333333333333333,
+            "f1": 0.39999999999952
+          },
+          "events": 6,
+          "mean_frame_change": 2.2737820148468018
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.1111111111111111,
+            "coverage": 0.1111111111111111,
+            "f1": 0.1111111111106111
+          },
+          "events": 9,
+          "mean_frame_change": 18.095308303833008
+        }
+      }
+    },
+    {
+      "id": "4b6c42f5dc2b5059_16.000__rings",
+      "track": "4b6c42f5dc2b5059",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.625,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5882352941171487
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.3333333333333333,
+            "f1": 0.35294117647009
+          },
+          "events": 8,
+          "mean_frame_change": 2.6947789192199707
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.625,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5882352941171487
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.4444444444444444,
+            "f1": 0.4705882352936194
+          },
+          "events": 8,
+          "mean_frame_change": 3.752588987350464
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5555555555550555
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6666666666661666
+          },
+          "events": 9,
+          "mean_frame_change": 2.1339879035949707
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.8888888888888888,
+            "f1": 0.9411764705877369
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.1111111111111111,
+            "f1": 0.11764705882303114
+          },
+          "events": 8,
+          "mean_frame_change": 19.074012756347656
+        }
+      }
+    },
+    {
+      "id": "4b6c42f5dc2b5059_20.000__rings",
+      "track": "4b6c42f5dc2b5059",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.8333333333333334,
+            "coverage": 0.625,
+            "f1": 0.7142857142852245
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 6,
+          "mean_frame_change": 1.778851866722107
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.5,
+            "f1": 0.49999999999949996
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.375,
+            "f1": 0.3749999999995
+          },
+          "events": 8,
+          "mean_frame_change": 3.752588987350464
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.375,
+            "f1": 0.4285714285709388
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.25,
+            "f1": 0.2857142857137959
+          },
+          "events": 6,
+          "mean_frame_change": 2.0204250812530518
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.125,
+            "f1": 0.12499999999950001
+          },
+          "events": 8,
+          "mean_frame_change": 14.982575416564941
+        }
+      }
+    },
+    {
+      "id": "4b6c42f5dc2b5059_24.000__rings",
+      "track": "4b6c42f5dc2b5059",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 0.6666666666666666,
+            "f1": 0.7499999999995077
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.14285714285714285,
+            "coverage": 0.1111111111111111,
+            "f1": 0.12499999999950782
+          },
+          "events": 7,
+          "mean_frame_change": 3.0332581996917725
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.375,
+            "coverage": 0.3333333333333333,
+            "f1": 0.35294117647009
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.75,
+            "coverage": 0.6666666666666666,
+            "f1": 0.7058823529406782
+          },
+          "events": 8,
+          "mean_frame_change": 3.752588987350464
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.3333333333333333,
+            "f1": 0.39999999999952
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.4444444444444444,
+            "f1": 0.5333333333328533
+          },
+          "events": 6,
+          "mean_frame_change": 2.918787717819214
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.8888888888888888,
+            "f1": 0.9411764705877369
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 8,
+          "mean_frame_change": 25.04387664794922
+        }
+      }
+    },
+    {
+      "id": "5fb4aeab1dd3f19e_0.000__rings",
+      "track": "5fb4aeab1dd3f19e",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.625,
+            "coverage": 0.8333333333333334,
+            "f1": 0.7142857142852245
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.16666666666666666,
+            "f1": 0.14285714285665307
+          },
+          "events": 8,
+          "mean_frame_change": 3.752588987350464
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.375,
+            "coverage": 0.5,
+            "f1": 0.4285714285709388
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.6666666666666666,
+            "f1": 0.5714285714280817
+          },
+          "events": 8,
+          "mean_frame_change": 3.127539873123169
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.6666666666666666,
+            "f1": 0.5714285714280817
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.16666666666666666,
+            "f1": 0.14285714285665307
+          },
+          "events": 8,
+          "mean_frame_change": 3.2923171520233154
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8333333333333334,
+            "coverage": 0.8333333333333334,
+            "f1": 0.8333333333328333
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.16666666666666666,
+            "coverage": 0.16666666666666666,
+            "f1": 0.16666666666616667
+          },
+          "events": 6,
+          "mean_frame_change": 21.853069305419922
+        }
+      }
+    },
+    {
+      "id": "5fb4aeab1dd3f19e_4.000__rings",
+      "track": "5fb4aeab1dd3f19e",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 1.0,
+            "f1": 0.79999999999952
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.5,
+            "f1": 0.39999999999952
+          },
+          "events": 9,
+          "mean_frame_change": 3.363405227661133
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.375,
+            "coverage": 0.5,
+            "f1": 0.4285714285709388
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.6666666666666666,
+            "f1": 0.5714285714280817
+          },
+          "events": 8,
+          "mean_frame_change": 3.127539873123169
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.3333333333333333,
+            "f1": 0.26666666666618666
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.3333333333333333,
+            "f1": 0.26666666666618666
+          },
+          "events": 9,
+          "mean_frame_change": 3.3655455112457275
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.16666666666666666,
+            "coverage": 0.16666666666666666,
+            "f1": 0.16666666666616667
+          },
+          "events": 6,
+          "mean_frame_change": 20.37594223022461
+        }
+      }
+    },
+    {
+      "id": "5fb4aeab1dd3f19e_8.000__rings",
+      "track": "5fb4aeab1dd3f19e",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.625,
+            "coverage": 0.8333333333333334,
+            "f1": 0.7142857142852245
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.5,
+            "f1": 0.4285714285709388
+          },
+          "events": 8,
+          "mean_frame_change": 3.3458566665649414
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.6666666666666666,
+            "f1": 0.5714285714280817
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.3333333333333333,
+            "f1": 0.2857142857137959
+          },
+          "events": 8,
+          "mean_frame_change": 3.127539873123169
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.3,
+            "coverage": 0.5,
+            "f1": 0.3749999999995312
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3,
+            "coverage": 0.5,
+            "f1": 0.3749999999995312
+          },
+          "events": 10,
+          "mean_frame_change": 3.328428268432617
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 6,
+          "mean_frame_change": 20.030763626098633
+        }
+      }
+    },
+    {
+      "id": "5fb4aeab1dd3f19e_12.000__rings",
+      "track": "5fb4aeab1dd3f19e",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.7142857142857143,
+            "f1": 0.6249999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.7142857142857143,
+            "f1": 0.6249999999995078
+          },
+          "events": 9,
+          "mean_frame_change": 3.3655710220336914
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.25,
+            "coverage": 0.2857142857142857,
+            "f1": 0.2666666666661689
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.42857142857142855,
+            "f1": 0.3999999999995022
+          },
+          "events": 8,
+          "mean_frame_change": 3.127539873123169
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.125,
+            "coverage": 0.14285714285714285,
+            "f1": 0.13333333333283556
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.5714285714285714,
+            "f1": 0.5333333333328355
+          },
+          "events": 8,
+          "mean_frame_change": 4.140049934387207
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.8571428571428571,
+            "f1": 0.9230769230764259
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.16666666666666666,
+            "coverage": 0.14285714285714285,
+            "f1": 0.1538461538456568
+          },
+          "events": 6,
+          "mean_frame_change": 21.260501861572266
+        }
+      }
+    },
+    {
+      "id": "5fb4aeab1dd3f19e_16.000__rings",
+      "track": "5fb4aeab1dd3f19e",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.6666666666666666,
+            "f1": 0.5714285714280817
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.3333333333333333,
+            "f1": 0.2857142857137959
+          },
+          "events": 8,
+          "mean_frame_change": 3.5599405765533447
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.375,
+            "coverage": 0.5,
+            "f1": 0.4285714285709388
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.3333333333333333,
+            "f1": 0.2857142857137959
+          },
+          "events": 8,
+          "mean_frame_change": 3.127539873123169
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.6666666666666666,
+            "f1": 0.5714285714280817
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.16666666666666666,
+            "f1": 0.14285714285665307
+          },
+          "events": 8,
+          "mean_frame_change": 3.6635525226593018
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8333333333333334,
+            "coverage": 0.8333333333333334,
+            "f1": 0.8333333333328333
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.16666666666666666,
+            "coverage": 0.16666666666666666,
+            "f1": 0.16666666666616667
+          },
+          "events": 6,
+          "mean_frame_change": 19.647703170776367
+        }
+      }
+    },
+    {
+      "id": "5fb4aeab1dd3f19e_20.000__rings",
+      "track": "5fb4aeab1dd3f19e",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.6666666666666666,
+            "f1": 0.5714285714280817
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.5,
+            "f1": 0.4285714285709388
+          },
+          "events": 8,
+          "mean_frame_change": 3.5990402698516846
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.6666666666666666,
+            "f1": 0.5714285714280817
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.3333333333333333,
+            "f1": 0.2857142857137959
+          },
+          "events": 8,
+          "mean_frame_change": 3.127539873123169
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.16666666666666666,
+            "coverage": 0.16666666666666666,
+            "f1": 0.16666666666616667
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.3333333333333333,
+            "f1": 0.3333333333328333
+          },
+          "events": 6,
+          "mean_frame_change": 3.432591676712036
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 6,
+          "mean_frame_change": 20.94780158996582
+        }
+      }
+    },
+    {
+      "id": "5fb4aeab1dd3f19e_24.000__rings",
+      "track": "5fb4aeab1dd3f19e",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.6666666666666666,
+            "f1": 0.5714285714280817
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.5,
+            "f1": 0.4285714285709388
+          },
+          "events": 8,
+          "mean_frame_change": 3.9132394790649414
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.375,
+            "coverage": 0.5,
+            "f1": 0.4285714285709388
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.3333333333333333,
+            "f1": 0.2857142857137959
+          },
+          "events": 8,
+          "mean_frame_change": 3.127539873123169
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.2857142857142857,
+            "coverage": 0.3333333333333333,
+            "f1": 0.3076923076918106
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.42857142857142855,
+            "coverage": 0.5,
+            "f1": 0.46153846153796446
+          },
+          "events": 7,
+          "mean_frame_change": 3.4729220867156982
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.7142857142857143,
+            "coverage": 0.8333333333333334,
+            "f1": 0.7692307692302721
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.14285714285714285,
+            "coverage": 0.16666666666666666,
+            "f1": 0.1538461538456568
+          },
+          "events": 7,
+          "mean_frame_change": 20.974838256835938
+        }
+      }
+    },
+    {
+      "id": "62449208ca20fded_0.000__rings",
+      "track": "62449208ca20fded",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.875,
+            "coverage": 0.875,
+            "f1": 0.8749999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.375,
+            "f1": 0.3749999999995
+          },
+          "events": 8,
+          "mean_frame_change": 3.127539873123169
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.4,
+            "coverage": 0.25,
+            "f1": 0.3076923076918343
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4,
+            "coverage": 0.25,
+            "f1": 0.3076923076918343
+          },
+          "events": 5,
+          "mean_frame_change": 1.6962851285934448
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.875,
+            "coverage": 0.875,
+            "f1": 0.8749999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.25,
+            "f1": 0.2499999999995
+          },
+          "events": 8,
+          "mean_frame_change": 3.1397764682769775
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.125,
+            "f1": 0.12499999999950001
+          },
+          "events": 8,
+          "mean_frame_change": 16.949220657348633
+        }
+      }
+    },
+    {
+      "id": "62449208ca20fded_4.000__rings",
+      "track": "62449208ca20fded",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.7,
+            "coverage": 0.875,
+            "f1": 0.7777777777772839
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3,
+            "coverage": 0.375,
+            "f1": 0.3333333333328395
+          },
+          "events": 10,
+          "mean_frame_change": 4.106441497802734
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.6,
+            "coverage": 0.375,
+            "f1": 0.46153846153798816
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4,
+            "coverage": 0.25,
+            "f1": 0.3076923076918343
+          },
+          "events": 5,
+          "mean_frame_change": 1.6962851285934448
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.75,
+            "coverage": 0.75,
+            "f1": 0.7499999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.25,
+            "f1": 0.2499999999995
+          },
+          "events": 8,
+          "mean_frame_change": 4.176694869995117
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.875,
+            "f1": 0.9333333333328355
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 7,
+          "mean_frame_change": 18.758047103881836
+        }
+      }
+    },
+    {
+      "id": "62449208ca20fded_8.000__rings",
+      "track": "62449208ca20fded",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.75,
+            "coverage": 0.8571428571428571,
+            "f1": 0.7999999999995021
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.14285714285714285,
+            "f1": 0.13333333333283556
+          },
+          "events": 8,
+          "mean_frame_change": 3.6637120246887207
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.4,
+            "coverage": 0.2857142857142857,
+            "f1": 0.3333333333328472
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2,
+            "coverage": 0.14285714285714285,
+            "f1": 0.16666666666618055
+          },
+          "events": 5,
+          "mean_frame_change": 1.6962851285934448
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.5714285714285714,
+            "f1": 0.5333333333328355
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.42857142857142855,
+            "f1": 0.3999999999995022
+          },
+          "events": 8,
+          "mean_frame_change": 3.1190185546875
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2857142857142857,
+            "coverage": 0.2857142857142857,
+            "f1": 0.2857142857137857
+          },
+          "events": 7,
+          "mean_frame_change": 16.709285736083984
+        }
+      }
+    },
+    {
+      "id": "62449208ca20fded_12.000__rings",
+      "track": "62449208ca20fded",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.5454545454545454,
+            "coverage": 0.75,
+            "f1": 0.6315789473679334
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.36363636363636365,
+            "coverage": 0.5,
+            "f1": 0.42105263157845985
+          },
+          "events": 11,
+          "mean_frame_change": 2.972750663757324
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.4,
+            "coverage": 0.25,
+            "f1": 0.3076923076918343
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6,
+            "coverage": 0.375,
+            "f1": 0.46153846153798816
+          },
+          "events": 5,
+          "mean_frame_change": 1.6962851285934448
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.625,
+            "f1": 0.5882352941171487
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5,
+            "f1": 0.4705882352936194
+          },
+          "events": 9,
+          "mean_frame_change": 3.0075643062591553
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.125,
+            "f1": 0.12499999999950001
+          },
+          "events": 8,
+          "mean_frame_change": 17.639705657958984
+        }
+      }
+    },
+    {
+      "id": "62449208ca20fded_16.000__rings",
+      "track": "62449208ca20fded",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.875,
+            "coverage": 0.875,
+            "f1": 0.8749999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.125,
+            "f1": 0.12499999999950001
+          },
+          "events": 8,
+          "mean_frame_change": 3.8540472984313965
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.4,
+            "coverage": 0.25,
+            "f1": 0.3076923076918343
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2,
+            "coverage": 0.125,
+            "f1": 0.15384615384568048
+          },
+          "events": 5,
+          "mean_frame_change": 1.6962851285934448
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.75,
+            "coverage": 0.75,
+            "f1": 0.7499999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.25,
+            "f1": 0.2499999999995
+          },
+          "events": 8,
+          "mean_frame_change": 3.7816476821899414
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.875,
+            "f1": 0.9333333333328355
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.14285714285714285,
+            "coverage": 0.125,
+            "f1": 0.13333333333283556
+          },
+          "events": 7,
+          "mean_frame_change": 17.22572898864746
+        }
+      }
+    },
+    {
+      "id": "62449208ca20fded_20.000__rings",
+      "track": "62449208ca20fded",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.7142857142857143,
+            "coverage": 0.7142857142857143,
+            "f1": 0.7142857142852143
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2857142857142857,
+            "coverage": 0.2857142857142857,
+            "f1": 0.2857142857137857
+          },
+          "events": 7,
+          "mean_frame_change": 3.3450632095336914
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.2,
+            "coverage": 0.14285714285714285,
+            "f1": 0.16666666666618055
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2,
+            "coverage": 0.14285714285714285,
+            "f1": 0.16666666666618055
+          },
+          "events": 5,
+          "mean_frame_change": 1.6962851285934448
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.625,
+            "coverage": 0.7142857142857143,
+            "f1": 0.6666666666661688
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.2857142857142857,
+            "f1": 0.2666666666661689
+          },
+          "events": 8,
+          "mean_frame_change": 2.5587708950042725
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.42857142857142855,
+            "coverage": 0.42857142857142855,
+            "f1": 0.42857142857092856
+          },
+          "events": 7,
+          "mean_frame_change": 16.523330688476562
+        }
+      }
+    },
+    {
+      "id": "62449208ca20fded_24.000__rings",
+      "track": "62449208ca20fded",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.7777777777777778,
+            "coverage": 0.875,
+            "f1": 0.8235294117642077
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.25,
+            "f1": 0.23529411764656055
+          },
+          "events": 9,
+          "mean_frame_change": 3.1180222034454346
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.4,
+            "coverage": 0.25,
+            "f1": 0.3076923076918343
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6,
+            "coverage": 0.375,
+            "f1": 0.46153846153798816
+          },
+          "events": 5,
+          "mean_frame_change": 1.6962851285934448
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.5,
+            "f1": 0.49999999999949996
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.375,
+            "f1": 0.3749999999995
+          },
+          "events": 8,
+          "mean_frame_change": 3.3078396320343018
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 8,
+          "mean_frame_change": 16.635211944580078
+        }
+      }
+    },
+    {
+      "id": "76349f13b68ad9d1_0.000__rings",
+      "track": "76349f13b68ad9d1",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.6,
+            "coverage": 0.375,
+            "f1": 0.46153846153798816
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4,
+            "coverage": 0.25,
+            "f1": 0.3076923076918343
+          },
+          "events": 5,
+          "mean_frame_change": 1.6962851285934448
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.625,
+            "f1": 0.5882352941171487
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5,
+            "f1": 0.4705882352936194
+          },
+          "events": 9,
+          "mean_frame_change": 2.2424709796905518
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.8,
+            "coverage": 0.5,
+            "f1": 0.615384615384142
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2,
+            "coverage": 0.125,
+            "f1": 0.15384615384568048
+          },
+          "events": 5,
+          "mean_frame_change": 1.6009974479675293
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.875,
+            "coverage": 0.875,
+            "f1": 0.8749999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.125,
+            "f1": 0.12499999999950001
+          },
+          "events": 8,
+          "mean_frame_change": 20.089834213256836
+        }
+      }
+    },
+    {
+      "id": "76349f13b68ad9d1_4.000__rings",
+      "track": "76349f13b68ad9d1",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.42857142857142855,
+            "coverage": 0.375,
+            "f1": 0.3999999999995022
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5714285714285714,
+            "coverage": 0.5,
+            "f1": 0.5333333333328355
+          },
+          "events": 7,
+          "mean_frame_change": 1.4339303970336914
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.75,
+            "f1": 0.7058823529406782
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5,
+            "f1": 0.4705882352936194
+          },
+          "events": 9,
+          "mean_frame_change": 2.2424709796905518
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5714285714285714,
+            "coverage": 0.5,
+            "f1": 0.5333333333328355
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.42857142857142855,
+            "coverage": 0.375,
+            "f1": 0.3999999999995022
+          },
+          "events": 7,
+          "mean_frame_change": 1.5286037921905518
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.875,
+            "f1": 0.9333333333328355
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 7,
+          "mean_frame_change": 17.935550689697266
+        }
+      }
+    },
+    {
+      "id": "76349f13b68ad9d1_8.000__rings",
+      "track": "76349f13b68ad9d1",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4999999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4999999999995078
+          },
+          "events": 9,
+          "mean_frame_change": 1.6352952718734741
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4999999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4999999999995078
+          },
+          "events": 9,
+          "mean_frame_change": 2.2424709796905518
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.5714285714285714,
+            "f1": 0.5333333333328355
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.42857142857142855,
+            "f1": 0.3999999999995022
+          },
+          "events": 8,
+          "mean_frame_change": 1.8552442789077759
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.875,
+            "coverage": 1.0,
+            "f1": 0.9333333333328355
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.14285714285714285,
+            "f1": 0.13333333333283556
+          },
+          "events": 8,
+          "mean_frame_change": 20.464120864868164
+        }
+      }
+    },
+    {
+      "id": "76349f13b68ad9d1_12.000__rings",
+      "track": "76349f13b68ad9d1",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.7,
+            "coverage": 0.7777777777777778,
+            "f1": 0.7368421052626591
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4,
+            "coverage": 0.4444444444444444,
+            "f1": 0.4210526315784488
+          },
+          "events": 10,
+          "mean_frame_change": 2.823793411254883
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6666666666661666
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.4444444444444444,
+            "f1": 0.44444444444394443
+          },
+          "events": 9,
+          "mean_frame_change": 2.2424709796905518
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5555555555550555
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5555555555550555
+          },
+          "events": 9,
+          "mean_frame_change": 2.8447718620300293
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.9,
+            "coverage": 1.0,
+            "f1": 0.947368421052133
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2,
+            "coverage": 0.2222222222222222,
+            "f1": 0.2105263157889751
+          },
+          "events": 10,
+          "mean_frame_change": 22.024442672729492
+        }
+      }
+    },
+    {
+      "id": "76349f13b68ad9d1_16.000__rings",
+      "track": "76349f13b68ad9d1",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 0.75,
+            "f1": 0.7999999999995021
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.14285714285714285,
+            "coverage": 0.125,
+            "f1": 0.13333333333283556
+          },
+          "events": 7,
+          "mean_frame_change": 1.841956377029419
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.625,
+            "f1": 0.5882352941171487
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5,
+            "f1": 0.4705882352936194
+          },
+          "events": 9,
+          "mean_frame_change": 2.2424709796905518
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.75,
+            "f1": 0.8571428571423673
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.16666666666666666,
+            "coverage": 0.125,
+            "f1": 0.14285714285665307
+          },
+          "events": 6,
+          "mean_frame_change": 1.432166337966919
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 0.75,
+            "f1": 0.7999999999995021
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.42857142857142855,
+            "coverage": 0.375,
+            "f1": 0.3999999999995022
+          },
+          "events": 7,
+          "mean_frame_change": 19.546579360961914
+        }
+      }
+    },
+    {
+      "id": "76349f13b68ad9d1_20.000__rings",
+      "track": "76349f13b68ad9d1",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.7777777777777778,
+            "coverage": 0.7777777777777778,
+            "f1": 0.7777777777772777
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.3333333333333333,
+            "f1": 0.3333333333328333
+          },
+          "events": 9,
+          "mean_frame_change": 3.199693202972412
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5555555555550555
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5555555555550555
+          },
+          "events": 9,
+          "mean_frame_change": 2.2424709796905518
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.4444444444444444,
+            "f1": 0.4705882352936194
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.75,
+            "coverage": 0.6666666666666666,
+            "f1": 0.7058823529406782
+          },
+          "events": 8,
+          "mean_frame_change": 3.710325241088867
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.2222222222222222,
+            "f1": 0.22222222222172222
+          },
+          "events": 9,
+          "mean_frame_change": 23.7855224609375
+        }
+      }
+    },
+    {
+      "id": "76349f13b68ad9d1_24.000__rings",
+      "track": "76349f13b68ad9d1",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.7142857142857143,
+            "coverage": 0.5555555555555556,
+            "f1": 0.6249999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2857142857142857,
+            "coverage": 0.2222222222222222,
+            "f1": 0.2499999999995078
+          },
+          "events": 7,
+          "mean_frame_change": 3.291490077972412
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5555555555550555
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5555555555550555
+          },
+          "events": 9,
+          "mean_frame_change": 2.2424709796905518
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.42857142857142855,
+            "coverage": 0.3333333333333333,
+            "f1": 0.37499999999950784
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5714285714285714,
+            "coverage": 0.4444444444444444,
+            "f1": 0.4999999999995078
+          },
+          "events": 7,
+          "mean_frame_change": 3.0021796226501465
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.8888888888888888,
+            "f1": 0.9411764705877369
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.1111111111111111,
+            "f1": 0.11764705882303114
+          },
+          "events": 8,
+          "mean_frame_change": 21.33858299255371
+        }
+      }
+    },
+    {
+      "id": "7637ab3eb8248572_0.000__rings",
+      "track": "7637ab3eb8248572",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.5454545454545454,
+            "f1": 0.5999999999995049
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.36363636363636365,
+            "f1": 0.399999999999505
+          },
+          "events": 9,
+          "mean_frame_change": 2.2424709796905518
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.36363636363636365,
+            "f1": 0.42105263157845985
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.625,
+            "coverage": 0.45454545454545453,
+            "f1": 0.5263157894731966
+          },
+          "events": 8,
+          "mean_frame_change": 0.7830692529678345
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.45454545454545453,
+            "f1": 0.4761904761899773
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.7,
+            "coverage": 0.6363636363636364,
+            "f1": 0.6666666666661677
+          },
+          "events": 10,
+          "mean_frame_change": 2.5872960090637207
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.8181818181818182,
+            "f1": 0.899999999999505
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.18181818181818182,
+            "f1": 0.199999999999505
+          },
+          "events": 9,
+          "mean_frame_change": 20.807661056518555
+        }
+      }
+    },
+    {
+      "id": "7637ab3eb8248572_4.000__rings",
+      "track": "7637ab3eb8248572",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.8333333333333334,
+            "coverage": 0.5,
+            "f1": 0.6249999999995312
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.2,
+            "f1": 0.24999999999953126
+          },
+          "events": 6,
+          "mean_frame_change": 1.9962059259414673
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.8,
+            "f1": 0.888888888888395
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.2,
+            "f1": 0.2222222222217284
+          },
+          "events": 8,
+          "mean_frame_change": 0.7830692529678345
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.8333333333333334,
+            "coverage": 0.5,
+            "f1": 0.6249999999995312
+          },
+          "events": 6,
+          "mean_frame_change": 2.132958173751831
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.9,
+            "f1": 0.947368421052133
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.2,
+            "f1": 0.2105263157889751
+          },
+          "events": 9,
+          "mean_frame_change": 19.31484603881836
+        }
+      }
+    },
+    {
+      "id": "7637ab3eb8248572_8.000__rings",
+      "track": "7637ab3eb8248572",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.6,
+            "coverage": 0.3,
+            "f1": 0.3999999999995556
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4,
+            "coverage": 0.2,
+            "f1": 0.26666666666622224
+          },
+          "events": 5,
+          "mean_frame_change": 2.558199882507324
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.75,
+            "coverage": 0.6,
+            "f1": 0.6666666666661727
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.3,
+            "f1": 0.3333333333328395
+          },
+          "events": 8,
+          "mean_frame_change": 0.7830692529678345
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.2,
+            "f1": 0.24999999999953126
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.3,
+            "f1": 0.3749999999995312
+          },
+          "events": 6,
+          "mean_frame_change": 2.503429889678955
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8888888888888888,
+            "coverage": 0.8,
+            "f1": 0.8421052631573961
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.3,
+            "f1": 0.3157894736837119
+          },
+          "events": 9,
+          "mean_frame_change": 19.71524429321289
+        }
+      }
+    },
+    {
+      "id": "7637ab3eb8248572_12.000__rings",
+      "track": "7637ab3eb8248572",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.7777777777777778,
+            "coverage": 0.7,
+            "f1": 0.7368421052626591
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.3,
+            "f1": 0.3157894736837119
+          },
+          "events": 9,
+          "mean_frame_change": 2.387829303741455
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.75,
+            "coverage": 0.6,
+            "f1": 0.6666666666661727
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.625,
+            "coverage": 0.5,
+            "f1": 0.5555555555550616
+          },
+          "events": 8,
+          "mean_frame_change": 0.7830692529678345
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.3,
+            "f1": 0.3157894736837119
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.6,
+            "f1": 0.6315789473679224
+          },
+          "events": 9,
+          "mean_frame_change": 2.463961601257324
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8181818181818182,
+            "coverage": 0.9,
+            "f1": 0.8571428571423583
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.36363636363636365,
+            "coverage": 0.4,
+            "f1": 0.3809523809518821
+          },
+          "events": 11,
+          "mean_frame_change": 18.937179565429688
+        }
+      }
+    },
+    {
+      "id": "7637ab3eb8248572_16.000__rings",
+      "track": "7637ab3eb8248572",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.875,
+            "coverage": 0.6363636363636364,
+            "f1": 0.7368421052626704
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.18181818181818182,
+            "f1": 0.21052631578898617
+          },
+          "events": 8,
+          "mean_frame_change": 3.140307903289795
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.375,
+            "coverage": 0.2727272727272727,
+            "f1": 0.315789473683723
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.875,
+            "coverage": 0.6363636363636364,
+            "f1": 0.7368421052626704
+          },
+          "events": 8,
+          "mean_frame_change": 0.7830692529678345
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.2727272727272727,
+            "f1": 0.299999999999505
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.7777777777777778,
+            "coverage": 0.6363636363636364,
+            "f1": 0.699999999999505
+          },
+          "events": 9,
+          "mean_frame_change": 3.076748847961426
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.8181818181818182,
+            "f1": 0.899999999999505
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.1111111111111111,
+            "coverage": 0.09090909090909091,
+            "f1": 0.09999999999950498
+          },
+          "events": 9,
+          "mean_frame_change": 23.23086929321289
+        }
+      }
+    },
+    {
+      "id": "7637ab3eb8248572_20.000__rings",
+      "track": "7637ab3eb8248572",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.75,
+            "coverage": 0.6,
+            "f1": 0.6666666666661727
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.2,
+            "f1": 0.2222222222217284
+          },
+          "events": 8,
+          "mean_frame_change": 2.503746747970581
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.75,
+            "coverage": 0.6,
+            "f1": 0.6666666666661727
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.3,
+            "f1": 0.3333333333328395
+          },
+          "events": 8,
+          "mean_frame_change": 0.7830692529678345
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.6,
+            "coverage": 0.6,
+            "f1": 0.5999999999994999
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6,
+            "coverage": 0.6,
+            "f1": 0.5999999999994999
+          },
+          "events": 10,
+          "mean_frame_change": 2.814340829849243
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.9,
+            "coverage": 0.9,
+            "f1": 0.8999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2,
+            "coverage": 0.2,
+            "f1": 0.19999999999950005
+          },
+          "events": 10,
+          "mean_frame_change": 20.201570510864258
+        }
+      }
+    },
+    {
+      "id": "7637ab3eb8248572_24.000__rings",
+      "track": "7637ab3eb8248572",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 0.6,
+            "f1": 0.705882352940692
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 7,
+          "mean_frame_change": 3.2089293003082275
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.875,
+            "coverage": 0.7,
+            "f1": 0.7777777777772839
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.3,
+            "f1": 0.3333333333328395
+          },
+          "events": 8,
+          "mean_frame_change": 0.7830692529678345
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.375,
+            "coverage": 0.3,
+            "f1": 0.3333333333328395
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.75,
+            "coverage": 0.6,
+            "f1": 0.6666666666661727
+          },
+          "events": 8,
+          "mean_frame_change": 2.43035888671875
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.9,
+            "f1": 0.947368421052133
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.2,
+            "f1": 0.2105263157889751
+          },
+          "events": 9,
+          "mean_frame_change": 23.3070125579834
+        }
+      }
+    },
+    {
+      "id": "8c6ce8c489bd4779_0.000__rings",
+      "track": "8c6ce8c489bd4779",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.625,
+            "coverage": 0.7142857142857143,
+            "f1": 0.6666666666661688
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.625,
+            "coverage": 0.7142857142857143,
+            "f1": 0.6666666666661688
+          },
+          "events": 8,
+          "mean_frame_change": 0.7830692529678345
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.4,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4705882352936332
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4705882352936332
+          },
+          "events": 10,
+          "mean_frame_change": 3.873019218444824
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.375,
+            "coverage": 0.42857142857142855,
+            "f1": 0.3999999999995022
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.42857142857142855,
+            "f1": 0.3999999999995022
+          },
+          "events": 8,
+          "mean_frame_change": 0.8121377229690552
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.8571428571428571,
+            "f1": 0.9230769230764259
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.42857142857142855,
+            "f1": 0.46153846153796446
+          },
+          "events": 6,
+          "mean_frame_change": 13.359091758728027
+        }
+      }
+    },
+    {
+      "id": "8c6ce8c489bd4779_4.000__rings",
+      "track": "8c6ce8c489bd4779",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.375,
+            "coverage": 0.5,
+            "f1": 0.4285714285709388
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.5,
+            "f1": 0.4285714285709388
+          },
+          "events": 8,
+          "mean_frame_change": 1.7099077701568604
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.8333333333333334,
+            "f1": 0.6249999999995312
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3,
+            "coverage": 0.5,
+            "f1": 0.3749999999995312
+          },
+          "events": 10,
+          "mean_frame_change": 3.873019218444824
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.375,
+            "coverage": 0.5,
+            "f1": 0.4285714285709388
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.3333333333333333,
+            "f1": 0.2857142857137959
+          },
+          "events": 8,
+          "mean_frame_change": 1.661536455154419
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.625,
+            "coverage": 0.8333333333333334,
+            "f1": 0.7142857142852245
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.5,
+            "f1": 0.4285714285709388
+          },
+          "events": 8,
+          "mean_frame_change": 14.986152648925781
+        }
+      }
+    },
+    {
+      "id": "8c6ce8c489bd4779_8.000__rings",
+      "track": "8c6ce8c489bd4779",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.25,
+            "coverage": 0.3333333333333333,
+            "f1": 0.2857142857137959
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.6666666666666666,
+            "f1": 0.5714285714280817
+          },
+          "events": 8,
+          "mean_frame_change": 2.184519052505493
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.4,
+            "coverage": 0.6666666666666666,
+            "f1": 0.4999999999995312
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.8333333333333334,
+            "f1": 0.6249999999995312
+          },
+          "events": 10,
+          "mean_frame_change": 3.873019218444824
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.5,
+            "f1": 0.39999999999952
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.6666666666666666,
+            "f1": 0.5333333333328533
+          },
+          "events": 9,
+          "mean_frame_change": 2.0567469596862793
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 1.0,
+            "f1": 0.9230769230764259
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 7,
+          "mean_frame_change": 16.5423526763916
+        }
+      }
+    },
+    {
+      "id": "8c6ce8c489bd4779_12.000__rings",
+      "track": "8c6ce8c489bd4779",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 0.8571428571428571,
+            "f1": 0.857142857142357
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.14285714285714285,
+            "coverage": 0.14285714285714285,
+            "f1": 0.14285714285664286
+          },
+          "events": 7,
+          "mean_frame_change": 4.1834282875061035
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.4,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4705882352936332
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4705882352936332
+          },
+          "events": 10,
+          "mean_frame_change": 3.873019218444824
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.2857142857142857,
+            "f1": 0.3076923076918106
+          },
+          "events": 6,
+          "mean_frame_change": 4.628829479217529
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.8571428571428571,
+            "f1": 0.9230769230764259
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 6,
+          "mean_frame_change": 23.00310707092285
+        }
+      }
+    },
+    {
+      "id": "8c6ce8c489bd4779_16.000__rings",
+      "track": "8c6ce8c489bd4779",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6666666666661666
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 6,
+          "mean_frame_change": 2.034945487976074
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.8333333333333334,
+            "f1": 0.6249999999995312
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3,
+            "coverage": 0.5,
+            "f1": 0.3749999999995312
+          },
+          "events": 10,
+          "mean_frame_change": 3.873019218444824
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.14285714285714285,
+            "coverage": 0.16666666666666666,
+            "f1": 0.1538461538456568
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 7,
+          "mean_frame_change": 2.1478192806243896
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.75,
+            "coverage": 1.0,
+            "f1": 0.8571428571423673
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.6666666666666666,
+            "f1": 0.5714285714280817
+          },
+          "events": 8,
+          "mean_frame_change": 18.82373809814453
+        }
+      }
+    },
+    {
+      "id": "8c6ce8c489bd4779_20.000__rings",
+      "track": "8c6ce8c489bd4779",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.625,
+            "coverage": 0.8333333333333334,
+            "f1": 0.7142857142852245
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.3333333333333333,
+            "f1": 0.2857142857137959
+          },
+          "events": 8,
+          "mean_frame_change": 1.9282816648483276
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.4,
+            "coverage": 0.6666666666666666,
+            "f1": 0.4999999999995312
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.8333333333333334,
+            "f1": 0.6249999999995312
+          },
+          "events": 10,
+          "mean_frame_change": 3.873019218444824
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.2,
+            "coverage": 0.3333333333333333,
+            "f1": 0.24999999999953126
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6,
+            "coverage": 1.0,
+            "f1": 0.7499999999995312
+          },
+          "events": 10,
+          "mean_frame_change": 2.0791704654693604
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 1.0,
+            "f1": 0.9230769230764259
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 7,
+          "mean_frame_change": 15.192606925964355
+        }
+      }
+    },
+    {
+      "id": "8c6ce8c489bd4779_24.000__rings",
+      "track": "8c6ce8c489bd4779",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.8571428571428571,
+            "f1": 0.9230769230764259
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 6,
+          "mean_frame_change": 3.848790407180786
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.7142857142857143,
+            "f1": 0.5882352941171626
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4705882352936332
+          },
+          "events": 10,
+          "mean_frame_change": 3.873019218444824
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.2857142857142857,
+            "f1": 0.3076923076918106
+          },
+          "events": 6,
+          "mean_frame_change": 3.7909231185913086
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.8571428571428571,
+            "f1": 0.9230769230764259
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 6,
+          "mean_frame_change": 21.459497451782227
+        }
+      }
+    },
+    {
+      "id": "eb695bb6a6f788d7_0.000__rings",
+      "track": "eb695bb6a6f788d7",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.6,
+            "coverage": 0.75,
+            "f1": 0.6666666666661727
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4,
+            "coverage": 0.5,
+            "f1": 0.44444444444395065
+          },
+          "events": 10,
+          "mean_frame_change": 3.873019218444824
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.45454545454545453,
+            "coverage": 0.625,
+            "f1": 0.5263157894731966
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5454545454545454,
+            "coverage": 0.75,
+            "f1": 0.6315789473679334
+          },
+          "events": 11,
+          "mean_frame_change": 3.570034980773926
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5454545454545454,
+            "coverage": 0.75,
+            "f1": 0.6315789473679334
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.45454545454545453,
+            "coverage": 0.625,
+            "f1": 0.5263157894731966
+          },
+          "events": 11,
+          "mean_frame_change": 3.5128960609436035
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.875,
+            "f1": 0.9333333333328355
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.14285714285714285,
+            "coverage": 0.125,
+            "f1": 0.13333333333283556
+          },
+          "events": 7,
+          "mean_frame_change": 20.212560653686523
+        }
+      }
+    },
+    {
+      "id": "eb695bb6a6f788d7_4.000__rings",
+      "track": "eb695bb6a6f788d7",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.7,
+            "coverage": 1.0,
+            "f1": 0.8235294117642213
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2,
+            "coverage": 0.2857142857142857,
+            "f1": 0.2352941176465744
+          },
+          "events": 10,
+          "mean_frame_change": 3.2589051723480225
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.45454545454545453,
+            "coverage": 0.7142857142857143,
+            "f1": 0.5555555555550802
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5454545454545454,
+            "coverage": 0.8571428571428571,
+            "f1": 0.6666666666661912
+          },
+          "events": 11,
+          "mean_frame_change": 3.570034980773926
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.5714285714285714,
+            "f1": 0.5333333333328355
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.2857142857142857,
+            "f1": 0.2666666666661689
+          },
+          "events": 8,
+          "mean_frame_change": 3.4991867542266846
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.75,
+            "coverage": 0.8571428571428571,
+            "f1": 0.7999999999995021
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.14285714285714285,
+            "f1": 0.13333333333283556
+          },
+          "events": 8,
+          "mean_frame_change": 19.17749786376953
+        }
+      }
+    },
+    {
+      "id": "eb695bb6a6f788d7_8.000__rings",
+      "track": "eb695bb6a6f788d7",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5714285714285714,
+            "f1": 0.4999999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.42857142857142855,
+            "f1": 0.37499999999950784
+          },
+          "events": 9,
+          "mean_frame_change": 2.85284423828125
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5454545454545454,
+            "coverage": 0.8571428571428571,
+            "f1": 0.6666666666661912
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.45454545454545453,
+            "coverage": 0.7142857142857143,
+            "f1": 0.5555555555550802
+          },
+          "events": 11,
+          "mean_frame_change": 3.570034980773926
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.7777777777777778,
+            "coverage": 1.0,
+            "f1": 0.8749999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.42857142857142855,
+            "f1": 0.37499999999950784
+          },
+          "events": 9,
+          "mean_frame_change": 2.243372678756714
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2857142857142857,
+            "coverage": 0.2857142857142857,
+            "f1": 0.2857142857137857
+          },
+          "events": 7,
+          "mean_frame_change": 17.821916580200195
+        }
+      }
+    },
+    {
+      "id": "eb695bb6a6f788d7_12.000__rings",
+      "track": "eb695bb6a6f788d7",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.7777777777777778,
+            "coverage": 0.875,
+            "f1": 0.8235294117642077
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.25,
+            "f1": 0.23529411764656055
+          },
+          "events": 9,
+          "mean_frame_change": 3.1437575817108154
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.45454545454545453,
+            "coverage": 0.625,
+            "f1": 0.5263157894731966
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5454545454545454,
+            "coverage": 0.75,
+            "f1": 0.6315789473679334
+          },
+          "events": 11,
+          "mean_frame_change": 3.570034980773926
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.7777777777777778,
+            "coverage": 0.875,
+            "f1": 0.8235294117642077
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.25,
+            "f1": 0.23529411764656055
+          },
+          "events": 9,
+          "mean_frame_change": 3.0650200843811035
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.875,
+            "f1": 0.9333333333328355
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 7,
+          "mean_frame_change": 18.53134536743164
+        }
+      }
+    },
+    {
+      "id": "eb695bb6a6f788d7_16.000__rings",
+      "track": "eb695bb6a6f788d7",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.7777777777777778,
+            "coverage": 1.0,
+            "f1": 0.8749999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.1111111111111111,
+            "coverage": 0.14285714285714285,
+            "f1": 0.12499999999950782
+          },
+          "events": 9,
+          "mean_frame_change": 3.7730495929718018
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.45454545454545453,
+            "coverage": 0.7142857142857143,
+            "f1": 0.5555555555550802
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5454545454545454,
+            "coverage": 0.8571428571428571,
+            "f1": 0.6666666666661912
+          },
+          "events": 11,
+          "mean_frame_change": 3.570034980773926
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5714285714285714,
+            "coverage": 0.5714285714285714,
+            "f1": 0.5714285714280714
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2857142857142857,
+            "coverage": 0.2857142857142857,
+            "f1": 0.2857142857137857
+          },
+          "events": 7,
+          "mean_frame_change": 4.068455696105957
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.75,
+            "coverage": 0.8571428571428571,
+            "f1": 0.7999999999995021
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.14285714285714285,
+            "f1": 0.13333333333283556
+          },
+          "events": 8,
+          "mean_frame_change": 21.8646297454834
+        }
+      }
+    },
+    {
+      "id": "eb695bb6a6f788d7_20.000__rings",
+      "track": "eb695bb6a6f788d7",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.7142857142857143,
+            "coverage": 0.7142857142857143,
+            "f1": 0.7142857142852143
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2857142857142857,
+            "coverage": 0.2857142857142857,
+            "f1": 0.2857142857137857
+          },
+          "events": 7,
+          "mean_frame_change": 4.044784069061279
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5454545454545454,
+            "coverage": 0.8571428571428571,
+            "f1": 0.6666666666661912
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.45454545454545453,
+            "coverage": 0.7142857142857143,
+            "f1": 0.5555555555550802
+          },
+          "events": 11,
+          "mean_frame_change": 3.570034980773926
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.7142857142857143,
+            "f1": 0.6249999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.42857142857142855,
+            "f1": 0.37499999999950784
+          },
+          "events": 9,
+          "mean_frame_change": 3.3026182651519775
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 0.8571428571428571,
+            "f1": 0.857142857142357
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.42857142857142855,
+            "coverage": 0.42857142857142855,
+            "f1": 0.42857142857092856
+          },
+          "events": 7,
+          "mean_frame_change": 20.831655502319336
+        }
+      }
+    },
+    {
+      "id": "eb695bb6a6f788d7_24.000__rings",
+      "track": "eb695bb6a6f788d7",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.6,
+            "coverage": 0.75,
+            "f1": 0.6666666666661727
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3,
+            "coverage": 0.375,
+            "f1": 0.3333333333328395
+          },
+          "events": 10,
+          "mean_frame_change": 3.3532400131225586
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5454545454545454,
+            "coverage": 0.75,
+            "f1": 0.6315789473679334
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5454545454545454,
+            "coverage": 0.75,
+            "f1": 0.6315789473679334
+          },
+          "events": 11,
+          "mean_frame_change": 3.570034980773926
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.75,
+            "f1": 0.7058823529406782
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5,
+            "f1": 0.4705882352936194
+          },
+          "events": 9,
+          "mean_frame_change": 3.179845094680786
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.875,
+            "coverage": 0.875,
+            "f1": 0.8749999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.125,
+            "f1": 0.12499999999950001
+          },
+          "events": 8,
+          "mean_frame_change": 20.71453285217285
+        }
+      }
+    },
+    {
+      "id": "ed0d74bc15c52a55_0.000__rings",
+      "track": "ed0d74bc15c52a55",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.6363636363636364,
+            "coverage": 0.7777777777777778,
+            "f1": 0.699999999999505
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.45454545454545453,
+            "coverage": 0.5555555555555556,
+            "f1": 0.49999999999950495
+          },
+          "events": 11,
+          "mean_frame_change": 3.570034980773926
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.7142857142857143,
+            "coverage": 0.5555555555555556,
+            "f1": 0.6249999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5714285714285714,
+            "coverage": 0.4444444444444444,
+            "f1": 0.4999999999995078
+          },
+          "events": 7,
+          "mean_frame_change": 3.931959629058838
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.8888888888888888,
+            "f1": 0.7619047619042721
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5833333333333334,
+            "coverage": 0.7777777777777778,
+            "f1": 0.6666666666661768
+          },
+          "events": 12,
+          "mean_frame_change": 3.9170689582824707
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.3333333333333333,
+            "f1": 0.3333333333328333
+          },
+          "events": 9,
+          "mean_frame_change": 20.809961318969727
+        }
+      }
+    },
+    {
+      "id": "ed0d74bc15c52a55_4.000__rings",
+      "track": "ed0d74bc15c52a55",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.8333333333333334,
+            "coverage": 0.625,
+            "f1": 0.7142857142852245
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.25,
+            "f1": 0.2857142857137959
+          },
+          "events": 6,
+          "mean_frame_change": 3.4591143131256104
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.42857142857142855,
+            "coverage": 0.375,
+            "f1": 0.3999999999995022
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.42857142857142855,
+            "coverage": 0.375,
+            "f1": 0.3999999999995022
+          },
+          "events": 7,
+          "mean_frame_change": 3.931959629058838
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.5,
+            "f1": 0.5714285714280817
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.375,
+            "f1": 0.4285714285709388
+          },
+          "events": 6,
+          "mean_frame_change": 3.7517523765563965
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.875,
+            "coverage": 0.875,
+            "f1": 0.8749999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.125,
+            "f1": 0.12499999999950001
+          },
+          "events": 8,
+          "mean_frame_change": 20.326396942138672
+        }
+      }
+    },
+    {
+      "id": "ed0d74bc15c52a55_8.000__rings",
+      "track": "ed0d74bc15c52a55",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.7272727272727273,
+            "coverage": 0.8888888888888888,
+            "f1": 0.7999999999995049
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.36363636363636365,
+            "coverage": 0.4444444444444444,
+            "f1": 0.399999999999505
+          },
+          "events": 11,
+          "mean_frame_change": 3.6290953159332275
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.7142857142857143,
+            "coverage": 0.5555555555555556,
+            "f1": 0.6249999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5714285714285714,
+            "coverage": 0.4444444444444444,
+            "f1": 0.4999999999995078
+          },
+          "events": 7,
+          "mean_frame_change": 3.931959629058838
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6666666666661666
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5555555555550555
+          },
+          "events": 9,
+          "mean_frame_change": 3.6619913578033447
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8,
+            "coverage": 0.8888888888888888,
+            "f1": 0.8421052631573961
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4,
+            "coverage": 0.4444444444444444,
+            "f1": 0.4210526315784488
+          },
+          "events": 10,
+          "mean_frame_change": 21.673141479492188
+        }
+      }
+    },
+    {
+      "id": "ed0d74bc15c52a55_12.000__rings",
+      "track": "ed0d74bc15c52a55",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5555555555550555
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.4444444444444444,
+            "f1": 0.44444444444394443
+          },
+          "events": 9,
+          "mean_frame_change": 2.3745076656341553
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.42857142857142855,
+            "coverage": 0.3333333333333333,
+            "f1": 0.37499999999950784
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5714285714285714,
+            "coverage": 0.4444444444444444,
+            "f1": 0.4999999999995078
+          },
+          "events": 7,
+          "mean_frame_change": 3.931959629058838
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6666666666661666
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.3333333333333333,
+            "f1": 0.3333333333328333
+          },
+          "events": 9,
+          "mean_frame_change": 2.250978469848633
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.8888888888888888,
+            "f1": 0.9411764705877369
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.2222222222222222,
+            "f1": 0.23529411764656055
+          },
+          "events": 8,
+          "mean_frame_change": 19.29728126525879
+        }
+      }
+    },
+    {
+      "id": "ed0d74bc15c52a55_16.000__rings",
+      "track": "ed0d74bc15c52a55",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.5,
+            "f1": 0.49999999999949996
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.375,
+            "f1": 0.3749999999995
+          },
+          "events": 8,
+          "mean_frame_change": 3.1479058265686035
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5714285714285714,
+            "coverage": 0.5,
+            "f1": 0.5333333333328355
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.42857142857142855,
+            "coverage": 0.375,
+            "f1": 0.3999999999995022
+          },
+          "events": 7,
+          "mean_frame_change": 3.931959629058838
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.625,
+            "coverage": 0.625,
+            "f1": 0.6249999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.5,
+            "f1": 0.49999999999949996
+          },
+          "events": 8,
+          "mean_frame_change": 3.1305129528045654
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.7777777777777778,
+            "coverage": 0.875,
+            "f1": 0.8235294117642077
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.375,
+            "f1": 0.35294117647009
+          },
+          "events": 9,
+          "mean_frame_change": 21.501853942871094
+        }
+      }
+    },
+    {
+      "id": "ed0d74bc15c52a55_20.000__rings",
+      "track": "ed0d74bc15c52a55",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.875,
+            "coverage": 0.7777777777777778,
+            "f1": 0.8235294117642077
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.1111111111111111,
+            "f1": 0.11764705882303114
+          },
+          "events": 8,
+          "mean_frame_change": 4.436001777648926
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.42857142857142855,
+            "coverage": 0.3333333333333333,
+            "f1": 0.37499999999950784
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5714285714285714,
+            "coverage": 0.4444444444444444,
+            "f1": 0.4999999999995078
+          },
+          "events": 7,
+          "mean_frame_change": 3.931959629058838
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5555555555550555
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6666666666661666
+          },
+          "events": 9,
+          "mean_frame_change": 4.4643988609313965
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.2222222222222222,
+            "f1": 0.22222222222172222
+          },
+          "events": 9,
+          "mean_frame_change": 22.524639129638672
+        }
+      }
+    },
+    {
+      "id": "ed0d74bc15c52a55_24.000__rings",
+      "track": "ed0d74bc15c52a55",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.6,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6315789473679224
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4,
+            "coverage": 0.4444444444444444,
+            "f1": 0.4210526315784488
+          },
+          "events": 10,
+          "mean_frame_change": 3.218045234680176
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.42857142857142855,
+            "coverage": 0.3333333333333333,
+            "f1": 0.37499999999950784
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5714285714285714,
+            "coverage": 0.4444444444444444,
+            "f1": 0.4999999999995078
+          },
+          "events": 7,
+          "mean_frame_change": 3.931959629058838
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.7272727272727273,
+            "coverage": 0.8888888888888888,
+            "f1": 0.7999999999995049
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.45454545454545453,
+            "coverage": 0.5555555555555556,
+            "f1": 0.49999999999950495
+          },
+          "events": 11,
+          "mean_frame_change": 3.0541067123413086
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.1111111111111111,
+            "coverage": 0.1111111111111111,
+            "f1": 0.1111111111106111
+          },
+          "events": 9,
+          "mean_frame_change": 20.867305755615234
+        }
+      }
+    },
+    {
+      "id": "efc6ca1bc7959815_0.000__rings",
+      "track": "efc6ca1bc7959815",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.5833333333333334,
+            "f1": 0.7368421052626924
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.14285714285714285,
+            "coverage": 0.08333333333333333,
+            "f1": 0.10526315789427147
+          },
+          "events": 7,
+          "mean_frame_change": 3.931959629058838
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.8333333333333334,
+            "coverage": 0.4166666666666667,
+            "f1": 0.5555555555551112
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.3333333333333333,
+            "f1": 0.44444444444399994
+          },
+          "events": 6,
+          "mean_frame_change": 2.137402057647705
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.5,
+            "f1": 0.6666666666662222
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.3333333333333333,
+            "f1": 0.44444444444399994
+          },
+          "events": 6,
+          "mean_frame_change": 4.2851643562316895
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8888888888888888,
+            "coverage": 0.6666666666666666,
+            "f1": 0.7619047619042721
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.1111111111111111,
+            "coverage": 0.08333333333333333,
+            "f1": 0.09523809523760544
+          },
+          "events": 9,
+          "mean_frame_change": 25.374435424804688
+        }
+      }
+    },
+    {
+      "id": "efc6ca1bc7959815_4.000__rings",
+      "track": "efc6ca1bc7959815",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 0.5454545454545454,
+            "f1": 0.6666666666661912
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.14285714285714285,
+            "coverage": 0.09090909090909091,
+            "f1": 0.11111111111063579
+          },
+          "events": 7,
+          "mean_frame_change": 3.502793788909912
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.8333333333333334,
+            "coverage": 0.45454545454545453,
+            "f1": 0.5882352941171903
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.2727272727272727,
+            "f1": 0.35294117647013146
+          },
+          "events": 6,
+          "mean_frame_change": 2.137402057647705
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.625,
+            "coverage": 0.45454545454545453,
+            "f1": 0.5263157894731966
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.875,
+            "coverage": 0.6363636363636364,
+            "f1": 0.7368421052626704
+          },
+          "events": 8,
+          "mean_frame_change": 3.690305709838867
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.9,
+            "coverage": 0.8181818181818182,
+            "f1": 0.8571428571423583
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3,
+            "coverage": 0.2727272727272727,
+            "f1": 0.2857142857137868
+          },
+          "events": 10,
+          "mean_frame_change": 21.822328567504883
+        }
+      }
+    },
+    {
+      "id": "efc6ca1bc7959815_8.000__rings",
+      "track": "efc6ca1bc7959815",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.7272727272727273,
+            "f1": 0.8421052631574072
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.25,
+            "coverage": 0.18181818181818182,
+            "f1": 0.21052631578898617
+          },
+          "events": 8,
+          "mean_frame_change": 3.4756057262420654
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.36363636363636365,
+            "f1": 0.4705882352936609
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.36363636363636365,
+            "f1": 0.4705882352936609
+          },
+          "events": 6,
+          "mean_frame_change": 2.137402057647705
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.7272727272727273,
+            "f1": 0.8421052631574072
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.75,
+            "coverage": 0.5454545454545454,
+            "f1": 0.6315789473679334
+          },
+          "events": 8,
+          "mean_frame_change": 3.4123692512512207
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.6363636363636364,
+            "f1": 0.7777777777773025
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.14285714285714285,
+            "coverage": 0.09090909090909091,
+            "f1": 0.11111111111063579
+          },
+          "events": 7,
+          "mean_frame_change": 22.373788833618164
+        }
+      }
+    },
+    {
+      "id": "efc6ca1bc7959815_12.000__rings",
+      "track": "efc6ca1bc7959815",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.8888888888888888,
+            "coverage": 0.7272727272727273,
+            "f1": 0.7999999999995049
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.2727272727272727,
+            "f1": 0.299999999999505
+          },
+          "events": 9,
+          "mean_frame_change": 4.083033561706543
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.36363636363636365,
+            "f1": 0.4705882352936609
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.8333333333333334,
+            "coverage": 0.45454545454545453,
+            "f1": 0.5882352941171903
+          },
+          "events": 6,
+          "mean_frame_change": 2.137402057647705
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.7142857142857143,
+            "coverage": 0.45454545454545453,
+            "f1": 0.5555555555550802
+          },
+          "shifted_audio_200ms": {
+            "precision": 1.0,
+            "coverage": 0.6363636363636364,
+            "f1": 0.7777777777773025
+          },
+          "events": 7,
+          "mean_frame_change": 3.9397878646850586
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8888888888888888,
+            "coverage": 0.7272727272727273,
+            "f1": 0.7999999999995049
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.36363636363636365,
+            "f1": 0.399999999999505
+          },
+          "events": 9,
+          "mean_frame_change": 22.442541122436523
+        }
+      }
+    },
+    {
+      "id": "efc6ca1bc7959815_16.000__rings",
+      "track": "efc6ca1bc7959815",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.875,
+            "coverage": 0.6363636363636364,
+            "f1": 0.7368421052626704
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.36363636363636365,
+            "f1": 0.42105263157845985
+          },
+          "events": 8,
+          "mean_frame_change": 2.6999669075012207
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.5,
+            "coverage": 0.2727272727272727,
+            "f1": 0.35294117647013146
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.8333333333333334,
+            "coverage": 0.45454545454545453,
+            "f1": 0.5882352941171903
+          },
+          "events": 6,
+          "mean_frame_change": 2.137402057647705
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.625,
+            "coverage": 0.45454545454545453,
+            "f1": 0.5263157894731966
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.875,
+            "coverage": 0.6363636363636364,
+            "f1": 0.7368421052626704
+          },
+          "events": 8,
+          "mean_frame_change": 2.5705349445343018
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.8888888888888888,
+            "coverage": 0.7272727272727273,
+            "f1": 0.7999999999995049
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.18181818181818182,
+            "f1": 0.199999999999505
+          },
+          "events": 9,
+          "mean_frame_change": 19.663911819458008
+        }
+      }
+    },
+    {
+      "id": "efc6ca1bc7959815_20.000__rings",
+      "track": "efc6ca1bc7959815",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.8888888888888888,
+            "coverage": 0.6666666666666666,
+            "f1": 0.7619047619042721
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.25,
+            "f1": 0.2857142857137959
+          },
+          "events": 9,
+          "mean_frame_change": 3.398169755935669
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.3333333333333333,
+            "f1": 0.44444444444399994
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.3333333333333333,
+            "f1": 0.44444444444399994
+          },
+          "events": 6,
+          "mean_frame_change": 2.137402057647705
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.8888888888888888,
+            "coverage": 0.6666666666666666,
+            "f1": 0.7619047619042721
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.8888888888888888,
+            "coverage": 0.6666666666666666,
+            "f1": 0.7619047619042721
+          },
+          "events": 9,
+          "mean_frame_change": 3.7579050064086914
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.9090909090909091,
+            "coverage": 0.8333333333333334,
+            "f1": 0.8695652173908053
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2727272727272727,
+            "coverage": 0.25,
+            "f1": 0.26086956521689225
+          },
+          "events": 11,
+          "mean_frame_change": 22.771379470825195
+        }
+      }
+    },
+    {
+      "id": "efc6ca1bc7959815_24.000__rings",
+      "track": "efc6ca1bc7959815",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.6363636363636364,
+            "f1": 0.7777777777773025
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.14285714285714285,
+            "coverage": 0.09090909090909091,
+            "f1": 0.11111111111063579
+          },
+          "events": 7,
+          "mean_frame_change": 3.046888828277588
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.8333333333333334,
+            "coverage": 0.45454545454545453,
+            "f1": 0.5882352941171903
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5,
+            "coverage": 0.2727272727272727,
+            "f1": 0.35294117647013146
+          },
+          "events": 6,
+          "mean_frame_change": 2.137402057647705
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.75,
+            "coverage": 0.5454545454545454,
+            "f1": 0.6315789473679334
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.625,
+            "coverage": 0.45454545454545453,
+            "f1": 0.5263157894731966
+          },
+          "events": 8,
+          "mean_frame_change": 3.1295206546783447
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.875,
+            "coverage": 0.6363636363636364,
+            "f1": 0.7368421052626704
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.09090909090909091,
+            "f1": 0.10526315789424931
+          },
+          "events": 8,
+          "mean_frame_change": 19.378633499145508
+        }
+      }
+    },
+    {
+      "id": "f8107f6ffd549f22_0.000__rings",
+      "track": "f8107f6ffd549f22",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.5,
+            "f1": 0.5714285714280817
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.25,
+            "f1": 0.2857142857137959
+          },
+          "events": 6,
+          "mean_frame_change": 2.137402057647705
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.375,
+            "f1": 0.35294117647009
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5,
+            "f1": 0.4705882352936194
+          },
+          "events": 9,
+          "mean_frame_change": 2.387049436569214
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.7142857142857143,
+            "coverage": 0.625,
+            "f1": 0.6666666666661688
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2857142857142857,
+            "coverage": 0.25,
+            "f1": 0.2666666666661689
+          },
+          "events": 7,
+          "mean_frame_change": 2.3353941440582275
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.125,
+            "f1": 0.12499999999950001
+          },
+          "events": 8,
+          "mean_frame_change": 19.171070098876953
+        }
+      }
+    },
+    {
+      "id": "f8107f6ffd549f22_4.000__rings",
+      "track": "f8107f6ffd549f22",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.75,
+            "f1": 0.7058823529406782
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.375,
+            "f1": 0.35294117647009
+          },
+          "events": 9,
+          "mean_frame_change": 2.743868827819824
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.7777777777777778,
+            "coverage": 0.875,
+            "f1": 0.8235294117642077
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.25,
+            "f1": 0.23529411764656055
+          },
+          "events": 9,
+          "mean_frame_change": 2.387049436569214
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.7,
+            "coverage": 0.875,
+            "f1": 0.7777777777772839
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3,
+            "coverage": 0.375,
+            "f1": 0.3333333333328395
+          },
+          "events": 10,
+          "mean_frame_change": 2.911902666091919
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 8,
+          "mean_frame_change": 21.005290985107422
+        }
+      }
+    },
+    {
+      "id": "f8107f6ffd549f22_8.000__rings",
+      "track": "f8107f6ffd549f22",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.7142857142857143,
+            "coverage": 0.625,
+            "f1": 0.6666666666661688
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2857142857142857,
+            "coverage": 0.25,
+            "f1": 0.2666666666661689
+          },
+          "events": 7,
+          "mean_frame_change": 2.4325876235961914
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.7777777777777778,
+            "coverage": 0.875,
+            "f1": 0.8235294117642077
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.25,
+            "f1": 0.23529411764656055
+          },
+          "events": 9,
+          "mean_frame_change": 2.387049436569214
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.7142857142857143,
+            "coverage": 0.625,
+            "f1": 0.6666666666661688
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2857142857142857,
+            "coverage": 0.25,
+            "f1": 0.2666666666661689
+          },
+          "events": 7,
+          "mean_frame_change": 2.390939950942993
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.375,
+            "f1": 0.3749999999995
+          },
+          "events": 8,
+          "mean_frame_change": 19.540353775024414
+        }
+      }
+    },
+    {
+      "id": "f8107f6ffd549f22_12.000__rings",
+      "track": "f8107f6ffd549f22",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.7777777777777778,
+            "coverage": 0.875,
+            "f1": 0.8235294117642077
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.25,
+            "f1": 0.23529411764656055
+          },
+          "events": 9,
+          "mean_frame_change": 3.074450969696045
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.7777777777777778,
+            "coverage": 0.875,
+            "f1": 0.8235294117642077
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.25,
+            "f1": 0.23529411764656055
+          },
+          "events": 9,
+          "mean_frame_change": 2.387049436569214
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.7777777777777778,
+            "coverage": 0.875,
+            "f1": 0.8235294117642077
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.25,
+            "f1": 0.23529411764656055
+          },
+          "events": 9,
+          "mean_frame_change": 3.0297439098358154
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 1.0,
+            "f1": 0.9999999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 8,
+          "mean_frame_change": 19.104185104370117
+        }
+      }
+    },
+    {
+      "id": "f8107f6ffd549f22_16.000__rings",
+      "track": "f8107f6ffd549f22",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.8333333333333334,
+            "coverage": 0.5555555555555556,
+            "f1": 0.6666666666661867
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.16666666666666666,
+            "coverage": 0.1111111111111111,
+            "f1": 0.13333333333285333
+          },
+          "events": 6,
+          "mean_frame_change": 2.941553831100464
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.6666666666666666,
+            "f1": 0.6666666666661666
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.5555555555555556,
+            "coverage": 0.5555555555555556,
+            "f1": 0.5555555555550555
+          },
+          "events": 9,
+          "mean_frame_change": 2.387049436569214
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.7142857142857143,
+            "coverage": 0.5555555555555556,
+            "f1": 0.6249999999995078
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2857142857142857,
+            "coverage": 0.2222222222222222,
+            "f1": 0.2499999999995078
+          },
+          "events": 7,
+          "mean_frame_change": 2.4117214679718018
+        },
+        "target": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.8888888888888888,
+            "f1": 0.9411764705877369
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.1111111111111111,
+            "f1": 0.11764705882303114
+          },
+          "events": 8,
+          "mean_frame_change": 20.540515899658203
+        }
+      }
+    },
+    {
+      "id": "f8107f6ffd549f22_20.000__rings",
+      "track": "f8107f6ffd549f22",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.375,
+            "coverage": 0.375,
+            "f1": 0.3749999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.375,
+            "coverage": 0.375,
+            "f1": 0.3749999999995
+          },
+          "events": 8,
+          "mean_frame_change": 1.524610996246338
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.25,
+            "f1": 0.23529411764656055
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.75,
+            "f1": 0.7058823529406782
+          },
+          "events": 9,
+          "mean_frame_change": 2.387049436569214
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 0.4444444444444444,
+            "coverage": 0.5,
+            "f1": 0.4705882352936194
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.3333333333333333,
+            "coverage": 0.375,
+            "f1": 0.35294117647009
+          },
+          "events": 9,
+          "mean_frame_change": 1.8185621500015259
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.7777777777777778,
+            "coverage": 0.875,
+            "f1": 0.8235294117642077
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.25,
+            "f1": 0.23529411764656055
+          },
+          "events": 9,
+          "mean_frame_change": 18.259483337402344
+        }
+      }
+    },
+    {
+      "id": "f8107f6ffd549f22_24.000__rings",
+      "track": "f8107f6ffd549f22",
+      "variants": {
+        "correct": {
+          "aligned": {
+            "precision": 0.8571428571428571,
+            "coverage": 0.75,
+            "f1": 0.7999999999995021
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 7,
+          "mean_frame_change": 2.880211591720581
+        },
+        "other_track": {
+          "aligned": {
+            "precision": 0.2222222222222222,
+            "coverage": 0.25,
+            "f1": 0.23529411764656055
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.6666666666666666,
+            "coverage": 0.75,
+            "f1": 0.7058823529406782
+          },
+          "events": 9,
+          "mean_frame_change": 2.387049436569214
+        },
+        "shifted_1s": {
+          "aligned": {
+            "precision": 1.0,
+            "coverage": 0.625,
+            "f1": 0.7692307692302958
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.0,
+            "coverage": 0.0,
+            "f1": 0.0
+          },
+          "events": 5,
+          "mean_frame_change": 2.7745795249938965
+        },
+        "target": {
+          "aligned": {
+            "precision": 0.875,
+            "coverage": 0.875,
+            "f1": 0.8749999999995
+          },
+          "shifted_audio_200ms": {
+            "precision": 0.125,
+            "coverage": 0.125,
+            "f1": 0.12499999999950001
+          },
+          "events": 8,
+          "mean_frame_change": 21.087894439697266
+        }
+      }
+    }
+  ],
+  "limitations": "Exploratory frame-difference peak metric; clips within tracks are correlated. No human ratings or verified song-disjoint split. Direct prior decoding, not diffusion."
+}

@@ -1,0 +1,21 @@
+{
+  "strengths": [
+    0.06,
+    0.3,
+    0.7
+  ],
+  "base_steps": 100,
+  "noise_signs": [
+    1,
+    -1
+  ],
+  "seed": 643,
+  "frames": 32,
+  "priors": [
+    "correct",
+    "wrong"
+  ],
+  "no_training": true,
+  "purpose": "Inference dependence on prior vs size of correction, not learned conditioning or new quality selection",
+  "data": "first four seconds of previously inspected long-validation recording, two GRU priors; no fresh/test use"
+}

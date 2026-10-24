@@ -1,0 +1,107 @@
+{
+  "records": [
+    {
+      "index": 8,
+      "id": "b66ee629f488fc37_0.000__rings",
+      "row": {
+        "id": "b66ee629f488fc37_0.000__rings",
+        "track_id": "b66ee629f488fc37",
+        "audio_path": "data/stems/b66ee629f488fc37/instrumental.wav",
+        "audio_start_seconds": 0.0,
+        "audio_duration_seconds": 4.0,
+        "features_path": "data/features/b66ee629f488fc37.npz",
+        "feature_start_frame": 0,
+        "feature_frames": 64,
+        "feature_fps": 16,
+        "video_path": "data/synthetic_videos_v2/rings/b66ee629f488fc37_0.000.mp4",
+        "video_frames": 64,
+        "video_fps": 16,
+        "video_resolution": [
+          256,
+          256
+        ],
+        "renderer_parameters_path": "data/synthetic_videos_v2/rings/b66ee629f488fc37_0.000.json",
+        "split": "validation",
+        "song_identity_review": "pending",
+        "mood_embedding": "frozen_clap_audio_context_512",
+        "split_status": "provisional_recording_grouped_song_identity_unverified",
+        "candidate_recording_group": "b66ee629f488fc37",
+        "possible_compilation": false,
+        "source_pair_id": "b66ee629f488fc37_0.000",
+        "style": "rings",
+        "global_audio_context_path": "data/global_audio_context/b66ee629f488fc37.npz",
+        "mood_label_status": "unvalidated_zero_shot_proxy"
+      },
+      "seed": 651
+    },
+    {
+      "index": 9,
+      "id": "d409d00cd0fce78b_0.000__rings",
+      "row": {
+        "id": "d409d00cd0fce78b_0.000__rings",
+        "track_id": "d409d00cd0fce78b",
+        "audio_path": "data/stems/d409d00cd0fce78b/instrumental.wav",
+        "audio_start_seconds": 0.0,
+        "audio_duration_seconds": 4.0,
+        "features_path": "data/features/d409d00cd0fce78b.npz",
+        "feature_start_frame": 0,
+        "feature_frames": 64,
+        "feature_fps": 16,
+        "video_path": "data/synthetic_videos_v2/rings/d409d00cd0fce78b_0.000.mp4",
+        "video_frames": 64,
+        "video_fps": 16,
+        "video_resolution": [
+          256,
+          256
+        ],
+        "renderer_parameters_path": "data/synthetic_videos_v2/rings/d409d00cd0fce78b_0.000.json",
+        "split": "validation",
+        "song_identity_review": "pending",
+        "mood_embedding": "frozen_clap_audio_context_512",
+        "split_status": "provisional_recording_grouped_song_identity_unverified",
+        "candidate_recording_group": "d409d00cd0fce78b",
+        "possible_compilation": false,
+        "source_pair_id": "d409d00cd0fce78b_0.000",
+        "style": "rings",
+        "global_audio_context_path": "data/global_audio_context/d409d00cd0fce78b.npz",
+        "mood_label_status": "unvalidated_zero_shot_proxy"
+      },
+      "seed": 652
+    },
+    {
+      "index": 10,
+      "id": "dc57a52334f184e1_0.000__rings",
+      "row": {
+        "id": "dc57a52334f184e1_0.000__rings",
+        "track_id": "dc57a52334f184e1",
+        "audio_path": "data/stems/dc57a52334f184e1/instrumental.wav",
+        "audio_start_seconds": 0.0,
+        "audio_duration_seconds": 4.0,
+        "features_path": "data/features/dc57a52334f184e1.npz",
+        "feature_start_frame": 0,
+        "feature_frames": 64,
+        "feature_fps": 16,
+        "video_path": "data/synthetic_videos_v2/rings/dc57a52334f184e1_0.000.mp4",
+        "video_frames": 64,
+        "video_fps": 16,
+        "video_resolution": [
+          256,
+          256
+        ],
+        "renderer_parameters_path": "data/synthetic_videos_v2/rings/dc57a52334f184e1_0.000.json",
+        "split": "validation",
+        "song_identity_review": "pending",
+        "mood_embedding": "frozen_clap_audio_context_512",
+        "split_status": "provisional_recording_grouped_song_identity_unverified",
+        "candidate_recording_group": "dc57a52334f184e1",
+        "possible_compilation": true,
+        "source_pair_id": "dc57a52334f184e1_0.000",
+        "style": "rings",
+        "global_audio_context_path": "data/global_audio_context/dc57a52334f184e1.npz",
+        "mood_label_status": "unvalidated_zero_shot_proxy"
+      },
+      "seed": 653
+    }
+  ],
+  "split": "remaining validation recordings, not used for LoRA checkpoint or resumed candidate selection; not an independent final test"
+}

@@ -1,0 +1,18 @@
+{
+  "checked_at_utc": "2026-10-23T19:33:38.537445+00:00",
+  "inventories": {
+    "input_inventory_before.json": {
+      "tracked": 19,
+      "mismatches": []
+    },
+    "ARTIFACT_MANIFEST.json": {
+      "tracked": 76,
+      "mismatches": []
+    },
+    "ARTIFACT_MANIFEST_GPU.json": {
+      "tracked": 376,
+      "mismatches": []
+    }
+  },
+  "fresh_evaluation": "not loaded, modified, or reclassified"
+}

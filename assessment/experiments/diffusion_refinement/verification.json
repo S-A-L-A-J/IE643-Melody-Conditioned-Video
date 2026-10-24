@@ -1,0 +1,294 @@
+{
+  "input_files": {
+    "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/planning/RESUME.md": {
+      "unchanged": true,
+      "bytes": 3189,
+      "sha256": "81713275ea2304c2f5098c02b72e877e9b0968ee6896cfa6f165ad67625fc1db",
+      "mtime_ns": 1792714959871297225
+    },
+    "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/delegated_audit/EXPERIMENT_LEDGER.md": {
+      "unchanged": true,
+      "bytes": 3404,
+      "sha256": "86fc70996ab3987118627dea258c9e57177f34f1dd29921b24ff6b07c46b516f",
+      "mtime_ns": 1792673170783791597
+    },
+    "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/train_temporal_prior.py": {
+      "unchanged": true,
+      "bytes": 5705,
+      "sha256": "5f4328be8034d4f52250caaf1dde565b137ca9875e5c5f88567fcabafff59e04",
+      "mtime_ns": 1792421000465331476
+    },
+    "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/demo/inference.py": {
+      "unchanged": true,
+      "bytes": 12275,
+      "sha256": "d7a51b62639efc842e900dc9be449c2a625d8077b276598eb66a55bded62ae50",
+      "mtime_ns": 1792686505311686122
+    },
+    "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_phase/training.json": {
+      "unchanged": true,
+      "bytes": 21037,
+      "sha256": "19a74f9c691528270f572a2a1130f19849cf3fe28f8a9185ac5e3ec12736a10f",
+      "mtime_ns": 1792421106688940450
+    },
+    "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_phase/model.safetensors": {
+      "unchanged": true,
+      "bytes": 1368296,
+      "sha256": "5a06d7c1906e09ab32ac645b08ea51b35a410108724272901176b9dfd26ad264",
+      "mtime_ns": 1792421106678940675
+    },
+    "/home/salaj/IE643_project/scripts/train_prior_guided_diffusion.py": {
+      "unchanged": true,
+      "bytes": 10406,
+      "sha256": "8d306089388c3101b74f2b3e2f457c4ddd81e34051ef50dad76364ed2240cdd7",
+      "mtime_ns": 1790661102463256301
+    },
+    "/home/salaj/IE643_project/scripts/infer_prior_guided_diffusion.py": {
+      "unchanged": true,
+      "bytes": 5537,
+      "sha256": "8fca3335a55906b496ec25f83fac2c720f1eff6623cc2dc18a84da10a36c7fe6",
+      "mtime_ns": 1790661438401830309
+    },
+    "/home/salaj/IE643_project/models/diffusion/sd15/model_index.json": {
+      "unchanged": true,
+      "bytes": 541,
+      "sha256": "e2f6f22e274374010aec30c79eb2d6e53fff4a36ac0225523a92cb2d41a83347",
+      "mtime_ns": 1790616236877523341
+    },
+    "/home/salaj/IE643_project/models/diffusion/sd15/tokenizer/tokenizer_config.json": {
+      "unchanged": true,
+      "bytes": 806,
+      "sha256": "00439066fcba73de57644cf41e4e3b9f2dbb09d7f3fc2005898ba52399045882",
+      "mtime_ns": 1790616300332385846
+    },
+    "/home/salaj/IE643_project/models/diffusion/sd15/tokenizer/special_tokens_map.json": {
+      "unchanged": true,
+      "bytes": 472,
+      "sha256": "c4864a9376a8401918425bed71fc14fc0e81f9b59ec45c1cf96cccb2df508eac",
+      "mtime_ns": 1790616300049370802
+    },
+    "/home/salaj/IE643_project/models/diffusion/sd15/tokenizer/vocab.json": {
+      "unchanged": true,
+      "bytes": 1059962,
+      "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+      "mtime_ns": 1790616300645402485
+    },
+    "/home/salaj/IE643_project/models/diffusion/sd15/scheduler/scheduler_config.json": {
+      "unchanged": true,
+      "bytes": 308,
+      "sha256": "699cce92eb7c122e2eb7dfdea78e6187fda76a5ed4a8e42319b85610e620e091",
+      "mtime_ns": 1790616238259618710
+    },
+    "/home/salaj/IE643_project/models/diffusion/sd15/feature_extractor/preprocessor_config.json": {
+      "unchanged": true,
+      "bytes": 342,
+      "sha256": "2a1da83b5e1032aaeef397552ddb408dca0d8cd1dc58f61bf6abf38d6f33a0a2",
+      "mtime_ns": 1790616237919595311
+    },
+    "/home/salaj/IE643_project/models/diffusion/sd15/unet/config.json": {
+      "unchanged": true,
+      "bytes": 743,
+      "sha256": "78f474de6bab3d893868f37be97b636ae65c0df3073ed3256ca458ff599b5f96",
+      "mtime_ns": 1790616300920417104
+    },
+    "/home/salaj/IE643_project/models/diffusion/sd15/text_encoder/config.json": {
+      "unchanged": true,
+      "bytes": 617,
+      "sha256": "845df614cb9327ae7bbea027316246fae917827407da6df13572e41b5f93b4cc",
+      "mtime_ns": 1790616238507635760
+    },
+    "/home/salaj/IE643_project/models/diffusion/sd15/safety_checker/config.json": {
+      "unchanged": true,
+      "bytes": 4723,
+      "sha256": "5dd77a06cbd9b155060bd58deb81ffd1aafc1c6d7970acac674c1128bd4edfe2",
+      "mtime_ns": 1790616237229547677
+    },
+    "/home/salaj/IE643_project/models/diffusion/sd15/vae/config.json": {
+      "unchanged": true,
+      "bytes": 547,
+      "sha256": "786a7d21647ddea6a04b9675c03d3cb45e90a2f3c6da5fbda2c54ade040036de",
+      "mtime_ns": 1790616402466799478
+    },
+    "/home/salaj/IE643_project/models/diffusion/animatediff/config.json": {
+      "unchanged": true,
+      "bytes": 455,
+      "sha256": "7a82341871beba9826ebb8e608415ae2501686bc2e1ccb7a810e50c4b1e37863",
+      "mtime_ns": 1790616558529684086
+    }
+  },
+  "videos": {
+    "comparison_s0.10.mp4": {
+      "video_frames": 32,
+      "fps": "8/1",
+      "video_duration": "4.000000",
+      "resolution": [
+        1024,
+        284
+      ],
+      "audio_duration": "4.000000",
+      "decoded_audio_pcm_md5": "MD5=351b4a1fd290f99e4f897c83a2c47f04",
+      "file_sha256": "d0b5b7e608c0b813104143729cfdb009fd3206100e8439b27c33a3eca35c826c"
+    },
+    "controls_predictor_vs_refined_s0.10.mp4": {
+      "video_frames": 32,
+      "fps": "8/1",
+      "video_duration": "4.000000",
+      "resolution": [
+        768,
+        568
+      ],
+      "audio_duration": "4.000000",
+      "decoded_audio_pcm_md5": "MD5=351b4a1fd290f99e4f897c83a2c47f04",
+      "file_sha256": "e0e2107485126d269f54c92d3564dfe61c02903d762baae3fa772c86a2727fc5"
+    },
+    "correct_predictor.mp4": {
+      "video_frames": 32,
+      "fps": "8/1",
+      "video_duration": "4.000000",
+      "resolution": [
+        128,
+        128
+      ],
+      "audio_duration": "4.000000",
+      "decoded_audio_pcm_md5": "MD5=351b4a1fd290f99e4f897c83a2c47f04",
+      "file_sha256": "f29459076ea51bfb51ef2ff050afe446ae5a7786e4a9ed2edbdf28ae4832e18f"
+    },
+    "correct_s0.00_precision.mp4": {
+      "video_frames": 32,
+      "fps": "8/1",
+      "video_duration": "4.000000",
+      "resolution": [
+        128,
+        128
+      ],
+      "audio_duration": "4.000000",
+      "decoded_audio_pcm_md5": "MD5=351b4a1fd290f99e4f897c83a2c47f04",
+      "file_sha256": "2bbf670c98f5ced9505480325d62def43e667e8ae140b7bc059000987dae4cc4"
+    },
+    "correct_s0.10.mp4": {
+      "video_frames": 32,
+      "fps": "8/1",
+      "video_duration": "4.000000",
+      "resolution": [
+        128,
+        128
+      ],
+      "audio_duration": "4.000000",
+      "decoded_audio_pcm_md5": "MD5=351b4a1fd290f99e4f897c83a2c47f04",
+      "file_sha256": "2ff1e12c6fe9025ab9b9418ec3710e7aa88d5478e503465be377d68e8b9fe6a6"
+    },
+    "correct_s0.20.mp4": {
+      "video_frames": 32,
+      "fps": "8/1",
+      "video_duration": "4.000000",
+      "resolution": [
+        128,
+        128
+      ],
+      "audio_duration": "4.000000",
+      "decoded_audio_pcm_md5": "MD5=351b4a1fd290f99e4f897c83a2c47f04",
+      "file_sha256": "1953a349ebd499043591d9d0c0cd0e9e4751248484df015c7ae2beedf7a3792c"
+    },
+    "correct_s0.30.mp4": {
+      "video_frames": 32,
+      "fps": "8/1",
+      "video_duration": "4.000000",
+      "resolution": [
+        128,
+        128
+      ],
+      "audio_duration": "4.000000",
+      "decoded_audio_pcm_md5": "MD5=351b4a1fd290f99e4f897c83a2c47f04",
+      "file_sha256": "4ad0d9679818193e9eeca8172e96dc18d5fa4e27565c150b31264467d8118e8e"
+    },
+    "pair_s0.10.mp4": {
+      "video_frames": 32,
+      "fps": "8/1",
+      "video_duration": "4.000000",
+      "resolution": [
+        768,
+        414
+      ],
+      "audio_duration": "4.000000",
+      "decoded_audio_pcm_md5": "MD5=351b4a1fd290f99e4f897c83a2c47f04",
+      "file_sha256": "a8bf748616a8c535a8f31b9a41964afdd03c3223531bd7f5c4917eb5251b2631"
+    },
+    "pair_s0.20.mp4": {
+      "video_frames": 32,
+      "fps": "8/1",
+      "video_duration": "4.000000",
+      "resolution": [
+        768,
+        414
+      ],
+      "audio_duration": "4.000000",
+      "decoded_audio_pcm_md5": "MD5=351b4a1fd290f99e4f897c83a2c47f04",
+      "file_sha256": "1b6e9f2193140703c82cbb60e58f23cd0e7496e7b5e583053c99432236daf607"
+    },
+    "pair_s0.30.mp4": {
+      "video_frames": 32,
+      "fps": "8/1",
+      "video_duration": "4.000000",
+      "resolution": [
+        768,
+        414
+      ],
+      "audio_duration": "4.000000",
+      "decoded_audio_pcm_md5": "MD5=351b4a1fd290f99e4f897c83a2c47f04",
+      "file_sha256": "10f715ff15fed1038fbe2e3adce6ca6c7bcda0314d765b3d1b54e3e694bffc47"
+    },
+    "shifted_audio_predictor.mp4": {
+      "video_frames": 32,
+      "fps": "8/1",
+      "video_duration": "4.000000",
+      "resolution": [
+        128,
+        128
+      ],
+      "audio_duration": "4.000000",
+      "decoded_audio_pcm_md5": "MD5=351b4a1fd290f99e4f897c83a2c47f04",
+      "file_sha256": "1e9daaa5f21aec2d6e7ac33738c7bc9e4f23ba4c8e639c9bd3087d357447e804"
+    },
+    "shifted_audio_s0.10.mp4": {
+      "video_frames": 32,
+      "fps": "8/1",
+      "video_duration": "4.000000",
+      "resolution": [
+        128,
+        128
+      ],
+      "audio_duration": "4.000000",
+      "decoded_audio_pcm_md5": "MD5=351b4a1fd290f99e4f897c83a2c47f04",
+      "file_sha256": "2793acdbb8c69f62eb28809f5bff3693127f255f9b7dc4b49b969fede4627c3f"
+    },
+    "wrong_audio_predictor.mp4": {
+      "video_frames": 32,
+      "fps": "8/1",
+      "video_duration": "4.000000",
+      "resolution": [
+        128,
+        128
+      ],
+      "audio_duration": "4.000000",
+      "decoded_audio_pcm_md5": "MD5=351b4a1fd290f99e4f897c83a2c47f04",
+      "file_sha256": "5433200b95cfcdf789bd4b7d10da12ff47e15c68acb05f266f2c559ab6abc2f5"
+    },
+    "wrong_audio_s0.10.mp4": {
+      "video_frames": 32,
+      "fps": "8/1",
+      "video_duration": "4.000000",
+      "resolution": [
+        128,
+        128
+      ],
+      "audio_duration": "4.000000",
+      "decoded_audio_pcm_md5": "MD5=351b4a1fd290f99e4f897c83a2c47f04",
+      "file_sha256": "a5f309d350dce4a767bc3458c1678975031a2e30d33a5d5cd6b6aeabea65d555"
+    }
+  },
+  "matched_noise_across_all_five_runs": true,
+  "diffusion_receives_audio": false,
+  "trained_parameters": 0,
+  "finite_refined_latents_asserted_at_save": true,
+  "existing_checkpoint_and_requested_evidence_unchanged": true,
+  "scope": "Checks requested source/evidence hashes and all generated media; not a filesystem-wide attestation."
+}

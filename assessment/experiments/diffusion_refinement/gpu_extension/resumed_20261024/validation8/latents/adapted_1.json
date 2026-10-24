@@ -1,0 +1,63 @@
+{
+  "strength": 0.06,
+  "base_steps": 100,
+  "steps": 6,
+  "timesteps": [
+    50,
+    40,
+    30,
+    20,
+    10,
+    0
+  ],
+  "guidance": 1.0,
+  "seed": 644,
+  "frames": 32,
+  "windows": [
+    [
+      0,
+      32
+    ]
+  ],
+  "seconds": 7.6228192309990845,
+  "gpu": "NVIDIA GeForce RTX 3050 4GB Laptop GPU",
+  "native_dtype": "float16",
+  "peak_vram_allocated_mb": 165.76025390625,
+  "peak_vram_reserved_mb": 206.0,
+  "base_float32_noise_sha256": "c1120d6ea76872535026e803dfc93e617045b1d714a66151a48fc3b9e8466508",
+  "scheduler": {
+    "num_train_timesteps": 1000,
+    "beta_start": 0.00085,
+    "beta_end": 0.012,
+    "beta_schedule": "linear",
+    "trained_betas": null,
+    "clip_sample": false,
+    "set_alpha_to_one": false,
+    "steps_offset": 1,
+    "prediction_type": "epsilon",
+    "thresholding": false,
+    "dynamic_thresholding_ratio": 0.995,
+    "clip_sample_range": 1.0,
+    "sample_max_value": 1.0,
+    "timestep_spacing": "linspace",
+    "rescale_betas_zero_snr": false,
+    "_use_default_values": [
+      "prediction_type",
+      "thresholding",
+      "clip_sample_range",
+      "rescale_betas_zero_snr",
+      "sample_max_value",
+      "dynamic_thresholding_ratio"
+    ],
+    "_class_name": "DDIMScheduler",
+    "_diffusers_version": "0.6.0",
+    "skip_prk_steps": true
+  },
+  "audio_enters_diffusion_directly": false,
+  "trained_parameters_in_this_refinement_call": 0,
+  "geometry_lora": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/diffusion_refinement/gpu_extension/geometry_lora_continuation/lora_step128.safetensors",
+  "adapter_parameters_trained_before_inference": 299136,
+  "long_method": "overlap-add denoiser estimates per global scheduler step",
+  "updates_in_this_refinement_call": 0,
+  "adapter_training_parameter_count": 299136
+}

@@ -1,0 +1,489 @@
+{
+  "selection": "first clip per validation track, same 11-track diagnostic as previous rhythm comparison",
+  "aggregate": {
+    "temporal": {
+      "f1": 0.8761931160744081,
+      "coverage": 0.8762626262626263,
+      "sharpness_proxy": 19.160146331562746,
+      "mean_frame_change": 3.3829581954262475
+    },
+    "wrong_song": {
+      "f1": 0.4880136203660739,
+      "coverage": 0.49675324675324667,
+      "sharpness_proxy": 19.160146331562746,
+      "mean_frame_change": 3.3829581954262475
+    },
+    "shifted": {
+      "f1": 0.5057646601759271,
+      "coverage": 0.5263347763347763,
+      "sharpness_proxy": 18.563282845563002,
+      "mean_frame_change": 3.2214818651025947
+    },
+    "baseline": {
+      "f1": 0.8369535693060146,
+      "coverage": 0.8787878787878788,
+      "sharpness_proxy": 19.211572632214732,
+      "mean_frame_change": 3.682302539998835
+    },
+    "target": {
+      "f1": 0.9124365830243196,
+      "coverage": 0.9065656565656565,
+      "sharpness_proxy": 1665.1813747910041,
+      "mean_frame_change": 19.445736971768465
+    }
+  },
+  "results": [
+    {
+      "id": "2c8e26308b2879a4_0.000__rings",
+      "track": "2c8e26308b2879a4",
+      "variants": {
+        "temporal": {
+          "f1": 0.7999999999995021,
+          "coverage": 0.75,
+          "sharpness_proxy": 17.511770378099754,
+          "mean_frame_change": 4.290426731109619,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/0_temporal.mp4"
+        },
+        "wrong_song": {
+          "f1": 0.3076923076918343,
+          "coverage": 0.25,
+          "sharpness_proxy": 20.221694335807115,
+          "mean_frame_change": 3.152637004852295,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/0_wrong_song.mp4"
+        },
+        "shifted": {
+          "f1": 0.7499999999995,
+          "coverage": 0.75,
+          "sharpness_proxy": 14.885781327961013,
+          "mean_frame_change": 3.8000173568725586,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/0_shifted.mp4"
+        },
+        "baseline": {
+          "f1": 0.8235294117642077,
+          "coverage": 0.875,
+          "sharpness_proxy": 17.7253186928574,
+          "mean_frame_change": 4.604248046875,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/0_baseline.mp4"
+        },
+        "target": {
+          "f1": 0.9333333333328355,
+          "coverage": 0.875,
+          "sharpness_proxy": 1363.4447148182662,
+          "mean_frame_change": 18.547054290771484,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/0_target.mp4"
+        }
+      }
+    },
+    {
+      "id": "399a3d13a9b756d9_0.000__rings",
+      "track": "399a3d13a9b756d9",
+      "variants": {
+        "temporal": {
+          "f1": 0.9090909090904131,
+          "coverage": 0.8333333333333334,
+          "sharpness_proxy": 20.221694335807115,
+          "mean_frame_change": 3.152637004852295,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/7_temporal.mp4"
+        },
+        "wrong_song": {
+          "f1": 0.39999999999952,
+          "coverage": 0.5,
+          "sharpness_proxy": 15.561112918541767,
+          "mean_frame_change": 2.720728635787964,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/7_wrong_song.mp4"
+        },
+        "shifted": {
+          "f1": 0.3333333333328333,
+          "coverage": 0.3333333333333333,
+          "sharpness_proxy": 18.577241408871487,
+          "mean_frame_change": 3.0808675289154053,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/7_shifted.mp4"
+        },
+        "baseline": {
+          "f1": 0.8333333333328333,
+          "coverage": 0.8333333333333334,
+          "sharpness_proxy": 16.94999514752999,
+          "mean_frame_change": 2.479464530944824,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/7_baseline.mp4"
+        },
+        "target": {
+          "f1": 0.6666666666661666,
+          "coverage": 0.6666666666666666,
+          "sharpness_proxy": 1983.048302706331,
+          "mean_frame_change": 18.55014991760254,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/7_target.mp4"
+        }
+      }
+    },
+    {
+      "id": "3dbc5556a493b515_0.000__rings",
+      "track": "3dbc5556a493b515",
+      "variants": {
+        "temporal": {
+          "f1": 0.9411764705877369,
+          "coverage": 1.0,
+          "sharpness_proxy": 15.561112918541767,
+          "mean_frame_change": 2.720728635787964,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/14_temporal.mp4"
+        },
+        "wrong_song": {
+          "f1": 0.13333333333283556,
+          "coverage": 0.125,
+          "sharpness_proxy": 16.852766784490086,
+          "mean_frame_change": 4.122021198272705,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/14_wrong_song.mp4"
+        },
+        "shifted": {
+          "f1": 0.888888888888395,
+          "coverage": 1.0,
+          "sharpness_proxy": 20.236108452198096,
+          "mean_frame_change": 3.3464748859405518,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/14_shifted.mp4"
+        },
+        "baseline": {
+          "f1": 0.8749999999995,
+          "coverage": 0.875,
+          "sharpness_proxy": 18.78221368440427,
+          "mean_frame_change": 3.392077922821045,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/14_baseline.mp4"
+        },
+        "target": {
+          "f1": 0.9999999999995,
+          "coverage": 1.0,
+          "sharpness_proxy": 1480.4675810608314,
+          "mean_frame_change": 17.36109161376953,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/14_target.mp4"
+        }
+      }
+    },
+    {
+      "id": "5a58420fa903a9c8_0.000__rings",
+      "track": "5a58420fa903a9c8",
+      "variants": {
+        "temporal": {
+          "f1": 0.6666666666661688,
+          "coverage": 0.625,
+          "sharpness_proxy": 16.852766784490086,
+          "mean_frame_change": 4.122021198272705,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/21_temporal.mp4"
+        },
+        "wrong_song": {
+          "f1": 0.9333333333328355,
+          "coverage": 0.875,
+          "sharpness_proxy": 33.61210258456413,
+          "mean_frame_change": 4.270033359527588,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/21_wrong_song.mp4"
+        },
+        "shifted": {
+          "f1": 0.7499999999995,
+          "coverage": 0.75,
+          "sharpness_proxy": 14.695725477766246,
+          "mean_frame_change": 3.7219650745391846,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/21_shifted.mp4"
+        },
+        "baseline": {
+          "f1": 0.8235294117642077,
+          "coverage": 0.875,
+          "sharpness_proxy": 17.580328834359534,
+          "mean_frame_change": 4.473219394683838,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/21_baseline.mp4"
+        },
+        "target": {
+          "f1": 0.9333333333328355,
+          "coverage": 0.875,
+          "sharpness_proxy": 1329.6547134595457,
+          "mean_frame_change": 18.49927520751953,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/21_target.mp4"
+        }
+      }
+    },
+    {
+      "id": "5aafe626a4c44d3c_0.000__rings",
+      "track": "5aafe626a4c44d3c",
+      "variants": {
+        "temporal": {
+          "f1": 0.9333333333328355,
+          "coverage": 0.875,
+          "sharpness_proxy": 33.61210258456413,
+          "mean_frame_change": 4.270033359527588,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/28_temporal.mp4"
+        },
+        "wrong_song": {
+          "f1": 0.49999999999949996,
+          "coverage": 0.5,
+          "sharpness_proxy": 22.72325419750996,
+          "mean_frame_change": 4.127847194671631,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/28_wrong_song.mp4"
+        },
+        "shifted": {
+          "f1": 0.7499999999995,
+          "coverage": 0.75,
+          "sharpness_proxy": 33.67533127835486,
+          "mean_frame_change": 4.140748977661133,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/28_shifted.mp4"
+        },
+        "baseline": {
+          "f1": 0.9333333333328355,
+          "coverage": 0.875,
+          "sharpness_proxy": 26.242918320233002,
+          "mean_frame_change": 4.561598300933838,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/28_baseline.mp4"
+        },
+        "target": {
+          "f1": 0.9999999999995,
+          "coverage": 1.0,
+          "sharpness_proxy": 2495.2061639600433,
+          "mean_frame_change": 23.20986557006836,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/28_target.mp4"
+        }
+      }
+    },
+    {
+      "id": "6b9bebac51fb5e71_0.000__rings",
+      "track": "6b9bebac51fb5e71",
+      "variants": {
+        "temporal": {
+          "f1": 0.8235294117642077,
+          "coverage": 0.7777777777777778,
+          "sharpness_proxy": 22.72325419750996,
+          "mean_frame_change": 4.127847194671631,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/35_temporal.mp4"
+        },
+        "wrong_song": {
+          "f1": 0.5333333333328533,
+          "coverage": 0.4444444444444444,
+          "sharpness_proxy": 26.519954456249252,
+          "mean_frame_change": 3.373911142349243,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/35_wrong_song.mp4"
+        },
+        "shifted": {
+          "f1": 0.3333333333328333,
+          "coverage": 0.3333333333333333,
+          "sharpness_proxy": 17.800304630887695,
+          "mean_frame_change": 3.1326608657836914,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/35_shifted.mp4"
+        },
+        "baseline": {
+          "f1": 0.9411764705877369,
+          "coverage": 0.8888888888888888,
+          "sharpness_proxy": 21.305253642378375,
+          "mean_frame_change": 3.836862802505493,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/35_baseline.mp4"
+        },
+        "target": {
+          "f1": 0.9411764705877369,
+          "coverage": 0.8888888888888888,
+          "sharpness_proxy": 1777.742440181668,
+          "mean_frame_change": 20.426557540893555,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/35_target.mp4"
+        }
+      }
+    },
+    {
+      "id": "6c79947216466a04_0.000__rings",
+      "track": "6c79947216466a04",
+      "variants": {
+        "temporal": {
+          "f1": 0.9999999999995,
+          "coverage": 1.0,
+          "sharpness_proxy": 26.519954456249252,
+          "mean_frame_change": 3.373911142349243,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/42_temporal.mp4"
+        },
+        "wrong_song": {
+          "f1": 0.3749999999995312,
+          "coverage": 0.5,
+          "sharpness_proxy": 20.396561448578723,
+          "mean_frame_change": 2.774803876876831,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/42_wrong_song.mp4"
+        },
+        "shifted": {
+          "f1": 0.3076923076918106,
+          "coverage": 0.3333333333333333,
+          "sharpness_proxy": 22.957831954350695,
+          "mean_frame_change": 3.1571812629699707,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/42_shifted.mp4"
+        },
+        "baseline": {
+          "f1": 0.79999999999952,
+          "coverage": 1.0,
+          "sharpness_proxy": 20.03281749249436,
+          "mean_frame_change": 3.452160358428955,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/42_baseline.mp4"
+        },
+        "target": {
+          "f1": 0.9230769230764259,
+          "coverage": 1.0,
+          "sharpness_proxy": 1724.6669335267507,
+          "mean_frame_change": 19.601594924926758,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/42_target.mp4"
+        }
+      }
+    },
+    {
+      "id": "6d3a38d6dcdd6d63_0.000__rings",
+      "track": "6d3a38d6dcdd6d63",
+      "variants": {
+        "temporal": {
+          "f1": 0.8421052631573961,
+          "coverage": 0.8888888888888888,
+          "sharpness_proxy": 20.396561448578723,
+          "mean_frame_change": 2.774803876876831,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/49_temporal.mp4"
+        },
+        "wrong_song": {
+          "f1": 0.6666666666661666,
+          "coverage": 0.6666666666666666,
+          "sharpness_proxy": 12.939895208575763,
+          "mean_frame_change": 2.196545124053955,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/49_wrong_song.mp4"
+        },
+        "shifted": {
+          "f1": 0.35294117647009,
+          "coverage": 0.3333333333333333,
+          "sharpness_proxy": 18.19924825138878,
+          "mean_frame_change": 2.1096584796905518,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/49_shifted.mp4"
+        },
+        "baseline": {
+          "f1": 0.8888888888883888,
+          "coverage": 0.8888888888888888,
+          "sharpness_proxy": 20.84324639174156,
+          "mean_frame_change": 3.158337116241455,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/49_baseline.mp4"
+        },
+        "target": {
+          "f1": 0.9999999999995,
+          "coverage": 1.0,
+          "sharpness_proxy": 1747.8891782946885,
+          "mean_frame_change": 21.115489959716797,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/49_target.mp4"
+        }
+      }
+    },
+    {
+      "id": "b66ee629f488fc37_0.000__rings",
+      "track": "b66ee629f488fc37",
+      "variants": {
+        "temporal": {
+          "f1": 0.8888888888883888,
+          "coverage": 0.8888888888888888,
+          "sharpness_proxy": 12.939895208575763,
+          "mean_frame_change": 2.196545124053955,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/56_temporal.mp4"
+        },
+        "wrong_song": {
+          "f1": 0.5882352941171487,
+          "coverage": 0.5555555555555556,
+          "sharpness_proxy": 12.806850455584936,
+          "mean_frame_change": 2.470094680786133,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/56_wrong_song.mp4"
+        },
+        "shifted": {
+          "f1": 0.22222222222172222,
+          "coverage": 0.2222222222222222,
+          "sharpness_proxy": 14.343691861955449,
+          "mean_frame_change": 2.3931214809417725,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/56_shifted.mp4"
+        },
+        "baseline": {
+          "f1": 0.5555555555550555,
+          "coverage": 0.5555555555555556,
+          "sharpness_proxy": 17.576525827054866,
+          "mean_frame_change": 2.6945486068725586,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/56_baseline.mp4"
+        },
+        "target": {
+          "f1": 0.7058823529406782,
+          "coverage": 0.6666666666666666,
+          "sharpness_proxy": 1556.4709748490714,
+          "mean_frame_change": 17.2769718170166,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/56_target.mp4"
+        }
+      }
+    },
+    {
+      "id": "d409d00cd0fce78b_0.000__rings",
+      "track": "d409d00cd0fce78b",
+      "variants": {
+        "temporal": {
+          "f1": 0.9333333333328355,
+          "coverage": 1.0,
+          "sharpness_proxy": 12.806850455584936,
+          "mean_frame_change": 2.470094680786133,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/63_temporal.mp4"
+        },
+        "wrong_song": {
+          "f1": 0.5555555555550802,
+          "coverage": 0.7142857142857143,
+          "sharpness_proxy": 11.615646879188716,
+          "mean_frame_change": 3.713491201400757,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/63_wrong_song.mp4"
+        },
+        "shifted": {
+          "f1": 0.37499999999950784,
+          "coverage": 0.42857142857142855,
+          "sharpness_proxy": 17.04168757982552,
+          "mean_frame_change": 2.8813791275024414,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/63_shifted.mp4"
+        },
+        "baseline": {
+          "f1": 0.8749999999995078,
+          "coverage": 1.0,
+          "sharpness_proxy": 18.693045075633563,
+          "mean_frame_change": 3.0037665367126465,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/63_baseline.mp4"
+        },
+        "target": {
+          "f1": 0.9333333333328355,
+          "coverage": 1.0,
+          "sharpness_proxy": 1505.5383040754823,
+          "mean_frame_change": 19.12479019165039,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/63_target.mp4"
+        }
+      }
+    },
+    {
+      "id": "dc57a52334f184e1_0.000__rings",
+      "track": "dc57a52334f184e1",
+      "variants": {
+        "temporal": {
+          "f1": 0.899999999999505,
+          "coverage": 1.0,
+          "sharpness_proxy": 11.615646879188716,
+          "mean_frame_change": 3.713491201400757,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/70_temporal.mp4"
+        },
+        "wrong_song": {
+          "f1": 0.37499999999950784,
+          "coverage": 0.3333333333333333,
+          "sharpness_proxy": 17.511770378099754,
+          "mean_frame_change": 4.290426731109619,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/70_wrong_song.mp4"
+        },
+        "shifted": {
+          "f1": 0.49999999999950495,
+          "coverage": 0.5555555555555556,
+          "sharpness_proxy": 11.783159077633172,
+          "mean_frame_change": 3.6722254753112793,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/70_shifted.mp4"
+        },
+        "baseline": {
+          "f1": 0.8571428571423673,
+          "coverage": 1.0,
+          "sharpness_proxy": 15.595635845675133,
+          "mean_frame_change": 4.849044322967529,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/70_baseline.mp4"
+        },
+        "target": {
+          "f1": 0.9999999999995,
+          "coverage": 1.0,
+          "sharpness_proxy": 1352.8658157683676,
+          "mean_frame_change": 20.190265655517578,
+          "path": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_no_phase/decoded/70_target.mp4"
+        }
+      }
+    }
+  ],
+  "limits": "Validation only, no test data. Sharpness proxy can increase from noise. Human review pending."
+}

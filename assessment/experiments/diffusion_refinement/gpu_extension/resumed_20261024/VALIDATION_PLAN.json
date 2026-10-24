@@ -1,0 +1,21 @@
+{
+  "primary_candidates": [
+    "prior",
+    "frozen",
+    "adapted128",
+    "anchor025",
+    "anchor050"
+  ],
+  "selection_population": "first eight validation recordings; no fresh/provisional test data",
+  "meaningful_gain_checks": {
+    "relative_latent_mse_improvement_at_least": 0.02,
+    "relative_rgb_mse_improvement_at_least": 0.02,
+    "recordings_improved_at_least": 6,
+    "maximum_mean_estimated_beat_f1_drop": 0.02,
+    "maximum_mean_sharpness_proxy_drop_fraction": 0.05
+  },
+  "visual_gate": "Fixed frame grids must show useful changes and no new geometry defects; near-identity outputs do not establish useful refinement.",
+  "one_optional_followup": "If corrections consistently point toward the target but sampled residuals add error, test a fixed antithetic pair (+noise and -noise), averaged after denoising, to cancel first-order sampling variation without shrinking all corrections. No further training.",
+  "confirmation": "Use remaining three validation recordings only if a candidate passes the quantitative and visual gates. They remain validation, not final test.",
+  "stop": "No meaningful multi-recording gain, quality loss, or 45 minute ceiling."
+}

@@ -1,0 +1,17 @@
+{
+  "reason": "All eight adapted correction-error dot products are negative; noise may conceal useful correction direction.",
+  "candidates": [
+    "frozen paired mean",
+    "adapted paired mean",
+    "adapted paired mean anchored .50"
+  ],
+  "noise": "same seeded Gaussian tensor, signs +1 and -1; average final latent outputs",
+  "positive_samples": "reuse existing validation8 frozen/adapted outputs",
+  "visual_check_recording_indices": [
+    0,
+    3,
+    7
+  ],
+  "quality_gates": "VALIDATION_PLAN.json; retain near-identity safeguard",
+  "no_new_training": true
+}

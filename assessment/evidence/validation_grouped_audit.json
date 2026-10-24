@@ -1,0 +1,64 @@
+{
+  "validation_recordings": 11,
+  "detected_overlap_groups": 10,
+  "comparisons": {
+    "baseline": {
+      "group_mean_gain": 0.12006408624055682,
+      "groups_improved": 7,
+      "bootstrap_95_interval": [
+        0.05029857397504456,
+        0.20821596214243251
+      ]
+    },
+    "wrong_song": {
+      "group_mean_gain": 0.4834516463928229,
+      "groups_improved": 10,
+      "bootstrap_95_interval": [
+        0.3728067202405438,
+        0.6021179653679654
+      ]
+    },
+    "shifted": {
+      "group_mean_gain": 0.5074963924963924,
+      "groups_improved": 9,
+      "bootstrap_95_interval": [
+        0.32470620066208306,
+        0.6695144724556489
+      ]
+    }
+  },
+  "group_members": {
+    "2c8e26308b2879a4": [
+      "2c8e26308b2879a4",
+      "5a58420fa903a9c8"
+    ],
+    "399a3d13a9b756d9": [
+      "399a3d13a9b756d9"
+    ],
+    "3dbc5556a493b515": [
+      "3dbc5556a493b515"
+    ],
+    "5aafe626a4c44d3c": [
+      "5aafe626a4c44d3c"
+    ],
+    "6b9bebac51fb5e71": [
+      "6b9bebac51fb5e71"
+    ],
+    "6c79947216466a04": [
+      "6c79947216466a04"
+    ],
+    "6d3a38d6dcdd6d63": [
+      "6d3a38d6dcdd6d63"
+    ],
+    "b66ee629f488fc37": [
+      "b66ee629f488fc37"
+    ],
+    "d409d00cd0fce78b": [
+      "d409d00cd0fce78b"
+    ],
+    "dc57a52334f184e1": [
+      "dc57a52334f184e1"
+    ]
+  },
+  "limits": "Group bootstrap accounts for known detected overlap only. Hidden song overlap and validation-driven selection remain. Exploratory uncertainty only."
+}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "input_pair": "00315a02dbd521bc_0.000",
+  "size": 256,
+  "frames": 8,
+  "frame_stride": 4,
+  "activation_offload": true,
+  "lora_rank": 2,
+  "adapter_targets": 116,
+  "trainable_parameters": 427648,
+  "loss": 0.09261467307806015,
+  "projector_grad_tensors": 13,
+  "lora_grad_tensors": 232,
+  "peak_allocated_mb": 2871.6,
+  "largest_checked_weight_change": 9.999370377045125e-05,
+  "peak_reserved_mb": 3236.0,
+  "step_seconds": 5.77,
+  "total_seconds": 26.21,
+  "note": "One E2-style denoising update; no checkpoint trained or video generated from music."
+}

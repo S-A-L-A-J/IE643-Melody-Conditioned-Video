@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "tracks": 125,
+  "feature_fps": 16,
+  "clips": 875,
+  "clip_frames": 64,
+  "total_feature_frames": 60000,
+  "mood_status": "pending_frozen_encoder",
+  "pitch_note": "Dominant spectral pitch is a heuristic, not verified melodic transcription."
+}

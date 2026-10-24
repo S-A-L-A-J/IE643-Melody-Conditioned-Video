@@ -1,0 +1,31 @@
+{
+  "status": "completed",
+  "pair_id": "46319c3a949c0b23_0.000__rings",
+  "other_pair_id": "37822a137333ecef_0.000__rings",
+  "split": "provisional_test",
+  "fps": 8.0,
+  "frames": 32,
+  "resolution": [
+    128,
+    128
+  ],
+  "outputs": {
+    "correct": {
+      "video": "outputs/audio_prior_32f_correct.mp4",
+      "latent_mse_to_target": 0.3367373049259186
+    },
+    "other_song": {
+      "video": "outputs/audio_prior_32f_other_song.mp4",
+      "latent_mse_to_target": 0.5131157636642456
+    },
+    "shifted_one_second": {
+      "video": "outputs/audio_prior_32f_shifted_one_second.mp4",
+      "latent_mse_to_target": 0.34884101152420044
+    },
+    "target": {
+      "video": "outputs/audio_prior_32f_target.mp4",
+      "latent_mse_to_target": 0.0
+    }
+  },
+  "note": "These are direct decoded predictions of the learned prior, not diffusion generations."
+}

@@ -1,0 +1,9 @@
+{
+  "status": "active_bounded_validation",
+  "authorized_at_utc": "2026-10-23T19:17:50.498913+00:00",
+  "user_instruction": "keep working if you want to, and keep trying if you think there is a chance, i will keep you on",
+  "scope": "Complete generated-output comparison for selected 128-update adapter across eight validation recordings; fixed .25/.50 anchored candidates; expand to remaining validation groups only if measurable and visible benefit. No new training, no fresh evaluation.",
+  "wall_ceiling_minutes": 45,
+  "training_capped_at_updates": 128,
+  "old_stop_record": "Preserved as historical; this explicit user resumption authorizes only the new bounded follow-up."
+}

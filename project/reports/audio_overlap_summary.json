@@ -1,0 +1,26 @@
+{
+  "eligible_tracks": 125,
+  "candidate_pairs_above_0_72": 2,
+  "candidate_pairs_above_0_90": 2,
+  "highest_scores": [
+    {
+      "track_a": "ed0366f6de3f7ad4",
+      "track_b": "0621640299273b77",
+      "score": 0.99691,
+      "offset_a_s": 9.0,
+      "offset_b_s": 9.0,
+      "title_a": "YRF_Music_-_All_Time_Hits_of_Sunidhi_Chauhan_Audio_Jukebox_Top_Bollywood_Songs_Best_of_Sunidhi_Chauhan",
+      "title_b": "YRF_Music_-_Greatest_2010s_Hits_Audio_Jukebox_2010_2019_Songs_Bollywood_Hit_Songs_Top_Hindi_Songs"
+    },
+    {
+      "track_a": "2c8e26308b2879a4",
+      "track_b": "5a58420fa903a9c8",
+      "score": 0.99599,
+      "offset_a_s": 26.0,
+      "offset_b_s": 26.0,
+      "title_a": "YRF_Music_-_Top_20_Bollywood_Dance_Anthems_Audio_Jukebox_Party_Songs_Non_Stop_Hindi_Dance_Songs",
+      "title_b": "YRF_Music_-_Top_Favourites_on_YouTube_Volume_2_Audio_Jukebox_Popular_Bollywood_Songs"
+    }
+  ],
+  "note": "Candidates are not verified identity labels; absence of a match does not prove different songs."
+}

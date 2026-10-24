@@ -1,0 +1,54 @@
+{
+  "results": [
+    {
+      "index": 0,
+      "correction_error_dot": -0.00510431919246912,
+      "prior_latent_mse": 0.10159173607826233,
+      "adapted_latent_mse": 0.10412855446338654
+    },
+    {
+      "index": 1,
+      "correction_error_dot": -0.00630876375362277,
+      "prior_latent_mse": 0.1529250293970108,
+      "adapted_latent_mse": 0.15311098098754883
+    },
+    {
+      "index": 2,
+      "correction_error_dot": -0.00488451961427927,
+      "prior_latent_mse": 0.08829719573259354,
+      "adapted_latent_mse": 0.09089959412813187
+    },
+    {
+      "index": 3,
+      "correction_error_dot": -0.005094708874821663,
+      "prior_latent_mse": 0.09192598611116409,
+      "adapted_latent_mse": 0.09412853419780731
+    },
+    {
+      "index": 4,
+      "correction_error_dot": -0.006535370368510485,
+      "prior_latent_mse": 0.1317473202943802,
+      "adapted_latent_mse": 0.13215377926826477
+    },
+    {
+      "index": 5,
+      "correction_error_dot": -0.0057213627733290195,
+      "prior_latent_mse": 0.08736501634120941,
+      "adapted_latent_mse": 0.08867933601140976
+    },
+    {
+      "index": 6,
+      "correction_error_dot": -0.006192001514136791,
+      "prior_latent_mse": 0.10563479363918304,
+      "adapted_latent_mse": 0.1065097525715828
+    },
+    {
+      "index": 7,
+      "correction_error_dot": -0.006567543372511864,
+      "prior_latent_mse": 0.08011475205421448,
+      "adapted_latent_mse": 0.0798991471529007
+    }
+  ],
+  "all_eight_negative_dot": true,
+  "interpretation": "Direction is useful in synthetic target space; does not establish a visual improvement."
+}

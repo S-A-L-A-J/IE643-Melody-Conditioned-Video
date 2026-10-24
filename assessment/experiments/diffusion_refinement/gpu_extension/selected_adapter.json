@@ -1,0 +1,7 @@
+{
+  "step": 128,
+  "epsilon_mse": 0.1450590966269374,
+  "checkpoint": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/diffusion_refinement/gpu_extension/geometry_lora_continuation/lora_step128.safetensors",
+  "total_optimizer_updates": 128,
+  "selection_population": "same eight fixed validation recordings, 50/100 noise levels; not independent test"
+}

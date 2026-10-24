@@ -1,0 +1,33 @@
+{
+  "status": "completed",
+  "training_step": 128,
+  "target_pair": "00315a02dbd521bc_0.000",
+  "other_pair": "0051f2cf3b8b9c88_0.000",
+  "denoising_steps": 12,
+  "frames": 16,
+  "fps": 4,
+  "resolution": [
+    256,
+    256
+  ],
+  "seed": 643,
+  "peak_vram_reserved_mb": 2944.0,
+  "seconds": 226.6,
+  "results": [
+    {
+      "condition": "correct",
+      "video": "outputs/tiny_e2_correct.mp4",
+      "latent_mean": -0.07047734409570694,
+      "latent_std": 0.5788683891296387,
+      "frames": 16
+    },
+    {
+      "condition": "mismatched",
+      "video": "outputs/tiny_e2_mismatched.mp4",
+      "latent_mean": -0.07043762505054474,
+      "latent_std": 0.5785484313964844,
+      "frames": 16
+    }
+  ],
+  "note": "Tiny synthetic-data experiment; compare videos under identical seed to inspect audio control."
+}

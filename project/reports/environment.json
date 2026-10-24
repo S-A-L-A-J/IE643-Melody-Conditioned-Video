@@ -1,0 +1,21 @@
+{
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "base_interpreter": "/usr",
+  "torch": "2.5.1+cu118",
+  "torchaudio": "2.5.1+cu118",
+  "torchvision": "0.20.1+cu118",
+  "librosa": "0.11.0",
+  "demucs": "4.0.1",
+  "diffusers": "0.35.1",
+  "transformers": "4.49.0",
+  "accelerate": "1.10.1",
+  "peft": "0.17.1",
+  "soundfile": "0.14.0",
+  "cv2": "4.11.0",
+  "imageio": "2.38.0",
+  "gradio": "5.49.1",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 3050 4GB Laptop GPU",
+  "gpu_memory_bytes": 3953983488,
+  "forward_backward": "passed"
+}

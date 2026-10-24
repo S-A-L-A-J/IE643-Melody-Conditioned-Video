@@ -1,0 +1,57 @@
+{
+  "condition": "correct",
+  "strength": 0.1,
+  "denoising_steps": 2,
+  "timesteps": [
+    53,
+    0
+  ],
+  "seconds": 32.766649711000355,
+  "device": "cpu",
+  "dtype": "torch.bfloat16",
+  "peak_process_rss_mb": 4835.16796875,
+  "peak_vram_allocated_mb": null,
+  "diffusers": "0.35.1",
+  "torch": "2.5.1+cu118",
+  "text_shape": [
+    1,
+    77,
+    768
+  ],
+  "scheduler": {
+    "num_train_timesteps": 1000,
+    "beta_start": 0.00085,
+    "beta_end": 0.012,
+    "beta_schedule": "linear",
+    "trained_betas": null,
+    "clip_sample": false,
+    "set_alpha_to_one": false,
+    "steps_offset": 1,
+    "prediction_type": "epsilon",
+    "thresholding": false,
+    "dynamic_thresholding_ratio": 0.995,
+    "clip_sample_range": 1.0,
+    "sample_max_value": 1.0,
+    "timestep_spacing": "linspace",
+    "rescale_betas_zero_snr": false,
+    "_use_default_values": [
+      "prediction_type",
+      "dynamic_thresholding_ratio",
+      "sample_max_value",
+      "clip_sample_range",
+      "thresholding",
+      "rescale_betas_zero_snr"
+    ],
+    "_class_name": "DDIMScheduler",
+    "_diffusers_version": "0.6.0",
+    "skip_prk_steps": true
+  },
+  "latent_mae": 0.1036241203546524,
+  "noise_sha256": "0abbbf5f43149b29e785332f2b80d021d896f879f90b33246f45455c8f20d296",
+  "audio_input_to_diffusion": false,
+  "trained_parameters": 0,
+  "cpu_float32_arithmetic_modules": {
+    "linear": 436,
+    "conv2d": 98
+  }
+}

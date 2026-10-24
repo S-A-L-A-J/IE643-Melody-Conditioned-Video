@@ -1,0 +1,165 @@
+{
+  "status": "completed",
+  "checkpoint_step": 128,
+  "timestep": 500,
+  "split_status": "provisional_recording_grouped_song_identity_unverified",
+  "all_test_tracks": {
+    "tracks": 14,
+    "correct_better_than_other_song": 4,
+    "correct_better_than_one_second_shift": 9,
+    "mean_correct_loss": 0.038249528833798,
+    "mean_other_song_advantage": -0.00022738187440804074,
+    "mean_time_shift_advantage": -4.11649899823325e-05
+  },
+  "clear_single_title_subset": {
+    "tracks": 4,
+    "correct_better_than_other_song": 1,
+    "correct_better_than_one_second_shift": 2,
+    "mean_correct_loss": 0.04132533632218838,
+    "mean_other_song_advantage": -0.0004385877400636673,
+    "mean_time_shift_advantage": -0.00022410694509744644
+  },
+  "tracks": [
+    {
+      "pair_id": "37822a137333ecef_0.000__rings",
+      "track_id": "37822a137333ecef",
+      "clear_single_title_source": false,
+      "correct_loss": 0.03780173882842064,
+      "other_song_loss": 0.038033533841371536,
+      "shifted_one_second_loss": 0.03813300281763077,
+      "other_song_advantage": 0.00023179501295089722,
+      "time_shift_advantage": 0.0003312639892101288
+    },
+    {
+      "pair_id": "3c39504c76364c37_0.000__rings",
+      "track_id": "3c39504c76364c37",
+      "clear_single_title_source": false,
+      "correct_loss": 0.03690386563539505,
+      "other_song_loss": 0.0368361622095108,
+      "shifted_one_second_loss": 0.03713356703519821,
+      "other_song_advantage": -6.770342588424683e-05,
+      "time_shift_advantage": 0.00022970139980316162
+    },
+    {
+      "pair_id": "3cf4b62cef5f4841_0.000__rings",
+      "track_id": "3cf4b62cef5f4841",
+      "clear_single_title_source": false,
+      "correct_loss": 0.03494871407747269,
+      "other_song_loss": 0.034940168261528015,
+      "shifted_one_second_loss": 0.03518944978713989,
+      "other_song_advantage": -8.545815944671631e-06,
+      "time_shift_advantage": 0.0002407357096672058
+    },
+    {
+      "pair_id": "46319c3a949c0b23_0.000__rings",
+      "track_id": "46319c3a949c0b23",
+      "clear_single_title_source": true,
+      "correct_loss": 0.04439585655927658,
+      "other_song_loss": 0.04357563331723213,
+      "shifted_one_second_loss": 0.044147346168756485,
+      "other_song_advantage": -0.0008202232420444489,
+      "time_shift_advantage": -0.0002485103905200958
+    },
+    {
+      "pair_id": "4b6c42f5dc2b5059_0.000__rings",
+      "track_id": "4b6c42f5dc2b5059",
+      "clear_single_title_source": true,
+      "correct_loss": 0.038009367883205414,
+      "other_song_loss": 0.03726648539304733,
+      "shifted_one_second_loss": 0.03666967153549194,
+      "other_song_advantage": -0.0007428824901580811,
+      "time_shift_advantage": -0.0013396963477134705
+    },
+    {
+      "pair_id": "5fb4aeab1dd3f19e_0.000__rings",
+      "track_id": "5fb4aeab1dd3f19e",
+      "clear_single_title_source": false,
+      "correct_loss": 0.03754273056983948,
+      "other_song_loss": 0.03773714601993561,
+      "shifted_one_second_loss": 0.03743981570005417,
+      "other_song_advantage": 0.00019441545009613037,
+      "time_shift_advantage": -0.00010291486978530884
+    },
+    {
+      "pair_id": "62449208ca20fded_0.000__rings",
+      "track_id": "62449208ca20fded",
+      "clear_single_title_source": true,
+      "correct_loss": 0.03668487071990967,
+      "other_song_loss": 0.03694113716483116,
+      "shifted_one_second_loss": 0.036884382367134094,
+      "other_song_advantage": 0.00025626644492149353,
+      "time_shift_advantage": 0.00019951164722442627
+    },
+    {
+      "pair_id": "76349f13b68ad9d1_0.000__rings",
+      "track_id": "76349f13b68ad9d1",
+      "clear_single_title_source": false,
+      "correct_loss": 0.03649087995290756,
+      "other_song_loss": 0.035873010754585266,
+      "shifted_one_second_loss": 0.03620347008109093,
+      "other_song_advantage": -0.0006178691983222961,
+      "time_shift_advantage": -0.00028740987181663513
+    },
+    {
+      "pair_id": "7637ab3eb8248572_0.000__rings",
+      "track_id": "7637ab3eb8248572",
+      "clear_single_title_source": true,
+      "correct_loss": 0.04621125012636185,
+      "other_song_loss": 0.045763738453388214,
+      "shifted_one_second_loss": 0.0467035174369812,
+      "other_song_advantage": -0.0004475116729736328,
+      "time_shift_advantage": 0.0004922673106193542
+    },
+    {
+      "pair_id": "8c6ce8c489bd4779_0.000__rings",
+      "track_id": "8c6ce8c489bd4779",
+      "clear_single_title_source": false,
+      "correct_loss": 0.03509557992219925,
+      "other_song_loss": 0.03487584367394447,
+      "shifted_one_second_loss": 0.03515816852450371,
+      "other_song_advantage": -0.000219736248254776,
+      "time_shift_advantage": 6.258860230445862e-05
+    },
+    {
+      "pair_id": "eb695bb6a6f788d7_0.000__rings",
+      "track_id": "eb695bb6a6f788d7",
+      "clear_single_title_source": false,
+      "correct_loss": 0.038548849523067474,
+      "other_song_loss": 0.03777288272976875,
+      "shifted_one_second_loss": 0.038107436150312424,
+      "other_song_advantage": -0.0007759667932987213,
+      "time_shift_advantage": -0.00044141337275505066
+    },
+    {
+      "pair_id": "ed0d74bc15c52a55_0.000__rings",
+      "track_id": "ed0d74bc15c52a55",
+      "clear_single_title_source": false,
+      "correct_loss": 0.03831130266189575,
+      "other_song_loss": 0.03878800570964813,
+      "shifted_one_second_loss": 0.03852546215057373,
+      "other_song_advantage": 0.00047670304775238037,
+      "time_shift_advantage": 0.00021415948867797852
+    },
+    {
+      "pair_id": "efc6ca1bc7959815_0.000__rings",
+      "track_id": "efc6ca1bc7959815",
+      "clear_single_title_source": false,
+      "correct_loss": 0.03782021626830101,
+      "other_song_loss": 0.03734445571899414,
+      "shifted_one_second_loss": 0.037857651710510254,
+      "other_song_advantage": -0.0004757605493068695,
+      "time_shift_advantage": 3.7435442209243774e-05
+    },
+    {
+      "pair_id": "f8107f6ffd549f22_0.000__rings",
+      "track_id": "f8107f6ffd549f22",
+      "clear_single_title_source": false,
+      "correct_loss": 0.036728180944919586,
+      "other_song_loss": 0.03656185418367386,
+      "shifted_one_second_loss": 0.036764152348041534,
+      "other_song_advantage": -0.00016632676124572754,
+      "time_shift_advantage": 3.597140312194824e-05
+    }
+  ],
+  "note": "Positive advantage means correct music predicts diffusion noise better. This is a latent diagnostic, not generated-video quality."
+}

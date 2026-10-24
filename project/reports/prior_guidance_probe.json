@@ -1,0 +1,306 @@
+{
+  "status": "completed",
+  "split": "provisional_validation",
+  "timestep": 500,
+  "scales": {
+    "0.0": {
+      "pairs": 11,
+      "correct_mse": 0.14277496527541766,
+      "correct_better_count": 0,
+      "mean_other_song_advantage": 0.0
+    },
+    "0.2": {
+      "pairs": 11,
+      "correct_mse": 0.1445881033485586,
+      "correct_better_count": 1,
+      "mean_other_song_advantage": -0.001581071452660994
+    },
+    "0.5": {
+      "pairs": 11,
+      "correct_mse": 0.14783164046027444,
+      "correct_better_count": 1,
+      "mean_other_song_advantage": -0.003821734677661549
+    },
+    "1.0": {
+      "pairs": 11,
+      "correct_mse": 0.15429486334323883,
+      "correct_better_count": 2,
+      "mean_other_song_advantage": -0.006961947137659246
+    }
+  },
+  "details": {
+    "0.0": [
+      {
+        "pair": "2c8e26308b2879a4_0.000__rings",
+        "correct_loss": 0.13400176167488098,
+        "other_song_loss": 0.13400176167488098,
+        "advantage": 0.0
+      },
+      {
+        "pair": "399a3d13a9b756d9_0.000__rings",
+        "correct_loss": 0.14673879742622375,
+        "other_song_loss": 0.14673879742622375,
+        "advantage": 0.0
+      },
+      {
+        "pair": "3dbc5556a493b515_0.000__rings",
+        "correct_loss": 0.15177211165428162,
+        "other_song_loss": 0.15177211165428162,
+        "advantage": 0.0
+      },
+      {
+        "pair": "5a58420fa903a9c8_0.000__rings",
+        "correct_loss": 0.13889478147029877,
+        "other_song_loss": 0.13889478147029877,
+        "advantage": 0.0
+      },
+      {
+        "pair": "5aafe626a4c44d3c_0.000__rings",
+        "correct_loss": 0.14170412719249725,
+        "other_song_loss": 0.14170412719249725,
+        "advantage": 0.0
+      },
+      {
+        "pair": "6b9bebac51fb5e71_0.000__rings",
+        "correct_loss": 0.1463043987751007,
+        "other_song_loss": 0.1463043987751007,
+        "advantage": 0.0
+      },
+      {
+        "pair": "6c79947216466a04_0.000__rings",
+        "correct_loss": 0.15177389979362488,
+        "other_song_loss": 0.15177389979362488,
+        "advantage": 0.0
+      },
+      {
+        "pair": "6d3a38d6dcdd6d63_0.000__rings",
+        "correct_loss": 0.1430763304233551,
+        "other_song_loss": 0.1430763304233551,
+        "advantage": 0.0
+      },
+      {
+        "pair": "b66ee629f488fc37_0.000__rings",
+        "correct_loss": 0.14030620455741882,
+        "other_song_loss": 0.14030620455741882,
+        "advantage": 0.0
+      },
+      {
+        "pair": "d409d00cd0fce78b_0.000__rings",
+        "correct_loss": 0.14250916242599487,
+        "other_song_loss": 0.14250916242599487,
+        "advantage": 0.0
+      },
+      {
+        "pair": "dc57a52334f184e1_0.000__rings",
+        "correct_loss": 0.13344304263591766,
+        "other_song_loss": 0.13344304263591766,
+        "advantage": 0.0
+      }
+    ],
+    "0.2": [
+      {
+        "pair": "2c8e26308b2879a4_0.000__rings",
+        "correct_loss": 0.1352744698524475,
+        "other_song_loss": 0.1346818506717682,
+        "advantage": -0.0005926191806793213
+      },
+      {
+        "pair": "399a3d13a9b756d9_0.000__rings",
+        "correct_loss": 0.14805974066257477,
+        "other_song_loss": 0.14681655168533325,
+        "advantage": -0.0012431889772415161
+      },
+      {
+        "pair": "3dbc5556a493b515_0.000__rings",
+        "correct_loss": 0.15540362894535065,
+        "other_song_loss": 0.15231731534004211,
+        "advantage": -0.0030863136053085327
+      },
+      {
+        "pair": "5a58420fa903a9c8_0.000__rings",
+        "correct_loss": 0.14128245413303375,
+        "other_song_loss": 0.1381056308746338,
+        "advantage": -0.0031768232583999634
+      },
+      {
+        "pair": "5aafe626a4c44d3c_0.000__rings",
+        "correct_loss": 0.14201976358890533,
+        "other_song_loss": 0.14189350605010986,
+        "advantage": -0.0001262575387954712
+      },
+      {
+        "pair": "6b9bebac51fb5e71_0.000__rings",
+        "correct_loss": 0.14811864495277405,
+        "other_song_loss": 0.1448124796152115,
+        "advantage": -0.003306165337562561
+      },
+      {
+        "pair": "6c79947216466a04_0.000__rings",
+        "correct_loss": 0.15341998636722565,
+        "other_song_loss": 0.15151457488536835,
+        "advantage": -0.0019054114818572998
+      },
+      {
+        "pair": "6d3a38d6dcdd6d63_0.000__rings",
+        "correct_loss": 0.14621393382549286,
+        "other_song_loss": 0.14398407936096191,
+        "advantage": -0.002229854464530945
+      },
+      {
+        "pair": "b66ee629f488fc37_0.000__rings",
+        "correct_loss": 0.1408420205116272,
+        "other_song_loss": 0.14118635654449463,
+        "advantage": 0.00034433603286743164
+      },
+      {
+        "pair": "d409d00cd0fce78b_0.000__rings",
+        "correct_loss": 0.1445174366235733,
+        "other_song_loss": 0.14293509721755981,
+        "advantage": -0.0015823394060134888
+      },
+      {
+        "pair": "dc57a52334f184e1_0.000__rings",
+        "correct_loss": 0.13531705737113953,
+        "other_song_loss": 0.13482990860939026,
+        "advantage": -0.0004871487617492676
+      }
+    ],
+    "0.5": [
+      {
+        "pair": "2c8e26308b2879a4_0.000__rings",
+        "correct_loss": 0.1375388503074646,
+        "other_song_loss": 0.13625536859035492,
+        "advantage": -0.0012834817171096802
+      },
+      {
+        "pair": "399a3d13a9b756d9_0.000__rings",
+        "correct_loss": 0.14991381764411926,
+        "other_song_loss": 0.14803385734558105,
+        "advantage": -0.001879960298538208
+      },
+      {
+        "pair": "3dbc5556a493b515_0.000__rings",
+        "correct_loss": 0.1618180274963379,
+        "other_song_loss": 0.15372563898563385,
+        "advantage": -0.00809238851070404
+      },
+      {
+        "pair": "5a58420fa903a9c8_0.000__rings",
+        "correct_loss": 0.14519986510276794,
+        "other_song_loss": 0.1374451220035553,
+        "advantage": -0.0077547430992126465
+      },
+      {
+        "pair": "5aafe626a4c44d3c_0.000__rings",
+        "correct_loss": 0.14306102693080902,
+        "other_song_loss": 0.1429729163646698,
+        "advantage": -8.811056613922119e-05
+      },
+      {
+        "pair": "6b9bebac51fb5e71_0.000__rings",
+        "correct_loss": 0.1517491638660431,
+        "other_song_loss": 0.1431172490119934,
+        "advantage": -0.008631914854049683
+      },
+      {
+        "pair": "6c79947216466a04_0.000__rings",
+        "correct_loss": 0.15638118982315063,
+        "other_song_loss": 0.1522197425365448,
+        "advantage": -0.004161447286605835
+      },
+      {
+        "pair": "6d3a38d6dcdd6d63_0.000__rings",
+        "correct_loss": 0.1516943871974945,
+        "other_song_loss": 0.14567390084266663,
+        "advantage": -0.006020486354827881
+      },
+      {
+        "pair": "b66ee629f488fc37_0.000__rings",
+        "correct_loss": 0.1417824774980545,
+        "other_song_loss": 0.14328709244728088,
+        "advantage": 0.0015046149492263794
+      },
+      {
+        "pair": "d409d00cd0fce78b_0.000__rings",
+        "correct_loss": 0.14833185076713562,
+        "other_song_loss": 0.1440468728542328,
+        "advantage": -0.004284977912902832
+      },
+      {
+        "pair": "dc57a52334f184e1_0.000__rings",
+        "correct_loss": 0.13867738842964172,
+        "other_song_loss": 0.13733120262622833,
+        "advantage": -0.0013461858034133911
+      }
+    ],
+    "1.0": [
+      {
+        "pair": "2c8e26308b2879a4_0.000__rings",
+        "correct_loss": 0.14210693538188934,
+        "other_song_loss": 0.1404256820678711,
+        "advantage": -0.0016812533140182495
+      },
+      {
+        "pair": "399a3d13a9b756d9_0.000__rings",
+        "correct_loss": 0.15457546710968018,
+        "other_song_loss": 0.15286660194396973,
+        "advantage": -0.0017088651657104492
+      },
+      {
+        "pair": "3dbc5556a493b515_0.000__rings",
+        "correct_loss": 0.17196694016456604,
+        "other_song_loss": 0.15733423829078674,
+        "advantage": -0.014632701873779297
+      },
+      {
+        "pair": "5a58420fa903a9c8_0.000__rings",
+        "correct_loss": 0.1521185338497162,
+        "other_song_loss": 0.13815537095069885,
+        "advantage": -0.013963162899017334
+      },
+      {
+        "pair": "5aafe626a4c44d3c_0.000__rings",
+        "correct_loss": 0.14626532793045044,
+        "other_song_loss": 0.14699146151542664,
+        "advantage": 0.0007261335849761963
+      },
+      {
+        "pair": "6b9bebac51fb5e71_0.000__rings",
+        "correct_loss": 0.15913832187652588,
+        "other_song_loss": 0.14179714024066925,
+        "advantage": -0.01734118163585663
+      },
+      {
+        "pair": "6c79947216466a04_0.000__rings",
+        "correct_loss": 0.16241052746772766,
+        "other_song_loss": 0.15589657425880432,
+        "advantage": -0.00651395320892334
+      },
+      {
+        "pair": "6d3a38d6dcdd6d63_0.000__rings",
+        "correct_loss": 0.16256681084632874,
+        "other_song_loss": 0.14873695373535156,
+        "advantage": -0.013829857110977173
+      },
+      {
+        "pair": "b66ee629f488fc37_0.000__rings",
+        "correct_loss": 0.14396044611930847,
+        "other_song_loss": 0.14880359172821045,
+        "advantage": 0.0048431456089019775
+      },
+      {
+        "pair": "d409d00cd0fce78b_0.000__rings",
+        "correct_loss": 0.15657369792461395,
+        "other_song_loss": 0.14704382419586182,
+        "advantage": -0.009529873728752136
+      },
+      {
+        "pair": "dc57a52334f184e1_0.000__rings",
+        "correct_loss": 0.14556048810482025,
+        "other_song_loss": 0.14261063933372498,
+        "advantage": -0.002949848771095276
+      }
+    ]
+  },
+  "note": "Frozen base UNet; no adapter fine-tuning. Positive wrong-minus-correct advantage favors music-conditioned prior. This probe selects scale on validation, not test."
+}

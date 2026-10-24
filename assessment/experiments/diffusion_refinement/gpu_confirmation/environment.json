@@ -1,0 +1,12 @@
+{
+  "python": "/home/salaj/IE643_project/.venv/bin/python",
+  "torch": "2.5.1+cu118",
+  "diffusers": "0.35.1",
+  "cuda_available": true,
+  "device": "cuda",
+  "dtype": "torch.float16",
+  "load_and_run_seconds": 7.0021716109995396,
+  "cpu_float32_arithmetic_modules": null,
+  "pipeline_source": "/home/salaj/IE643_project/.venv/lib/python3.10/site-packages/diffusers/pipelines/animatediff/pipeline_animatediff_video2video.py",
+  "pipeline_source_sha256": "bfe2a6c680c54099d63dc4e84d3ac449c3b75082b682a84b8ce271b8acc0ef54"
+}

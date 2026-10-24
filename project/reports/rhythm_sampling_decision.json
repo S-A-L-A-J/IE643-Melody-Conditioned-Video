@@ -1,0 +1,11 @@
+{
+  "validation_tracks": 11,
+  "mean_paired_f1_gain": 0.1523597317714923,
+  "tracks_improved": 9,
+  "tracks_equal": 1,
+  "bootstrap_95_percent_interval": [
+    0.08308149775061062,
+    0.22085985909514766
+  ],
+  "decision": "Keep causal_peak as preferred timing candidate; preserve previous model and test results unchanged. No demonstrated sharpness improvement; no new test evaluation."
+}

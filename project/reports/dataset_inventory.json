@@ -1,0 +1,11 @@
+{
+  "files": 132,
+  "unique_files": 131,
+  "eligible_files": 125,
+  "excluded_files": 7,
+  "total_minutes": 63.13567876039304,
+  "sample_rates": [
+    44100
+  ],
+  "split_status": "Development only: song identity unresolved; no held-out claims."
+}

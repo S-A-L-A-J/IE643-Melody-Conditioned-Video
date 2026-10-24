@@ -1,0 +1,9 @@
+{
+  "values": {
+    "predictor": 0.10159747302532196,
+    "frozen_refine": 0.11318151652812958,
+    "adapted_refine": 0.10675852745771408
+  },
+  "population": "same first validation clip; synthetic encoded target",
+  "not_human_quality": true
+}

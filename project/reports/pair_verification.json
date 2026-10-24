@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "pairs": 875,
+  "tracks": 125,
+  "duration_seconds": 4,
+  "frames": 64,
+  "fps": 16,
+  "resolution": [
+    256,
+    256
+  ],
+  "note": "Preliminary E0 videos are deterministic renderer outputs, not diffusion generations."
+}

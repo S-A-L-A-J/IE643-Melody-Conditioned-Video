@@ -1,0 +1,8 @@
+{
+  "condition": "correct",
+  "kind": "precision-only control; no diffusion",
+  "strength": 0,
+  "denoising_steps": 0,
+  "latent_mae": 0.0010391526157036424,
+  "dtype": "bfloat16 roundtrip to float32"
+}

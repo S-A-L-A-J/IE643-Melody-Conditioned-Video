@@ -1,0 +1,97 @@
+{
+  "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/planning/RESUME.md": {
+    "bytes": 3189,
+    "sha256": "81713275ea2304c2f5098c02b72e877e9b0968ee6896cfa6f165ad67625fc1db",
+    "mtime_ns": 1792714959871297225
+  },
+  "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/delegated_audit/EXPERIMENT_LEDGER.md": {
+    "bytes": 3404,
+    "sha256": "86fc70996ab3987118627dea258c9e57177f34f1dd29921b24ff6b07c46b516f",
+    "mtime_ns": 1792673170783791597
+  },
+  "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/train_temporal_prior.py": {
+    "bytes": 5705,
+    "sha256": "5f4328be8034d4f52250caaf1dde565b137ca9875e5c5f88567fcabafff59e04",
+    "mtime_ns": 1792421000465331476
+  },
+  "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/demo/inference.py": {
+    "bytes": 12275,
+    "sha256": "d7a51b62639efc842e900dc9be449c2a625d8077b276598eb66a55bded62ae50",
+    "mtime_ns": 1792686505311686122
+  },
+  "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_phase/training.json": {
+    "bytes": 21037,
+    "sha256": "19a74f9c691528270f572a2a1130f19849cf3fe28f8a9185ac5e3ec12736a10f",
+    "mtime_ns": 1792421106688940450
+  },
+  "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/temporal_phase/model.safetensors": {
+    "bytes": 1368296,
+    "sha256": "5a06d7c1906e09ab32ac645b08ea51b35a410108724272901176b9dfd26ad264",
+    "mtime_ns": 1792421106678940675
+  },
+  "/home/salaj/IE643_project/scripts/train_prior_guided_diffusion.py": {
+    "bytes": 10406,
+    "sha256": "8d306089388c3101b74f2b3e2f457c4ddd81e34051ef50dad76364ed2240cdd7",
+    "mtime_ns": 1790661102463256301
+  },
+  "/home/salaj/IE643_project/scripts/infer_prior_guided_diffusion.py": {
+    "bytes": 5537,
+    "sha256": "8fca3335a55906b496ec25f83fac2c720f1eff6623cc2dc18a84da10a36c7fe6",
+    "mtime_ns": 1790661438401830309
+  },
+  "/home/salaj/IE643_project/models/diffusion/sd15/model_index.json": {
+    "bytes": 541,
+    "sha256": "e2f6f22e274374010aec30c79eb2d6e53fff4a36ac0225523a92cb2d41a83347",
+    "mtime_ns": 1790616236877523341
+  },
+  "/home/salaj/IE643_project/models/diffusion/sd15/tokenizer/tokenizer_config.json": {
+    "bytes": 806,
+    "sha256": "00439066fcba73de57644cf41e4e3b9f2dbb09d7f3fc2005898ba52399045882",
+    "mtime_ns": 1790616300332385846
+  },
+  "/home/salaj/IE643_project/models/diffusion/sd15/tokenizer/special_tokens_map.json": {
+    "bytes": 472,
+    "sha256": "c4864a9376a8401918425bed71fc14fc0e81f9b59ec45c1cf96cccb2df508eac",
+    "mtime_ns": 1790616300049370802
+  },
+  "/home/salaj/IE643_project/models/diffusion/sd15/tokenizer/vocab.json": {
+    "bytes": 1059962,
+    "sha256": "e089ad92ba36837a0d31433e555c8f45fe601ab5c221d4f607ded32d9f7a4349",
+    "mtime_ns": 1790616300645402485
+  },
+  "/home/salaj/IE643_project/models/diffusion/sd15/scheduler/scheduler_config.json": {
+    "bytes": 308,
+    "sha256": "699cce92eb7c122e2eb7dfdea78e6187fda76a5ed4a8e42319b85610e620e091",
+    "mtime_ns": 1790616238259618710
+  },
+  "/home/salaj/IE643_project/models/diffusion/sd15/feature_extractor/preprocessor_config.json": {
+    "bytes": 342,
+    "sha256": "2a1da83b5e1032aaeef397552ddb408dca0d8cd1dc58f61bf6abf38d6f33a0a2",
+    "mtime_ns": 1790616237919595311
+  },
+  "/home/salaj/IE643_project/models/diffusion/sd15/unet/config.json": {
+    "bytes": 743,
+    "sha256": "78f474de6bab3d893868f37be97b636ae65c0df3073ed3256ca458ff599b5f96",
+    "mtime_ns": 1790616300920417104
+  },
+  "/home/salaj/IE643_project/models/diffusion/sd15/text_encoder/config.json": {
+    "bytes": 617,
+    "sha256": "845df614cb9327ae7bbea027316246fae917827407da6df13572e41b5f93b4cc",
+    "mtime_ns": 1790616238507635760
+  },
+  "/home/salaj/IE643_project/models/diffusion/sd15/safety_checker/config.json": {
+    "bytes": 4723,
+    "sha256": "5dd77a06cbd9b155060bd58deb81ffd1aafc1c6d7970acac674c1128bd4edfe2",
+    "mtime_ns": 1790616237229547677
+  },
+  "/home/salaj/IE643_project/models/diffusion/sd15/vae/config.json": {
+    "bytes": 547,
+    "sha256": "786a7d21647ddea6a04b9675c03d3cb45e90a2f3c6da5fbda2c54ade040036de",
+    "mtime_ns": 1790616402466799478
+  },
+  "/home/salaj/IE643_project/models/diffusion/animatediff/config.json": {
+    "bytes": 455,
+    "sha256": "7a82341871beba9826ebb8e608415ae2501686bc2e1ccb7a810e50c4b1e37863",
+    "mtime_ns": 1790616558529684086
+  }
+}

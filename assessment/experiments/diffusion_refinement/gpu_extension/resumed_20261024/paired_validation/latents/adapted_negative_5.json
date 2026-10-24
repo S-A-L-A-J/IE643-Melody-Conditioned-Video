@@ -1,0 +1,64 @@
+{
+  "strength": 0.06,
+  "base_steps": 100,
+  "steps": 6,
+  "timesteps": [
+    50,
+    40,
+    30,
+    20,
+    10,
+    0
+  ],
+  "guidance": 1.0,
+  "seed": 648,
+  "noise_sign": -1.0,
+  "unsigned_seed_noise_sha256": "df6a4d31258b66cb6567144adc0ea6cb882393e5268b7a2237829c5a9727b620",
+  "frames": 32,
+  "windows": [
+    [
+      0,
+      32
+    ]
+  ],
+  "seconds": 7.75825401000111,
+  "gpu": "NVIDIA GeForce RTX 3050 4GB Laptop GPU",
+  "native_dtype": "float16",
+  "peak_vram_allocated_mb": 165.68212890625,
+  "peak_vram_reserved_mb": 216.0,
+  "base_float32_noise_sha256": "f9decc7bf303612b0cb395ff964bdaec23939230b168b5ccb650c4f560e79e4e",
+  "scheduler": {
+    "num_train_timesteps": 1000,
+    "beta_start": 0.00085,
+    "beta_end": 0.012,
+    "beta_schedule": "linear",
+    "trained_betas": null,
+    "clip_sample": false,
+    "set_alpha_to_one": false,
+    "steps_offset": 1,
+    "prediction_type": "epsilon",
+    "thresholding": false,
+    "dynamic_thresholding_ratio": 0.995,
+    "clip_sample_range": 1.0,
+    "sample_max_value": 1.0,
+    "timestep_spacing": "linspace",
+    "rescale_betas_zero_snr": false,
+    "_use_default_values": [
+      "rescale_betas_zero_snr",
+      "thresholding",
+      "dynamic_thresholding_ratio",
+      "clip_sample_range",
+      "sample_max_value",
+      "prediction_type"
+    ],
+    "_class_name": "DDIMScheduler",
+    "_diffusers_version": "0.6.0",
+    "skip_prk_steps": true
+  },
+  "audio_enters_diffusion_directly": false,
+  "trained_parameters_in_this_refinement_call": 0,
+  "geometry_lora": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/diffusion_refinement/gpu_extension/geometry_lora_continuation/lora_step128.safetensors",
+  "adapter_parameters_trained_before_inference": 299136,
+  "long_method": "overlap-add denoiser estimates per global scheduler step",
+  "source_positive": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/diffusion_refinement/gpu_extension/resumed_20261024/validation8/latents/adapted_5.safetensors"
+}

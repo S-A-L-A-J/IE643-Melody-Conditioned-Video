@@ -1,0 +1,18 @@
+{
+  "status": "provisional",
+  "eligible_tracks": 125,
+  "track_counts": {
+    "test": 14,
+    "train": 100,
+    "validation": 11
+  },
+  "pair_counts": {
+    "train": 700,
+    "validation": 77,
+    "test": 98
+  },
+  "overlap_groups_with_multiple_tracks": 2,
+  "known_debug_exposures_forced_to_train": 8,
+  "split_leakage_across_detected_groups": 0,
+  "warning": "Track split is provisional. Medleys, covers and undetected recording overlap can still leak songs across groups. Do not call this a verified song-disjoint benchmark."
+}

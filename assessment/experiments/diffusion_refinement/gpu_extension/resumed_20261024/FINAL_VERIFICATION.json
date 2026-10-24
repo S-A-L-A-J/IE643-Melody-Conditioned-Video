@@ -1,0 +1,25 @@
+{
+  "completed_at_utc": "2026-10-23T19:36:41.579776+00:00",
+  "pair_means_exactly_verified": 26,
+  "signed_noise_hashes_match": true,
+  "long_controls_share_noise": true,
+  "original_inventories": {
+    "input_inventory_before.json": {
+      "tracked": 19,
+      "mismatches": []
+    },
+    "ARTIFACT_MANIFEST.json": {
+      "tracked": 76,
+      "mismatches": []
+    },
+    "ARTIFACT_MANIFEST_GPU.json": {
+      "tracked": 376,
+      "mismatches": []
+    }
+  },
+  "deliverable_videos_verified": 13,
+  "fresh_evaluation": "Not loaded or reclassified",
+  "human_ratings": null,
+  "more_training_performed_during_resumption": false,
+  "status": "completed; no further training or sampling planned"
+}

@@ -1,0 +1,24 @@
+{
+  "video": "outputs/contrastive_rings_correct.mp4",
+  "pair_id": "00315a02dbd521bc_0.000__rings",
+  "source_split": "train",
+  "frames": 16,
+  "fps": 4.0,
+  "duration_seconds": 4.0,
+  "beat_events": 7,
+  "visual_events": 3,
+  "tolerance_seconds": 0.125,
+  "aligned": {
+    "precision": 0.3333333333333333,
+    "coverage": 0.14285714285714285,
+    "f1": 0.19999999999958
+  },
+  "audio_shifted_200ms": {
+    "precision": 0.3333333333333333,
+    "coverage": 0.14285714285714285,
+    "f1": 0.19999999999958
+  },
+  "mean_frame_change": 48.11128234863281,
+  "p95_frame_change": 82.65762634277344,
+  "note": "Exploratory single-clip metric. Visual event extraction is sensitive to frame rate and texture; human ratings remain pending."
+}

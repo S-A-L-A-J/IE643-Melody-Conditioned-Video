@@ -1,0 +1,10 @@
+{
+  "python": "3.10.12",
+  "torch": "2.5.1+cu118",
+  "checkpoint_sha256": "eaecc896c0c7402737f458f7d69e9e838043b4a96d34bc7d458be34a46fb2182",
+  "training_report": "reports/audio_latent_prior_32f.json",
+  "source_manifest_sha256": "4f865ff2843457c1ca1b28a6b93bbc83a03f2ef6d63f171ced6525e093711026",
+  "train_command": "python scripts/train_audio_latent_prior.py --frames 32 --stride 2 --init outputs/audio_latent_prior/model.safetensors --lr 0.0003 --epochs 100 --patience 18",
+  "evaluation_command": "python scripts/evaluate_prior_decoded.py",
+  "notes": "Repeated development has examined this provisional test set; a fresh, verified song-disjoint final holdout is required for final generalization claims."
+}

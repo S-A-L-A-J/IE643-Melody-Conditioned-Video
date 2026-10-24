@@ -1,0 +1,24 @@
+{
+  "video": "outputs/audio_prior_correct.mp4",
+  "pair_id": "46319c3a949c0b23_0.000__rings",
+  "source_split": "test",
+  "frames": 8,
+  "fps": 2.0,
+  "duration_seconds": 4.0,
+  "beat_events": 11,
+  "visual_events": 2,
+  "tolerance_seconds": 0.25,
+  "aligned": {
+    "precision": 1.0,
+    "coverage": 0.18181818181818182,
+    "f1": 0.3076923076920473
+  },
+  "audio_shifted_200ms": {
+    "precision": 1.0,
+    "coverage": 0.18181818181818182,
+    "f1": 0.3076923076920473
+  },
+  "mean_frame_change": 2.945469379425049,
+  "p95_frame_change": 6.358105468749997,
+  "note": "Exploratory single-clip metric. Visual event extraction is sensitive to frame rate and texture; human ratings remain pending."
+}

@@ -1,0 +1,73 @@
+{
+  "row": {
+    "id": "2c8e26308b2879a4_0.000__rings",
+    "track_id": "2c8e26308b2879a4",
+    "audio_path": "data/stems/2c8e26308b2879a4/instrumental.wav",
+    "audio_start_seconds": 0.0,
+    "audio_duration_seconds": 4.0,
+    "features_path": "data/features/2c8e26308b2879a4.npz",
+    "feature_start_frame": 0,
+    "feature_frames": 64,
+    "feature_fps": 16,
+    "video_path": "data/synthetic_videos_v2/rings/2c8e26308b2879a4_0.000.mp4",
+    "video_frames": 64,
+    "video_fps": 16,
+    "video_resolution": [
+      256,
+      256
+    ],
+    "renderer_parameters_path": "data/synthetic_videos_v2/rings/2c8e26308b2879a4_0.000.json",
+    "split": "validation",
+    "song_identity_review": "pending",
+    "mood_embedding": "frozen_clap_audio_context_512",
+    "split_status": "provisional_recording_grouped_song_identity_unverified",
+    "candidate_recording_group": "2c8e26308b2879a4",
+    "possible_compilation": true,
+    "source_pair_id": "2c8e26308b2879a4_0.000",
+    "style": "rings",
+    "global_audio_context_path": "data/global_audio_context/2c8e26308b2879a4.npz",
+    "mood_label_status": "unvalidated_zero_shot_proxy"
+  },
+  "wrong_row": {
+    "id": "399a3d13a9b756d9_0.000__rings",
+    "track_id": "399a3d13a9b756d9",
+    "audio_path": "data/stems/399a3d13a9b756d9/instrumental.wav",
+    "audio_start_seconds": 0.0,
+    "audio_duration_seconds": 4.0,
+    "features_path": "data/features/399a3d13a9b756d9.npz",
+    "feature_start_frame": 0,
+    "feature_frames": 64,
+    "feature_fps": 16,
+    "video_path": "data/synthetic_videos_v2/rings/399a3d13a9b756d9_0.000.mp4",
+    "video_frames": 64,
+    "video_fps": 16,
+    "video_resolution": [
+      256,
+      256
+    ],
+    "renderer_parameters_path": "data/synthetic_videos_v2/rings/399a3d13a9b756d9_0.000.json",
+    "split": "validation",
+    "song_identity_review": "pending",
+    "mood_embedding": "frozen_clap_audio_context_512",
+    "split_status": "provisional_recording_grouped_song_identity_unverified",
+    "candidate_recording_group": "399a3d13a9b756d9",
+    "possible_compilation": true,
+    "source_pair_id": "399a3d13a9b756d9_0.000",
+    "style": "rings",
+    "global_audio_context_path": "data/global_audio_context/399a3d13a9b756d9.npz",
+    "mood_label_status": "unvalidated_zero_shot_proxy"
+  },
+  "durations": [
+    8,
+    16
+  ],
+  "predictor_seconds": {
+    "8": 0.17774694000036106,
+    "16": 0.03153568899961101
+  },
+  "method": "Use trained 32-frame GRU context. Emit first window, then emit only last prediction for each rolling past-32-frame window.",
+  "reason": "Direct extrapolation visibly drifts; overlap of different geometric states ghosts; concatenation resets appearance.",
+  "limitation": "After startup, normalized time feature is the trained end-of-window value. Geometric time drift can flatten; rhythm comes from ongoing local audio.",
+  "training": false,
+  "selection_population": "same validation recording, no fresh data used"
+}

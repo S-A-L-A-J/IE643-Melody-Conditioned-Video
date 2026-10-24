@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "frames": 4,
+  "steps": 2,
+  "resolution": [
+    256,
+    256
+  ],
+  "peak_vram_mb": 167.3,
+  "seconds": 38.06,
+  "offload": "sequential_cpu",
+  "music_conditioned": false,
+  "training_tested": false,
+  "note": "Plumbing check only. Not evidence of final video quality or adapter-training feasibility."
+}

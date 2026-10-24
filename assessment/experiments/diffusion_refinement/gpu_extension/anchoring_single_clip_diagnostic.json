@@ -1,0 +1,11 @@
+{
+  "population": "first fixed validation clip only; 64-update LoRA at raw128, .06/100 DDIM",
+  "mse_by_fixed_alpha": {
+    "0": 0.10159747302532196,
+    "0.25": 0.10035625100135803,
+    "0.5": 0.1008026972413063,
+    "0.75": 0.10293678194284439,
+    "1": 0.10675852745771408
+  },
+  "status": "secondary diagnostic, not selected or deployed; small/near-identity changes do not establish useful refinement"
+}

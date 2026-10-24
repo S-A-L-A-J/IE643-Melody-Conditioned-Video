@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.cache/
+**/cache/
+project/models/
+project/data/
+assessment/demo_outputs/
+**/inference_runs/
+*.mp4
+*.mp3
+*.wav
+!assessment/evidence/unseen_synthetic_audio.wav

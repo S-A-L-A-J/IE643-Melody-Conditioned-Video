@@ -1,0 +1,186 @@
+{
+  "table": [
+    {
+      "split": "selection8",
+      "variant": "prior",
+      "latent_mse": 0.10495022870600224,
+      "rgb_mse": 0.0120061218929523,
+      "latent_error_reduction_percent": 0.0,
+      "rgb_error_reduction_percent": 0.0,
+      "estimated_beat_f1": 0.9229500891265596,
+      "flow_warp_residual": 0.020690009066688407,
+      "sharpness": 1341.6546926786687,
+      "rgb_mae_vs_prior": 0.0
+    },
+    {
+      "split": "selection8",
+      "variant": "frozen",
+      "latent_mse": 0.11562648322433233,
+      "rgb_mse": 0.013114793191548268,
+      "latent_error_reduction_percent": -10.172683423337325,
+      "rgb_error_reduction_percent": -9.234216581182375,
+      "estimated_beat_f1": 0.913334704511175,
+      "flow_warp_residual": 0.026380525789518466,
+      "sharpness": 1275.204937064249,
+      "rgb_mae_vs_prior": 0.023406511194565716
+    },
+    {
+      "split": "selection8",
+      "variant": "adapted",
+      "latent_mse": 0.10618870984762907,
+      "rgb_mse": 0.012165002984204965,
+      "latent_error_reduction_percent": -1.1800652146230162,
+      "rgb_error_reduction_percent": -1.3233339846893344,
+      "estimated_beat_f1": 0.9229500891265596,
+      "flow_warp_residual": 0.021917516495420324,
+      "sharpness": 1658.684911635035,
+      "rgb_mae_vs_prior": 0.021662784713545657
+    },
+    {
+      "split": "selection8",
+      "variant": "anchor025",
+      "latent_mse": 0.10285223089158535,
+      "rgb_mse": 0.011854845020353342,
+      "latent_error_reduction_percent": 1.9990407265276344,
+      "rgb_error_reduction_percent": 1.259997807349933,
+      "estimated_beat_f1": 0.9229500891265596,
+      "flow_warp_residual": 0.01978614714903272,
+      "sharpness": 1421.1966277411411,
+      "rgb_mae_vs_prior": 0.005718071008819381
+    },
+    {
+      "split": "selection8",
+      "variant": "anchor050",
+      "latent_mse": 0.10235931351780891,
+      "rgb_mse": 0.011832376921557319,
+      "latent_error_reduction_percent": 2.4687084727097353,
+      "rgb_error_reduction_percent": 1.4471364937330145,
+      "estimated_beat_f1": 0.9229500891265596,
+      "flow_warp_residual": 0.0197397858058682,
+      "sharpness": 1506.8617603529565,
+      "rgb_mae_vs_prior": 0.011301672380734113
+    },
+    {
+      "split": "selection8",
+      "variant": "frozen_pair",
+      "latent_mse": 0.10156773868948221,
+      "rgb_mse": 0.011995759893346716,
+      "latent_error_reduction_percent": 3.2229467798449596,
+      "rgb_error_reduction_percent": 0.08630596705557769,
+      "estimated_beat_f1": 0.9229500891265596,
+      "flow_warp_residual": 0.017582077985477087,
+      "sharpness": 1272.2344647358404,
+      "rgb_mae_vs_prior": 0.011883473240472134
+    },
+    {
+      "split": "selection8",
+      "variant": "adapted_pair",
+      "latent_mse": 0.09912185370922089,
+      "rgb_mse": 0.011577474797488512,
+      "latent_error_reduction_percent": 5.553465741469143,
+      "rgb_error_reduction_percent": 3.5702377444244315,
+      "estimated_beat_f1": 0.9229500891265596,
+      "flow_warp_residual": 0.017105523381973423,
+      "sharpness": 1676.8704847443441,
+      "rgb_mae_vs_prior": 0.01691529174256169
+    },
+    {
+      "split": "selection8",
+      "variant": "adapted_pair_anchor050",
+      "latent_mse": 0.10048641636967659,
+      "rgb_mse": 0.011666057605736073,
+      "latent_error_reduction_percent": 4.253265944593753,
+      "rgb_error_reduction_percent": 2.832424077052298,
+      "estimated_beat_f1": 0.9229500891265596,
+      "flow_warp_residual": 0.018433533754570713,
+      "sharpness": 1498.382827002628,
+      "rgb_mae_vs_prior": 0.008599461449517145
+    },
+    {
+      "split": "confirmation3",
+      "variant": "prior",
+      "latent_mse": 0.09332522998253505,
+      "rgb_mse": 0.011198553658696897,
+      "latent_error_reduction_percent": 0.0,
+      "rgb_error_reduction_percent": 0.0,
+      "estimated_beat_f1": 1.0,
+      "flow_warp_residual": 0.018273401187940668,
+      "sharpness": 1016.1997509143936,
+      "rgb_mae_vs_prior": 0.0
+    },
+    {
+      "split": "confirmation3",
+      "variant": "frozen_pair",
+      "latent_mse": 0.09010693430900574,
+      "rgb_mse": 0.011140701080143664,
+      "latent_error_reduction_percent": 3.4484733379511523,
+      "rgb_error_reduction_percent": 0.5166075934127878,
+      "estimated_beat_f1": 1.0,
+      "flow_warp_residual": 0.015057268709377,
+      "sharpness": 935.1150394400271,
+      "rgb_mae_vs_prior": 0.011297844282162734
+    },
+    {
+      "split": "confirmation3",
+      "variant": "candidate",
+      "latent_mse": 0.08794004718462627,
+      "rgb_mse": 0.01070884300126662,
+      "latent_error_reduction_percent": 5.770339702261184,
+      "rgb_error_reduction_percent": 4.372981300580403,
+      "estimated_beat_f1": 1.0,
+      "flow_warp_residual": 0.014979681980321138,
+      "sharpness": 1243.9808084830486,
+      "rgb_mae_vs_prior": 0.01580335330339818
+    }
+  ],
+  "combined11_validation_aggregate": {
+    "prior": {
+      "latent_mse_to_target": 0.10177977450869301,
+      "rgb_mse_to_decoded_target": 0.011785876010882646,
+      "rgb_mae_vs_prior": 0.0,
+      "warp_residual": 0.020030934190666295,
+      "sharpness": 1252.8942540156845,
+      "estimated_beat_f1": 0.9439637011829525
+    },
+    "frozen_pair": {
+      "latent_mse_to_target": 0.09844206476753409,
+      "rgb_mse_to_decoded_target": 0.01176256203520043,
+      "rgb_mae_vs_prior": 0.011723756251842299,
+      "warp_residual": 0.016893493637449793,
+      "sharpness": 1180.2928032915277,
+      "estimated_beat_f1": 0.9439637011829525
+    },
+    "adapted_pair": {
+      "latent_mse_to_target": 0.09607227011160417,
+      "rgb_mse_to_decoded_target": 0.011340575216700722,
+      "rgb_mae_vs_prior": 0.016612035804608006,
+      "warp_residual": 0.016525748454250075,
+      "sharpness": 1558.809663945809,
+      "estimated_beat_f1": 0.9439637011829525
+    }
+  },
+  "runtime_4s": {
+    "individual_diffusion_pass_median_seconds": 7.7588922495006045,
+    "pair_diffusion_median_seconds_approximately": 15.517784499001209,
+    "maximum_sampling_allocated_MiB": 165.76025390625,
+    "maximum_sampling_reserved_MiB": 216.0,
+    "excludes": "model load, GRU, VAE decode, media mux; PyTorch allocated memory is not total device use"
+  },
+  "confirmation_wins": {
+    "prior": {
+      "latent_wins": 3,
+      "rgb_wins": 3
+    },
+    "frozen_pair": {
+      "latent_wins": 3,
+      "rgb_wins": 3
+    }
+  },
+  "limitations": [
+    "All eleven recordings are validation; no independent final test.",
+    "First eight used for adapter/candidate selection; remaining three evaluated after freezing candidate.",
+    "Synthetic target MSE and estimated-beat F1 do not establish semantic quality, mood accuracy or human preference.",
+    "Audio enters GRU; diffusion uses fixed text and initialized video latents.",
+    "Adapter trained only on visual domain; no new training during resumption."
+  ]
+}

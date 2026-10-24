@@ -1,0 +1,5 @@
+{
+  "syntax_errors": [],
+  "over_100MB": [],
+  "runtime": "No new inference or training; original package smoke test used existing environment. Portable refinement wrapper static-only."
+}

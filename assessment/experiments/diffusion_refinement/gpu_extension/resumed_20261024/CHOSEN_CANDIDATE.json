@@ -1,0 +1,36 @@
+{
+  "candidate": "adapted_pair",
+  "anchor_alpha": 1.0,
+  "strength": 0.06,
+  "base_steps": 100,
+  "guidance": 1.0,
+  "seed_policy": "643 + validation recording index",
+  "noise_signs": [
+    1,
+    -1
+  ],
+  "aggregation": "mean of final float32 latent outputs",
+  "geometry_lora": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/diffusion_refinement/gpu_extension/geometry_lora_continuation/lora_step128.safetensors",
+  "trained_updates": 128,
+  "selected_on": "first eight validation recordings only; remaining three not used for this choice",
+  "gates": {
+    "latent_gain": 0.055534657414691435,
+    "rgb_gain": 0.035702377444244315,
+    "latent_wins": 8,
+    "rgb_wins": 8,
+    "f1_drop": 0.0,
+    "sharpness_ratio": 1.2498525096620825,
+    "rgb_mae_vs_prior": 0.01691529174256169,
+    "warp": 0.017105523381973423,
+    "passes_quantitative_gates": true
+  },
+  "visual_check": {
+    "fixed_recordings": [
+      0,
+      3,
+      7
+    ],
+    "observation": "Modestly more defined ring edges in fixed frame grids; no obvious added geometric defects. Similar composition remains; no semantic/mood/human-preference claim."
+  },
+  "status": "frozen_before_remaining_validation_confirmation"
+}

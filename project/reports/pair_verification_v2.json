@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "pairs": 2625,
+  "source_clips": 875,
+  "styles": {
+    "geometric": 875,
+    "rings": 875,
+    "bars": 875
+  },
+  "split_pairs": {
+    "train": 2100,
+    "validation": 231,
+    "test": 294
+  },
+  "frames": 64,
+  "fps": 16,
+  "resolution": [
+    256,
+    256
+  ],
+  "note": "Track splits are provisional; song identity and mood labels remain unverified."
+}

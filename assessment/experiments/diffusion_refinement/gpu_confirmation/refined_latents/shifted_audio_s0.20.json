@@ -1,0 +1,60 @@
+{
+  "condition": "shifted_audio",
+  "strength": 0.2,
+  "denoising_steps": 4,
+  "timesteps": [
+    158,
+    105,
+    53,
+    0
+  ],
+  "seconds": 4.3865907119998155,
+  "device": "cuda",
+  "dtype": "torch.float16",
+  "peak_process_rss_mb": 3981.20703125,
+  "peak_vram_allocated_mb": 165.666015625,
+  "diffusers": "0.35.1",
+  "torch": "2.5.1+cu118",
+  "text_shape": [
+    1,
+    77,
+    768
+  ],
+  "scheduler": {
+    "num_train_timesteps": 1000,
+    "beta_start": 0.00085,
+    "beta_end": 0.012,
+    "beta_schedule": "linear",
+    "trained_betas": null,
+    "clip_sample": false,
+    "set_alpha_to_one": false,
+    "steps_offset": 1,
+    "prediction_type": "epsilon",
+    "thresholding": false,
+    "dynamic_thresholding_ratio": 0.995,
+    "clip_sample_range": 1.0,
+    "sample_max_value": 1.0,
+    "timestep_spacing": "linspace",
+    "rescale_betas_zero_snr": false,
+    "_use_default_values": [
+      "rescale_betas_zero_snr",
+      "clip_sample_range",
+      "prediction_type",
+      "dynamic_thresholding_ratio",
+      "sample_max_value",
+      "thresholding"
+    ],
+    "_class_name": "DDIMScheduler",
+    "_diffusers_version": "0.6.0",
+    "skip_prk_steps": true
+  },
+  "latent_mae": 0.16873076558113098,
+  "noise_sha256": "729e3e2c8ccdf2e06275f925f3afcdd01c8c3d061d521b815669cdff02d8d7b4",
+  "base_float32_noise_sha256": "1079710da66f8612749907c8614a56c0a8bf51d6166cd5badf78113a61be4266",
+  "offload": "sequential CPU offload; native CUDA float16 operations",
+  "peak_vram_reserved_mb": 216.0,
+  "gpu_name": "NVIDIA GeForce RTX 3050 4GB Laptop GPU",
+  "audio_input_to_diffusion": false,
+  "trained_parameters": 0,
+  "cpu_float32_arithmetic_modules": null
+}

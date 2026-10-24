@@ -1,0 +1,36 @@
+{
+  "status": "provisional",
+  "test_tracks": 14,
+  "scores": {
+    "geometric": {
+      "tracks": 14,
+      "beat_precision": 0.7239724561153134,
+      "beat_coverage": 0.9378349824778397,
+      "beat_f1": 0.8121412871905773,
+      "shifted_200ms_f1": 0.27501088029643916,
+      "mean_adjacent_gray_change": 6.341174153784236,
+      "mean_p95_adjacent_gray_change": 13.912145124162945
+    },
+    "rings": {
+      "tracks": 14,
+      "beat_precision": 0.8052128427128428,
+      "beat_coverage": 0.9517238713667284,
+      "beat_f1": 0.8664358360837798,
+      "shifted_200ms_f1": 0.15056955121600565,
+      "mean_adjacent_gray_change": 13.123245187357169,
+      "mean_p95_adjacent_gray_change": 35.35334647042411
+    },
+    "bars": {
+      "tracks": 14,
+      "beat_precision": 0.738000888000888,
+      "beat_coverage": 0.890215934858792,
+      "beat_f1": 0.8011522343162394,
+      "shifted_200ms_f1": 0.24245968228708176,
+      "mean_adjacent_gray_change": 4.618170550080384,
+      "mean_p95_adjacent_gray_change": 7.563882555280412
+    }
+  },
+  "human_ratings": "pending; blank review template created",
+  "method_note": "Beat events are estimated from frame differences. Renderer timing is programmed from music features. Frame-change values are descriptive, not a validated continuity metric.",
+  "split_warning": "Detected recording overlaps are grouped, but song identities and medley overlap are unverified."
+}
