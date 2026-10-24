@@ -1,83 +1,11 @@
 {
-  ".git/HEAD": {
-    "bytes": 21,
-    "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80"
-  },
-  ".git/config": {
-    "bytes": 92,
-    "sha256": "cfe7ba1238c9a78be7535d7c63bcaf5a4d5011d46b07c9b45d3bbf7d6c312dfe"
-  },
-  ".git/description": {
-    "bytes": 73,
-    "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee"
-  },
-  ".git/hooks/applypatch-msg.sample": {
-    "bytes": 478,
-    "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7"
-  },
-  ".git/hooks/commit-msg.sample": {
-    "bytes": 896,
-    "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437"
-  },
-  ".git/hooks/fsmonitor-watchman.sample": {
-    "bytes": 4655,
-    "sha256": "f3c0228d8e827f1c5260ac59fdd92c3d425c46e54711ef713c5a54ae0a4db2b4"
-  },
-  ".git/hooks/post-update.sample": {
-    "bytes": 189,
-    "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5"
-  },
-  ".git/hooks/pre-applypatch.sample": {
-    "bytes": 424,
-    "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475"
-  },
-  ".git/hooks/pre-commit.sample": {
-    "bytes": 1643,
-    "sha256": "f9af7d95eb1231ecf2eba9770fedfa8d4797a12b02d7240e98d568201251244a"
-  },
-  ".git/hooks/pre-merge-commit.sample": {
-    "bytes": 416,
-    "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53"
-  },
-  ".git/hooks/pre-push.sample": {
-    "bytes": 1374,
-    "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a"
-  },
-  ".git/hooks/pre-rebase.sample": {
-    "bytes": 4898,
-    "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3"
-  },
-  ".git/hooks/pre-receive.sample": {
-    "bytes": 544,
-    "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989"
-  },
-  ".git/hooks/prepare-commit-msg.sample": {
-    "bytes": 1492,
-    "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619"
-  },
-  ".git/hooks/push-to-checkout.sample": {
-    "bytes": 2783,
-    "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f"
-  },
-  ".git/hooks/update.sample": {
-    "bytes": 3650,
-    "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106"
-  },
-  ".git/info/exclude": {
-    "bytes": 240,
-    "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1"
-  },
   ".gitignore": {
     "bytes": 200,
     "sha256": "b6e6086c8c86c0e72c114e20e8c7a1c8ab0ae76ce2e2d79e8e1ab347021c95f3"
   },
-  "PACKAGE_CHECK.json": {
-    "bytes": 187,
-    "sha256": "174959c5676ff0fb90edff0d613fe01f9e10e3fe40532b7bcfce666c31a50507"
-  },
   "README.md": {
-    "bytes": 6245,
-    "sha256": "0df48d0d0af825bdde07a9a6b5e0919b388de349758ff77e1fdfded4f4139978"
+    "bytes": 2128,
+    "sha256": "2a01dede71ef380e078eec07412f73aea9c64af5d2c8b102f7d80dadef1d3182"
   },
   "assessment/demo/README.md": {
     "bytes": 2566,
@@ -919,6 +847,18 @@
     "bytes": 5778,
     "sha256": "3e92e4b155eb283d4f149386eaf4bb4a266669a608e37d96966598b74863dd5a"
   },
+  "docs/CODE_GUIDE.md": {
+    "bytes": 1663,
+    "sha256": "71cdb9d98c87bc29ad5e441a26552a36da94def9f9c60d90e589c600b91fff28"
+  },
+  "docs/PACKAGE_CHECK.json": {
+    "bytes": 187,
+    "sha256": "174959c5676ff0fb90edff0d613fe01f9e10e3fe40532b7bcfce666c31a50507"
+  },
+  "docs/REPRODUCIBILITY.md": {
+    "bytes": 6245,
+    "sha256": "0df48d0d0af825bdde07a9a6b5e0919b388de349758ff77e1fdfded4f4139978"
+  },
   "fetch_pretrained.py": {
     "bytes": 853,
     "sha256": "6f17503b148941184ff7c2aab6ccdfd826d1561bbb601d4efcdca19703047870"
@@ -930,6 +870,46 @@
   "project/README.md": {
     "bytes": 15236,
     "sha256": "7aa9c59d547ee44f3efefe022f166c2fcba5d5ddb9c3f217c0729af86a3844bc"
+  },
+  "project/archive/README.md": {
+    "bytes": 347,
+    "sha256": "2d7b89ddfb2ffdc6a0c7dce253178059420c3266c29b776bd39b18e03f11dd71"
+  },
+  "project/archive/make_human_review_page.py": {
+    "bytes": 5583,
+    "sha256": "bdf98515971527b9e0dbd81a5c34fd30b98cae86740b993e61c80e02a71bf505"
+  },
+  "project/archive/make_learned_human_review.py": {
+    "bytes": 1848,
+    "sha256": "4d447b305597d6d86761bf1e94d691d1e2d4cb60cd4c1ce965cac73f2f7badc2"
+  },
+  "project/archive/make_listening_report.py": {
+    "bytes": 1957,
+    "sha256": "c5ba634202654c2e42522e25a3ee4f947fac1f898b87299e938d56201f0fb4ed"
+  },
+  "project/archive/package_model_review.py": {
+    "bytes": 2739,
+    "sha256": "3b36e856f8e2ec0d1187b5b52e3e5381d2528c3f31488c9cc25056c98d1b0e9e"
+  },
+  "project/archive/package_rhythm_comparison.py": {
+    "bytes": 2749,
+    "sha256": "1482db6e71492f0c27fd5c6230d574714a93d9d7bea2d26a9b4ab9ee7b5af651"
+  },
+  "project/archive/plot_features.py": {
+    "bytes": 1619,
+    "sha256": "597dacd581b6ddd49afa4fcaa78f1e3740bf5014606d2cd453e3df88969adadc"
+  },
+  "project/archive/plot_provisional_results.py": {
+    "bytes": 2159,
+    "sha256": "092e47cc7fe31c53924345dab72e4f70786c64d4b3f997494b09bd9c0bda7413"
+  },
+  "project/archive/summarize_decoded_controls.py": {
+    "bytes": 1361,
+    "sha256": "c3087054c8d5ccf071b81192ab1150b155919745745c9fb3703b882b85571761"
+  },
+  "project/archive/summarize_provisional_evaluation.py": {
+    "bytes": 3683,
+    "sha256": "495d1b3a4185f89c45b7476425613a00f165be125f1fdc9926b794f866397a43"
   },
   "project/outputs/audio_latent_prior/model.safetensors": {
     "bytes": 1023128,
@@ -1307,41 +1287,13 @@
     "bytes": 6232,
     "sha256": "5d90c65cb0f6834869216b551a17c098bec8a3bd1f702295acacffef3d09170d"
   },
-  "project/scripts/make_human_review_page.py": {
-    "bytes": 5583,
-    "sha256": "bdf98515971527b9e0dbd81a5c34fd30b98cae86740b993e61c80e02a71bf505"
-  },
-  "project/scripts/make_learned_human_review.py": {
-    "bytes": 1848,
-    "sha256": "4d447b305597d6d86761bf1e94d691d1e2d4cb60cd4c1ce965cac73f2f7badc2"
-  },
-  "project/scripts/make_listening_report.py": {
-    "bytes": 1957,
-    "sha256": "c5ba634202654c2e42522e25a3ee4f947fac1f898b87299e938d56201f0fb4ed"
-  },
   "project/scripts/make_provisional_split.py": {
     "bytes": 4340,
     "sha256": "30962fec609bae78c665abe03bb38592179c9a2c8f409ce60c4b63507356b5cc"
   },
-  "project/scripts/package_model_review.py": {
-    "bytes": 2739,
-    "sha256": "3b36e856f8e2ec0d1187b5b52e3e5381d2528c3f31488c9cc25056c98d1b0e9e"
-  },
-  "project/scripts/package_rhythm_comparison.py": {
-    "bytes": 2749,
-    "sha256": "1482db6e71492f0c27fd5c6230d574714a93d9d7bea2d26a9b4ab9ee7b5af651"
-  },
   "project/scripts/pair_dataset.py": {
     "bytes": 3132,
     "sha256": "64ca4e492b8db4b90315c9be4c20d5bb79b31465db12252ad1ecf8a4c06e98e8"
-  },
-  "project/scripts/plot_features.py": {
-    "bytes": 1619,
-    "sha256": "597dacd581b6ddd49afa4fcaa78f1e3740bf5014606d2cd453e3df88969adadc"
-  },
-  "project/scripts/plot_provisional_results.py": {
-    "bytes": 2159,
-    "sha256": "092e47cc7fe31c53924345dab72e4f70786c64d4b3f997494b09bd9c0bda7413"
   },
   "project/scripts/prepare_dataset.py": {
     "bytes": 2405,
@@ -1382,14 +1334,6 @@
   "project/scripts/spatial_condition.py": {
     "bytes": 1379,
     "sha256": "abdbd073609121716ff5e97e46154a745347bb5d0072bcde00910f6be099c17f"
-  },
-  "project/scripts/summarize_decoded_controls.py": {
-    "bytes": 1361,
-    "sha256": "c3087054c8d5ccf071b81192ab1150b155919745745c9fb3703b882b85571761"
-  },
-  "project/scripts/summarize_provisional_evaluation.py": {
-    "bytes": 3683,
-    "sha256": "495d1b3a4185f89c45b7476425613a00f165be125f1fdc9926b794f866397a43"
   },
   "project/scripts/train_audio_latent_prior.py": {
     "bytes": 11710,
