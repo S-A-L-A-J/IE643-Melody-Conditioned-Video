@@ -856,8 +856,8 @@
     "sha256": "174959c5676ff0fb90edff0d613fe01f9e10e3fe40532b7bcfce666c31a50507"
   },
   "docs/REPRODUCIBILITY.md": {
-    "bytes": 6245,
-    "sha256": "0df48d0d0af825bdde07a9a6b5e0919b388de349758ff77e1fdfded4f4139978"
+    "bytes": 6242,
+    "sha256": "db92fb1894fc7340922da3fdaa52a876cc60e848c73178443595bacff9f616cc"
   },
   "fetch_pretrained.py": {
     "bytes": 853,

@@ -1,6 +1,6 @@
 # Melody-conditioned abstract video generation — IE643, Team Nullspace
 
-Salaj Sonar, 24B2133. Repository: https://github.com/SalajSonarNB/IE643-Melody-Conditioned-Video
+Salaj Sonar, 24B2133. Repository: https://github.com/S-A-L-A-J/IE643-Melody-Conditioned-Video
 
 Music-conditioned latent video prediction with optional adapted AnimateDiff appearance refinement. This repository also preserves unsuccessful direct audio-conditioned diffusion experiments. The demonstrated domain is synthetic abstract ring animation, not arbitrary cinematic video.
 
