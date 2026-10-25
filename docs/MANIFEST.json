@@ -4,20 +4,24 @@
     "sha256": "b6e6086c8c86c0e72c114e20e8c7a1c8ab0ae76ce2e2d79e8e1ab347021c95f3"
   },
   "README.md": {
-    "bytes": 2222,
-    "sha256": "6a2cd0f832de4a540b9ec4a9fd6159c2053b2d6242969ecbaf951a68fdfb02c5"
+    "bytes": 2433,
+    "sha256": "dad80090bc4a722765c78640929e93d760f17aadfeb2800a54272ce15cb54b1f"
   },
   "assessment/demo/README.md": {
     "bytes": 2566,
     "sha256": "bbe8498d174555598e83a5138cd4597bab3d60f781d6896cdebcfe74b24830e2"
   },
   "assessment/demo/app.py": {
-    "bytes": 2775,
-    "sha256": "8e80ddb67b5f5af05fb6bd922bc639f0c0530122ae72fdfc2d7e5c636874ba9c"
+    "bytes": 2955,
+    "sha256": "c28031e9ad3a10d2b731599abbb2d9e3f1d85a26f5f50a3435f60ac434d7f997"
+  },
+  "assessment/demo/diffusion_refinement.py": {
+    "bytes": 2712,
+    "sha256": "f7bae77da873de739fb7a9e4c84833a9d0766699540fdf4ef2456317ae6c780c"
   },
   "assessment/demo/inference.py": {
-    "bytes": 13595,
-    "sha256": "9e49232684fb9a973504d96f0815680dda24b7146550bc9ed3b7c642f8c21ab7"
+    "bytes": 14203,
+    "sha256": "3cd28fd1e48af281ac84712b96110c91b60e047804016bed2722870fb87b90e4"
   },
   "assessment/demo/metrics.py": {
     "bytes": 836,
@@ -26,6 +30,10 @@
   "assessment/demo/test_inference.py": {
     "bytes": 1778,
     "sha256": "58c652fe60226154352bdb5a3d455a5b076d6588b4c84335823d5dc0b32bbbb2"
+  },
+  "assessment/evidence/hybrid_interface_smoke.json": {
+    "bytes": 14913,
+    "sha256": "60ca59e7c81589e9cd689eecd7429c68db7675dd61d429de7a4f1d059156d67f"
   },
   "assessment/evidence/phase_ablation.json": {
     "bytes": 1223,
@@ -848,16 +856,16 @@
     "sha256": "3e92e4b155eb283d4f149386eaf4bb4a266669a608e37d96966598b74863dd5a"
   },
   "docs/CODE_GUIDE.md": {
-    "bytes": 1663,
-    "sha256": "71cdb9d98c87bc29ad5e441a26552a36da94def9f9c60d90e589c600b91fff28"
+    "bytes": 1820,
+    "sha256": "24f55a698eb4e2d49e8a35cd1bc1cf3ca34f4e9f367ba866f5e42072b70f35c8"
   },
   "docs/PACKAGE_CHECK.json": {
     "bytes": 187,
     "sha256": "174959c5676ff0fb90edff0d613fe01f9e10e3fe40532b7bcfce666c31a50507"
   },
   "docs/REPRODUCIBILITY.md": {
-    "bytes": 6242,
-    "sha256": "db92fb1894fc7340922da3fdaa52a876cc60e848c73178443595bacff9f616cc"
+    "bytes": 6400,
+    "sha256": "1ed8eebdc1b908583ebbd74d39103b24b008e6012c2c607f4fa0504e3d1b355d"
   },
   "fetch_pretrained.py": {
     "bytes": 853,

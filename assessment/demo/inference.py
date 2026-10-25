@@ -110,8 +110,10 @@ def generate(audio_path, start=0., remove_vocals=False, device=None, progress=No
     start = float(start)
     if not np.isfinite(start) or start < 0:
         raise ValueError('Start time must be a nonnegative number.')
-    if model_variant not in ['temporal','baseline']:
-        raise ValueError('Choose the temporal model or baseline.')
+    if model_variant not in ['hybrid','temporal','baseline']:
+        raise ValueError('Choose the final hybrid, temporal predictor, or baseline.')
+    if model_variant=='hybrid' and device!='cuda':
+        raise ValueError('Final hybrid diffusion requires CUDA. Select GRU only on CPU.')
     duration=float(duration)
     if duration not in (4.,8.):
         raise ValueError('Choose a duration of 4 or 8 seconds.')
@@ -156,7 +158,7 @@ def generate(audio_path, start=0., remove_vocals=False, device=None, progress=No
     stage('Encoding audio context')
     context = context_embedding(instrumental, device)
     stage('Generating video')
-    if model_variant=='temporal':
+    if model_variant in ['hybrid','temporal']:
         sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'experiments'))
         from train_temporal_prior import TemporalPrior
         checkpoint=Path(__file__).resolve().parents[1]/'experiments/temporal_phase/model.safetensors'
@@ -166,7 +168,7 @@ def generate(audio_path, start=0., remove_vocals=False, device=None, progress=No
         model = AudioLatentPrior().to(device).eval()
     model.load_state_dict(load_file(checkpoint))
     with torch.inference_mode():
-        if model_variant=='temporal':
+        if model_variant in ['hybrid','temporal']:
             angle=np.deg2rad(visual_phase)
             phase=torch.tensor([[np.sin(angle),np.cos(angle)]],dtype=torch.float32,device=device)
             x=music[None].to(device);c=context[None].to(device)
@@ -184,6 +186,11 @@ def generate(audio_path, start=0., remove_vocals=False, device=None, progress=No
             latents = model(music[None].to(device),context[None].to(device)).cpu()
     del model
     release()
+    diffusion_info=None
+    if model_variant=='hybrid':
+        from diffusion_refinement import refine_latents
+        latents,diffusion_info=refine_latents(latents,PRETRAINED,progress=stage)
+    stage('Decoding video frames')
     from diffusers import AutoencoderKL
     vae = AutoencoderKL.from_pretrained(PRETRAINED/'diffusion/sd15', subfolder='vae', variant='fp16',
                                        torch_dtype=torch.float32, local_files_only=True).to(device).eval()
@@ -209,8 +216,9 @@ def generate(audio_path, start=0., remove_vocals=False, device=None, progress=No
     beats = arrays['beat_times']-offset
     beats = beats[(beats>=0)&(beats<duration)]
     metrics = score(beats,events)
-    report = {'model':f'{model_variant} supervised latent predictor + pretrained VAE (not diffusion)',
-              'visual_phase_degrees':visual_phase if model_variant=='temporal' else None,
+    report = {'model':('GRU + trained appearance LoRA / AnimateDiff paired-noise refinement + VAE' if model_variant=='hybrid' else f'{model_variant} supervised latent predictor + pretrained VAE (not diffusion)'),
+              'diffusion_refinement':diffusion_info,
+              'visual_phase_degrees':visual_phase if model_variant in ['hybrid','temporal'] else None,
               'checkpoint_sha256':hashlib.sha256(checkpoint.read_bytes()).hexdigest(),
               'input_name':Path(audio_path).name,'requested_start_seconds':start,
               'actual_start_seconds':window_start+offset,'duration_seconds':duration,'fps':8,'resolution':[128,128],
@@ -249,7 +257,7 @@ if __name__ == '__main__':
     parser.add_argument('--start',type=float,default=0.)
     parser.add_argument('--remove-vocals',action='store_true')
     parser.add_argument('--device',choices=['cuda','cpu'])
-    parser.add_argument('--model',choices=['temporal','baseline'],default='temporal')
+    parser.add_argument('--model',choices=['hybrid','temporal','baseline'],default='temporal')
     parser.add_argument('--visual-phase',type=float,default=0.)
     args = parser.parse_args()
     video,report,_,_ = generate(args.audio,args.start,args.remove_vocals,args.device,lambda s: print(s,flush=True),args.model,args.visual_phase,args.duration)

@@ -2,7 +2,7 @@
 
 Salaj Sonar, 24B2133. Repository: https://github.com/S-A-L-A-J/IE643-Melody-Conditioned-Video
 
-Music-conditioned latent video prediction with optional adapted AnimateDiff appearance refinement. This repository also preserves unsuccessful direct audio-conditioned diffusion experiments. The demonstrated domain is synthetic abstract ring animation, not arbitrary cinematic video.
+Music-conditioned latent video prediction with adapted AnimateDiff appearance refinement in the final hybrid. This repository also preserves unsuccessful direct audio-conditioned diffusion experiments. The demonstrated domain is synthetic abstract ring animation, not arbitrary cinematic video.
 
 ## Final architecture and findings
 
@@ -19,7 +19,7 @@ python fetch_pretrained.py
 python assessment/demo/app.py
 ```
 
-Open http://127.0.0.1:7863. The tested interface generates a four-second **GRU-only** video, with optional vocal suppression. It does not expose final diffusion refinement. The original baseline remains selectable. Set an explicit visual phase to control initial arrangement.
+Open http://127.0.0.1:7863. The interface offers four- and eight-second output. Final hybrid mode runs the GRU, selected trained appearance LoRA with paired-noise AnimateDiff refinement, and VAE decoding. GRU-only modes remain for comparison. Vocal suppression is enabled for mixed songs and bypassed for instrumentals. The original baseline remains selectable. Set an explicit visual phase to control initial arrangement.
 
 ```
 python assessment/demo/inference.py assessment/evidence/unseen_synthetic_audio.wav --device cpu --visual-phase 90

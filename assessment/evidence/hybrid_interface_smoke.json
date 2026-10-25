@@ -1,0 +1,414 @@
+[
+  {
+    "duration": 8,
+    "video": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/demo_outputs/3ce12d1b035a/generated.mp4",
+    "report": {
+      "model": "GRU + trained appearance LoRA / AnimateDiff paired-noise refinement + VAE",
+      "diffusion_refinement": {
+        "method": "appearance-adapted AnimateDiff; mean of opposite-noise latent predictions",
+        "adapter_sha256": "ced7564ebbbfe0b29a2bfd9144a7aa0aec136190581fd52524eb4044ed0a89b8",
+        "strength": 0.06,
+        "actual_steps_per_pass": 6,
+        "passes": 2,
+        "seed": 643,
+        "audio_enters_diffusion_directly": false,
+        "duration_seconds_including_model_load": 32.12,
+        "latent_mse_change_from_gru": 0.006797382142394781,
+        "positive_pass": {
+          "strength": 0.06,
+          "base_steps": 100,
+          "steps": 6,
+          "timesteps": [
+            50,
+            40,
+            30,
+            20,
+            10,
+            0
+          ],
+          "guidance": 1.0,
+          "seed": 643,
+          "noise_sign": 1.0,
+          "unsigned_seed_noise_sha256": "fbf929e07047e812ed5bfdf8f20109bf10a472c84962c9818a241b39ecfb197e",
+          "frames": 64,
+          "windows": [
+            [
+              0,
+              32
+            ],
+            [
+              16,
+              48
+            ],
+            [
+              32,
+              64
+            ]
+          ],
+          "seconds": 16.27739809400009,
+          "gpu": "NVIDIA GeForce RTX 3050 4GB Laptop GPU",
+          "native_dtype": "float16",
+          "peak_vram_allocated_mb": 2678.57470703125,
+          "peak_vram_reserved_mb": 2914.0,
+          "base_float32_noise_sha256": "fbf929e07047e812ed5bfdf8f20109bf10a472c84962c9818a241b39ecfb197e",
+          "scheduler": {
+            "num_train_timesteps": 1000,
+            "beta_start": 0.00085,
+            "beta_end": 0.012,
+            "beta_schedule": "linear",
+            "trained_betas": null,
+            "clip_sample": false,
+            "set_alpha_to_one": false,
+            "steps_offset": 1,
+            "prediction_type": "epsilon",
+            "thresholding": false,
+            "dynamic_thresholding_ratio": 0.995,
+            "clip_sample_range": 1.0,
+            "sample_max_value": 1.0,
+            "timestep_spacing": "linspace",
+            "rescale_betas_zero_snr": false,
+            "_use_default_values": [
+              "clip_sample_range",
+              "rescale_betas_zero_snr",
+              "prediction_type",
+              "thresholding",
+              "dynamic_thresholding_ratio",
+              "sample_max_value"
+            ],
+            "_class_name": "DDIMScheduler",
+            "_diffusers_version": "0.6.0",
+            "skip_prk_steps": true
+          },
+          "audio_enters_diffusion_directly": false,
+          "trained_parameters_in_this_refinement_call": 0,
+          "geometry_lora": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/diffusion_refinement/gpu_extension/geometry_lora_continuation/lora_step128.safetensors",
+          "adapter_parameters_trained_before_inference": 299136,
+          "long_method": "overlap-add denoiser estimates per global scheduler step"
+        },
+        "negative_pass": {
+          "strength": 0.06,
+          "base_steps": 100,
+          "steps": 6,
+          "timesteps": [
+            50,
+            40,
+            30,
+            20,
+            10,
+            0
+          ],
+          "guidance": 1.0,
+          "seed": 643,
+          "noise_sign": -1.0,
+          "unsigned_seed_noise_sha256": "fbf929e07047e812ed5bfdf8f20109bf10a472c84962c9818a241b39ecfb197e",
+          "frames": 64,
+          "windows": [
+            [
+              0,
+              32
+            ],
+            [
+              16,
+              48
+            ],
+            [
+              32,
+              64
+            ]
+          ],
+          "seconds": 9.060515438999573,
+          "gpu": "NVIDIA GeForce RTX 3050 4GB Laptop GPU",
+          "native_dtype": "float16",
+          "peak_vram_allocated_mb": 2799.97314453125,
+          "peak_vram_reserved_mb": 2988.0,
+          "base_float32_noise_sha256": "04a8fdc18aeb17e98fe3f11df015ed8fc64598fceac9e507edecd8c70e91b8bd",
+          "scheduler": {
+            "num_train_timesteps": 1000,
+            "beta_start": 0.00085,
+            "beta_end": 0.012,
+            "beta_schedule": "linear",
+            "trained_betas": null,
+            "clip_sample": false,
+            "set_alpha_to_one": false,
+            "steps_offset": 1,
+            "prediction_type": "epsilon",
+            "thresholding": false,
+            "dynamic_thresholding_ratio": 0.995,
+            "clip_sample_range": 1.0,
+            "sample_max_value": 1.0,
+            "timestep_spacing": "linspace",
+            "rescale_betas_zero_snr": false,
+            "_use_default_values": [
+              "clip_sample_range",
+              "rescale_betas_zero_snr",
+              "prediction_type",
+              "thresholding",
+              "dynamic_thresholding_ratio",
+              "sample_max_value"
+            ],
+            "_class_name": "DDIMScheduler",
+            "_diffusers_version": "0.6.0",
+            "skip_prk_steps": true
+          },
+          "audio_enters_diffusion_directly": false,
+          "trained_parameters_in_this_refinement_call": 0,
+          "geometry_lora": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/diffusion_refinement/gpu_extension/geometry_lora_continuation/lora_step128.safetensors",
+          "adapter_parameters_trained_before_inference": 299136,
+          "long_method": "overlap-add denoiser estimates per global scheduler step"
+        }
+      },
+      "visual_phase_degrees": 0.0,
+      "checkpoint_sha256": "5a06d7c1906e09ab32ac645b08ea51b35a410108724272901176b9dfd26ad264",
+      "input_name": "LIVE_INPUT_instrumental_8s.wav",
+      "requested_start_seconds": 0.0,
+      "actual_start_seconds": 0.0,
+      "duration_seconds": 8,
+      "fps": 8,
+      "resolution": [
+        128,
+        128
+      ],
+      "temporal_method": "trained four-second context; rolling last-frame prediction for eight-second output",
+      "vocal_suppression": false,
+      "device": "cuda",
+      "tempo_bpm": 161.4990234375,
+      "audio_beats": 22,
+      "visual_events": 20,
+      "timing": {
+        "precision": 1.0,
+        "coverage": 0.9090909090909091,
+        "f1": 0.9523809523809523,
+        "matches": 20
+      },
+      "timing_method": "one-to-one event matching within 125 ms of estimated audio beats",
+      "shifted_reference_200ms": {
+        "precision": 0.05,
+        "coverage": 0.045454545454545456,
+        "f1": 0.047619047619047616,
+        "matches": 1
+      },
+      "runtime_seconds": 52.55,
+      "limitations": [
+        "Exploratory frame-change event metric, not a human quality score.",
+        "Synthetic abstract style; mood accuracy and human preference are unvalidated.",
+        "Evaluated on validation and a small external film-music sample; broader song generalization remains unverified.",
+        "New upload is not automatically an independent test sample."
+      ]
+    },
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 128,
+          "height": 128,
+          "duration": "8.000000",
+          "nb_frames": "64"
+        },
+        {
+          "codec_type": "audio",
+          "duration": "8.000000",
+          "nb_frames": "346"
+        }
+      ]
+    }
+  },
+  {
+    "duration": 4,
+    "video": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/demo_outputs/fc8d67dd64bb/generated.mp4",
+    "report": {
+      "model": "GRU + trained appearance LoRA / AnimateDiff paired-noise refinement + VAE",
+      "diffusion_refinement": {
+        "method": "appearance-adapted AnimateDiff; mean of opposite-noise latent predictions",
+        "adapter_sha256": "ced7564ebbbfe0b29a2bfd9144a7aa0aec136190581fd52524eb4044ed0a89b8",
+        "strength": 0.06,
+        "actual_steps_per_pass": 6,
+        "passes": 2,
+        "seed": 643,
+        "audio_enters_diffusion_directly": false,
+        "duration_seconds_including_model_load": 19.84,
+        "latent_mse_change_from_gru": 0.006271952297538519,
+        "positive_pass": {
+          "strength": 0.06,
+          "base_steps": 100,
+          "steps": 6,
+          "timesteps": [
+            50,
+            40,
+            30,
+            20,
+            10,
+            0
+          ],
+          "guidance": 1.0,
+          "seed": 643,
+          "noise_sign": 1.0,
+          "unsigned_seed_noise_sha256": "1079710da66f8612749907c8614a56c0a8bf51d6166cd5badf78113a61be4266",
+          "frames": 32,
+          "windows": [
+            [
+              0,
+              32
+            ]
+          ],
+          "seconds": 10.201381438999306,
+          "gpu": "NVIDIA GeForce RTX 3050 4GB Laptop GPU",
+          "native_dtype": "float16",
+          "peak_vram_allocated_mb": 2675.41943359375,
+          "peak_vram_reserved_mb": 2912.0,
+          "base_float32_noise_sha256": "1079710da66f8612749907c8614a56c0a8bf51d6166cd5badf78113a61be4266",
+          "scheduler": {
+            "num_train_timesteps": 1000,
+            "beta_start": 0.00085,
+            "beta_end": 0.012,
+            "beta_schedule": "linear",
+            "trained_betas": null,
+            "clip_sample": false,
+            "set_alpha_to_one": false,
+            "steps_offset": 1,
+            "prediction_type": "epsilon",
+            "thresholding": false,
+            "dynamic_thresholding_ratio": 0.995,
+            "clip_sample_range": 1.0,
+            "sample_max_value": 1.0,
+            "timestep_spacing": "linspace",
+            "rescale_betas_zero_snr": false,
+            "_use_default_values": [
+              "clip_sample_range",
+              "rescale_betas_zero_snr",
+              "prediction_type",
+              "thresholding",
+              "dynamic_thresholding_ratio",
+              "sample_max_value"
+            ],
+            "_class_name": "DDIMScheduler",
+            "_diffusers_version": "0.6.0",
+            "skip_prk_steps": true
+          },
+          "audio_enters_diffusion_directly": false,
+          "trained_parameters_in_this_refinement_call": 0,
+          "geometry_lora": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/diffusion_refinement/gpu_extension/geometry_lora_continuation/lora_step128.safetensors",
+          "adapter_parameters_trained_before_inference": 299136,
+          "long_method": "overlap-add denoiser estimates per global scheduler step"
+        },
+        "negative_pass": {
+          "strength": 0.06,
+          "base_steps": 100,
+          "steps": 6,
+          "timesteps": [
+            50,
+            40,
+            30,
+            20,
+            10,
+            0
+          ],
+          "guidance": 1.0,
+          "seed": 643,
+          "noise_sign": -1.0,
+          "unsigned_seed_noise_sha256": "1079710da66f8612749907c8614a56c0a8bf51d6166cd5badf78113a61be4266",
+          "frames": 32,
+          "windows": [
+            [
+              0,
+              32
+            ]
+          ],
+          "seconds": 3.2900011720012117,
+          "gpu": "NVIDIA GeForce RTX 3050 4GB Laptop GPU",
+          "native_dtype": "float16",
+          "peak_vram_allocated_mb": 2795.740234375,
+          "peak_vram_reserved_mb": 2986.0,
+          "base_float32_noise_sha256": "0c9e883c9072495f6e890fd6007ad926ab8705bbbbbf2224313c07f0bb721f3d",
+          "scheduler": {
+            "num_train_timesteps": 1000,
+            "beta_start": 0.00085,
+            "beta_end": 0.012,
+            "beta_schedule": "linear",
+            "trained_betas": null,
+            "clip_sample": false,
+            "set_alpha_to_one": false,
+            "steps_offset": 1,
+            "prediction_type": "epsilon",
+            "thresholding": false,
+            "dynamic_thresholding_ratio": 0.995,
+            "clip_sample_range": 1.0,
+            "sample_max_value": 1.0,
+            "timestep_spacing": "linspace",
+            "rescale_betas_zero_snr": false,
+            "_use_default_values": [
+              "clip_sample_range",
+              "rescale_betas_zero_snr",
+              "prediction_type",
+              "thresholding",
+              "dynamic_thresholding_ratio",
+              "sample_max_value"
+            ],
+            "_class_name": "DDIMScheduler",
+            "_diffusers_version": "0.6.0",
+            "skip_prk_steps": true
+          },
+          "audio_enters_diffusion_directly": false,
+          "trained_parameters_in_this_refinement_call": 0,
+          "geometry_lora": "/home/salaj/.codex/.chatgpt-projects/g-p-6aae9e9b275881919a205c4774702722/assessment/experiments/diffusion_refinement/gpu_extension/geometry_lora_continuation/lora_step128.safetensors",
+          "adapter_parameters_trained_before_inference": 299136,
+          "long_method": "overlap-add denoiser estimates per global scheduler step"
+        }
+      },
+      "visual_phase_degrees": 0.0,
+      "checkpoint_sha256": "5a06d7c1906e09ab32ac645b08ea51b35a410108724272901176b9dfd26ad264",
+      "input_name": "LIVE_INPUT_instrumental_8s.wav",
+      "requested_start_seconds": 0.0,
+      "actual_start_seconds": 0.0,
+      "duration_seconds": 4,
+      "fps": 8,
+      "resolution": [
+        128,
+        128
+      ],
+      "temporal_method": "trained four-second context; rolling last-frame prediction for eight-second output",
+      "vocal_suppression": false,
+      "device": "cuda",
+      "tempo_bpm": 161.4990234375,
+      "audio_beats": 11,
+      "visual_events": 10,
+      "timing": {
+        "precision": 1.0,
+        "coverage": 0.9090909090909091,
+        "f1": 0.9523809523809523,
+        "matches": 10
+      },
+      "timing_method": "one-to-one event matching within 125 ms of estimated audio beats",
+      "shifted_reference_200ms": {
+        "precision": 0.1,
+        "coverage": 0.09090909090909091,
+        "f1": 0.09523809523809523,
+        "matches": 1
+      },
+      "runtime_seconds": 28.26,
+      "limitations": [
+        "Exploratory frame-change event metric, not a human quality score.",
+        "Synthetic abstract style; mood accuracy and human preference are unvalidated.",
+        "Evaluated on validation and a small external film-music sample; broader song generalization remains unverified.",
+        "New upload is not automatically an independent test sample."
+      ]
+    },
+    "probe": {
+      "programs": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 128,
+          "height": 128,
+          "duration": "4.000000",
+          "nb_frames": "32"
+        },
+        {
+          "codec_type": "audio",
+          "duration": "4.000000",
+          "nb_frames": "174"
+        }
+      ]
+    }
+  }
+]
