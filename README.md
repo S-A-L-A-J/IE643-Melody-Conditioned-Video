@@ -13,7 +13,7 @@ python fetch_pretrained.py
 python assessment/demo/app.py
 ```
 
-Open http://127.0.0.1:7863. The tested upload interface runs the GRU and pretrained VAE; diffusion refinement is a separate stage. Third-party pretrained weights and source recordings are not included.
+Open http://127.0.0.1:7863. The upload interface offers 4- and 8-second clips (the latter uses rolling four-second context in the improved model) and runs the GRU and pretrained VAE; diffusion refinement is a separate stage. Third-party pretrained weights and source recordings are not included.
 
 ## Read the code
 

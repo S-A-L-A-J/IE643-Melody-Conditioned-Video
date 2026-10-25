@@ -4,20 +4,20 @@
     "sha256": "b6e6086c8c86c0e72c114e20e8c7a1c8ab0ae76ce2e2d79e8e1ab347021c95f3"
   },
   "README.md": {
-    "bytes": 2128,
-    "sha256": "2a01dede71ef380e078eec07412f73aea9c64af5d2c8b102f7d80dadef1d3182"
+    "bytes": 2222,
+    "sha256": "6a2cd0f832de4a540b9ec4a9fd6159c2053b2d6242969ecbaf951a68fdfb02c5"
   },
   "assessment/demo/README.md": {
     "bytes": 2566,
     "sha256": "bbe8498d174555598e83a5138cd4597bab3d60f781d6896cdebcfe74b24830e2"
   },
   "assessment/demo/app.py": {
-    "bytes": 2587,
-    "sha256": "408c9cfb0bab87ef0d04eed62fb5df801109b0ab465bc8e54a7616469e49f25c"
+    "bytes": 2775,
+    "sha256": "8e80ddb67b5f5af05fb6bd922bc639f0c0530122ae72fdfc2d7e5c636874ba9c"
   },
   "assessment/demo/inference.py": {
-    "bytes": 12300,
-    "sha256": "c162724772aecb70bbbb4a86b44e9099e4750161a9b8908e3c3b6d47c5fda80a"
+    "bytes": 13595,
+    "sha256": "9e49232684fb9a973504d96f0815680dda24b7146550bc9ed3b7c642f8c21ab7"
   },
   "assessment/demo/metrics.py": {
     "bytes": 836,
